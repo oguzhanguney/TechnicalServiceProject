@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="23f4752a95b346ffa345cd4ef3e55953" Name="Diagram1">
+        <EntityTypeShape EntityType="TeknikServisDBModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeknikServisDBModel.TBLAdmin" Width="1.5" PointX="9.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeknikServisDBModel.TBLBillingDetail" Width="1.5" PointX="7.5" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeknikServisDBModel.TBLBillingInfo" Width="1.5" PointX="5.25" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeknikServisDBModel.TBLCari" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeknikServisDBModel.TBLCategory" Width="1.5" PointX="0.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeknikServisDBModel.TBLDepartment" Width="1.5" PointX="0.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeknikServisDBModel.TBLExpense" Width="1.5" PointX="9.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeknikServisDBModel.TBLFaultDetail" Width="1.5" PointX="10.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeknikServisDBModel.TBLNotes" Width="1.5" PointX="11.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeknikServisDBModel.TBLPersonnel" Width="1.5" PointX="3" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeknikServisDBModel.TBLProduct" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeknikServisDBModel.TBLProductAcceptance" Width="1.5" PointX="5.25" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeknikServisDBModel.TBLProductMovement" Width="1.5" PointX="8.25" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeknikServisDBModel.TBLProductTracking" Width="1.5" PointX="5.25" PointY="13.75" IsExpanded="true" />
+        <AssociationConnector Association="TeknikServisDBModel.FK_TBLBillingDetail_TBLBillingInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="TeknikServisDBModel.FK_TBLBillingInfo_TBLCari" ManuallyRouted="false" />
+        <AssociationConnector Association="TeknikServisDBModel.FK_TBLBillingInfo_TBLPersonnel" ManuallyRouted="false" />
+        <AssociationConnector Association="TeknikServisDBModel.FK_TBLProductAcceptance_TBLCari" ManuallyRouted="false" />
+        <AssociationConnector Association="TeknikServisDBModel.FK_TBLProductMovement_TBLCari" ManuallyRouted="false" />
+        <AssociationConnector Association="TeknikServisDBModel.FK_TBLProduct_TBLCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="TeknikServisDBModel.FK_TBLPersonnel_TBLDepartment" ManuallyRouted="false" />
+        <AssociationConnector Association="TeknikServisDBModel.FK_TBLProductAcceptance_TBLPersonnel" ManuallyRouted="false" />
+        <AssociationConnector Association="TeknikServisDBModel.FK_TBLProductMovement_TBLPersonnel" ManuallyRouted="false" />
+        <AssociationConnector Association="TeknikServisDBModel.FK_TBLProductAcceptance_TBLProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="TeknikServisDBModel.FK_TBLProductMovement_TBLProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="TeknikServisDBModel.FK_TBLProductTracking_TBLProduct" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
