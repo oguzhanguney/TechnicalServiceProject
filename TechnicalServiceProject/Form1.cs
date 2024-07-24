@@ -48,5 +48,25 @@ namespace TechnicalServiceProject
             fr.MdiParent = this;
             fr.Show();
         }
+
+        private void BtnYeniKategori_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmYeniKategori fr=new Formlar.FrmYeniKategori();
+            fr.Show();
+        }
+
+        private void BtnIstatistik_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmIstatistik fr= new Formlar.FrmIstatistik();
+            fr.MdiParent= this;
+            fr.Show();
+        }
+
+        private void BtnMarkaIst_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmMarkalar fr = new Formlar.FrmMarkalar();
+            fr.MdiParent = this;
+            fr.Show();
+        }
     }
 }

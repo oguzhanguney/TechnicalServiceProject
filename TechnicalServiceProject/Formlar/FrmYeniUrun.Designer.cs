@@ -78,6 +78,7 @@
             this.pictureEdit1.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
             this.pictureEdit1.Size = new System.Drawing.Size(32, 32);
             this.pictureEdit1.TabIndex = 0;
+            this.pictureEdit1.EditValueChanged += new System.EventHandler(this.pictureEdit1_EditValueChanged);
             // 
             // TxtUrunAd
             // 
@@ -93,6 +94,7 @@
             this.TxtUrunAd.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.TxtUrunAd.Size = new System.Drawing.Size(181, 24);
             this.TxtUrunAd.TabIndex = 1;
+            this.TxtUrunAd.EditValueChanged += new System.EventHandler(this.TxtUrunAd_EditValueChanged);
             // 
             // panel1
             // 
@@ -102,6 +104,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(219, 2);
             this.panel1.TabIndex = 2;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // panel2
             // 
@@ -294,6 +297,7 @@
             this.pictureEdit7.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
             this.pictureEdit7.Size = new System.Drawing.Size(61, 53);
             this.pictureEdit7.TabIndex = 18;
+            this.pictureEdit7.EditValueChanged += new System.EventHandler(this.pictureEdit7_EditValueChanged);
             // 
             // textEdit7
             // 
@@ -309,6 +313,7 @@
             this.textEdit7.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.textEdit7.Size = new System.Drawing.Size(181, 24);
             this.textEdit7.TabIndex = 19;
+            this.textEdit7.EditValueChanged += new System.EventHandler(this.textEdit7_EditValueChanged);
             // 
             // BtnKaydet
             // 

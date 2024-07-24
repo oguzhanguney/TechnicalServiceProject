@@ -61,5 +61,29 @@ namespace TechnicalServiceProject.Formlar
         {
 
         }
+
+        private void BtnSil_Click(object sender, EventArgs e)
+        {
+            int id =int.Parse(TxtID.Text);
+            var deger=db.TBLCategory.Find(id);
+            db.TBLCategory.Remove(deger);
+            db.SaveChanges();
+            MessageBox.Show("Kategori başarılı bir şekilde silindi.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+        }
+
+        private void BtnGuncelle_Click(object sender, EventArgs e)
+        {
+            int id = int.Parse(TxtID.Text);
+            var deger = db.TBLCategory.Find(id);
+            deger.AD = TxtKategoriAd.Text;
+            db.SaveChanges();
+            MessageBox.Show("Kategori başarılı bir Şekilde güncellendi.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+        }
+
+        private void groupControl2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

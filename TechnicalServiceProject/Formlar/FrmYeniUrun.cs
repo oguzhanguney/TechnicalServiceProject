@@ -52,5 +52,30 @@ namespace TechnicalServiceProject.Formlar
             MessageBox.Show("Ürün başarıyla eklendi.");
             this.Close();
         }
+
+        private void pictureEdit7_EditValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textEdit7_EditValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureEdit1_EditValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtUrunAd_EditValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
