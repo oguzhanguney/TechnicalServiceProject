@@ -27,7 +27,8 @@ namespace TechnicalServiceProject
 
         private void barButtonItem3_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-
+            Formlar.FrmCariEkle fr = new Formlar.FrmCariEkle();
+            fr.Show();
         }
 
         private void barButtonItem38_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -66,6 +67,33 @@ namespace TechnicalServiceProject
         {
             Formlar.FrmMarkalar fr = new Formlar.FrmMarkalar();
             fr.MdiParent = this;
+            fr.Show();
+        }
+
+        private void barButtonItem13_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmCariListesi fr = new Formlar.FrmCariListesi();
+            fr.MdiParent = this;
+            fr.Show();
+        }
+
+        private void barButtonItem14_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmCariIller fr = new Formlar.FrmCariIller();
+            fr.MdiParent = this;
+            fr.Show();
+        }
+
+        private void BtnDepList_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmDepartman fr = new Formlar.FrmDepartman();
+            fr.MdiParent = this;
+            fr.Show();
+        }
+
+        private void BtnYeniDep_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmYeniDepartman fr = new Formlar.FrmYeniDepartman();
             fr.Show();
         }
     }

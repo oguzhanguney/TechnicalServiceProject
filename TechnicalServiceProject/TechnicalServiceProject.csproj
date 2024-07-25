@@ -76,11 +76,35 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formlar\FrmCariEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmCariEkle.Designer.cs">
+      <DependentUpon>FrmCariEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmCariIller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmCariIller.Designer.cs">
+      <DependentUpon>FrmCariIller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmCariListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmCariListesi.Designer.cs">
+      <DependentUpon>FrmCariListesi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formlar\FrmCategory.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formlar\FrmCategory.Designer.cs">
       <DependentUpon>FrmCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmDepartman.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmDepartman.Designer.cs">
+      <DependentUpon>FrmDepartman.cs</DependentUpon>
     </Compile>
     <Compile Include="Formlar\FrmIstatistik.cs">
       <SubType>Form</SubType>
@@ -94,11 +118,23 @@
     <Compile Include="Formlar\FrmMarkalar.Designer.cs">
       <DependentUpon>FrmMarkalar.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formlar\FrmPersonel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmPersonel.Designer.cs">
+      <DependentUpon>FrmPersonel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formlar\FrmUrunListesi.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formlar\FrmUrunListesi.Designer.cs">
       <DependentUpon>FrmUrunListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmYeniDepartman.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmYeniDepartman.Designer.cs">
+      <DependentUpon>FrmYeniDepartman.cs</DependentUpon>
     </Compile>
     <Compile Include="Formlar\FrmYeniKategori.cs">
       <SubType>Form</SubType>
@@ -177,8 +213,20 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmCariEkle.resx">
+      <DependentUpon>FrmCariEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmCariIller.resx">
+      <DependentUpon>FrmCariIller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmCariListesi.resx">
+      <DependentUpon>FrmCariListesi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formlar\FrmCategory.resx">
       <DependentUpon>FrmCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmDepartman.resx">
+      <DependentUpon>FrmDepartman.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formlar\FrmIstatistik.resx">
       <DependentUpon>FrmIstatistik.cs</DependentUpon>
@@ -186,8 +234,14 @@
     <EmbeddedResource Include="Formlar\FrmMarkalar.resx">
       <DependentUpon>FrmMarkalar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmPersonel.resx">
+      <DependentUpon>FrmPersonel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formlar\FrmUrunListesi.resx">
       <DependentUpon>FrmUrunListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmYeniDepartman.resx">
+      <DependentUpon>FrmYeniDepartman.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formlar\FrmYeniKategori.resx">
       <DependentUpon>FrmYeniKategori.cs</DependentUpon>

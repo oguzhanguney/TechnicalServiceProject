@@ -66,11 +66,11 @@
             this.panel6 = new System.Windows.Forms.Panel();
             this.pictureEdit8 = new DevExpress.XtraEditors.PictureEdit();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.pictureEdit11 = new DevExpress.XtraEditors.PictureEdit();
+            this.pictureEdit9 = new DevExpress.XtraEditors.PictureEdit();
             this.panel8 = new System.Windows.Forms.Panel();
             this.pictureEdit10 = new DevExpress.XtraEditors.PictureEdit();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.pictureEdit9 = new DevExpress.XtraEditors.PictureEdit();
+            this.pictureEdit11 = new DevExpress.XtraEditors.PictureEdit();
             this.panel5 = new System.Windows.Forms.Panel();
             this.pictureEdit7 = new DevExpress.XtraEditors.PictureEdit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
@@ -101,11 +101,11 @@
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit8.Properties)).BeginInit();
             this.panel9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit11.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit9.Properties)).BeginInit();
             this.panel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit10.Properties)).BeginInit();
             this.panel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit9.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit11.Properties)).BeginInit();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit7.Properties)).BeginInit();
             this.SuspendLayout();
@@ -498,24 +498,24 @@
             // 
             this.panel9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
-            this.panel9.Controls.Add(this.pictureEdit11);
+            this.panel9.Controls.Add(this.pictureEdit9);
             this.panel9.Location = new System.Drawing.Point(483, 0);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(100, 100);
             this.panel9.TabIndex = 3;
             // 
-            // pictureEdit11
+            // pictureEdit9
             // 
-            this.pictureEdit11.EditValue = ((object)(resources.GetObject("pictureEdit11.EditValue")));
-            this.pictureEdit11.Location = new System.Drawing.Point(25, 25);
-            this.pictureEdit11.Name = "pictureEdit11";
-            this.pictureEdit11.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.pictureEdit11.Properties.Appearance.Options.UseBackColor = true;
-            this.pictureEdit11.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.pictureEdit11.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
-            this.pictureEdit11.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.pictureEdit11.Size = new System.Drawing.Size(50, 50);
-            this.pictureEdit11.TabIndex = 5;
+            this.pictureEdit9.EditValue = ((object)(resources.GetObject("pictureEdit9.EditValue")));
+            this.pictureEdit9.Location = new System.Drawing.Point(25, 25);
+            this.pictureEdit9.Name = "pictureEdit9";
+            this.pictureEdit9.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.pictureEdit9.Properties.Appearance.Options.UseBackColor = true;
+            this.pictureEdit9.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.pictureEdit9.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit9.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
+            this.pictureEdit9.Size = new System.Drawing.Size(50, 50);
+            this.pictureEdit9.TabIndex = 5;
             // 
             // panel8
             // 
@@ -544,24 +544,24 @@
             // 
             this.panel7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(76)))), ((int)(((byte)(103)))));
-            this.panel7.Controls.Add(this.pictureEdit9);
+            this.panel7.Controls.Add(this.pictureEdit11);
             this.panel7.Location = new System.Drawing.Point(249, 0);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(100, 100);
             this.panel7.TabIndex = 1;
             // 
-            // pictureEdit9
+            // pictureEdit11
             // 
-            this.pictureEdit9.EditValue = ((object)(resources.GetObject("pictureEdit9.EditValue")));
-            this.pictureEdit9.Location = new System.Drawing.Point(25, 25);
-            this.pictureEdit9.Name = "pictureEdit9";
-            this.pictureEdit9.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.pictureEdit9.Properties.Appearance.Options.UseBackColor = true;
-            this.pictureEdit9.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.pictureEdit9.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
-            this.pictureEdit9.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.pictureEdit9.Size = new System.Drawing.Size(50, 50);
-            this.pictureEdit9.TabIndex = 5;
+            this.pictureEdit11.EditValue = ((object)(resources.GetObject("pictureEdit11.EditValue")));
+            this.pictureEdit11.Location = new System.Drawing.Point(25, 25);
+            this.pictureEdit11.Name = "pictureEdit11";
+            this.pictureEdit11.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.pictureEdit11.Properties.Appearance.Options.UseBackColor = true;
+            this.pictureEdit11.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.pictureEdit11.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit11.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
+            this.pictureEdit11.Size = new System.Drawing.Size(50, 50);
+            this.pictureEdit11.TabIndex = 5;
             // 
             // panel5
             // 
@@ -636,11 +636,11 @@
             this.panel6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit8.Properties)).EndInit();
             this.panel9.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit11.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit9.Properties)).EndInit();
             this.panel8.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit10.Properties)).EndInit();
             this.panel7.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit9.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit11.Properties)).EndInit();
             this.panel5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit7.Properties)).EndInit();
             this.ResumeLayout(false);
