@@ -45,6 +45,8 @@
             this.TxtCariAd = new DevExpress.XtraEditors.TextEdit();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.Txtmail = new DevExpress.XtraEditors.TextEdit();
+            this.xyz = new DevExpress.XtraEditors.LabelControl();
             this.Txtbank = new DevExpress.XtraEditors.TextEdit();
             this.lookUpEdit3 = new DevExpress.XtraEditors.LookUpEdit();
             this.lookUpEdit2 = new DevExpress.XtraEditors.LookUpEdit();
@@ -74,14 +76,13 @@
             this.pictureEdit4 = new DevExpress.XtraEditors.PictureEdit();
             this.labelControl18 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl19 = new DevExpress.XtraEditors.LabelControl();
-            this.Txtmail = new DevExpress.XtraEditors.TextEdit();
-            this.xyz = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.TxtID.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Txttel.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Txtcarsoyad.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TxtCariAd.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Txtmail.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Txtbank.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit3.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit2.Properties)).BeginInit();
@@ -99,7 +100,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit2.Properties)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit4.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Txtmail.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // TxtID
@@ -289,6 +289,25 @@
             this.groupControl1.TabIndex = 3;
             this.groupControl1.Text = "CARİ İŞLEMLERİ";
             // 
+            // Txtmail
+            // 
+            this.Txtmail.Location = new System.Drawing.Point(165, 184);
+            this.Txtmail.Name = "Txtmail";
+            this.Txtmail.Properties.MaskSettings.Set("MaskManagerType", typeof(DevExpress.Data.Mask.RegExpMaskManager));
+            this.Txtmail.Properties.MaskSettings.Set("mask", "(\\(\\d\\d\\d\\) )?\\d{1,3}-\\d\\d-\\d\\d");
+            this.Txtmail.Size = new System.Drawing.Size(328, 20);
+            this.Txtmail.TabIndex = 57;
+            // 
+            // xyz
+            // 
+            this.xyz.Appearance.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xyz.Appearance.Options.UseFont = true;
+            this.xyz.Location = new System.Drawing.Point(122, 189);
+            this.xyz.Name = "xyz";
+            this.xyz.Size = new System.Drawing.Size(32, 15);
+            this.xyz.TabIndex = 56;
+            this.xyz.Text = "Mail :";
+            // 
             // Txtbank
             // 
             this.Txtbank.Location = new System.Drawing.Point(165, 266);
@@ -303,6 +322,7 @@
             this.lookUpEdit3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.lookUpEdit3.Properties.DisplayMember = "AD";
+            this.lookUpEdit3.Properties.NullText = "";
             this.lookUpEdit3.Properties.ValueMember = "ID";
             this.lookUpEdit3.Size = new System.Drawing.Size(328, 20);
             this.lookUpEdit3.TabIndex = 54;
@@ -314,6 +334,7 @@
             this.lookUpEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.lookUpEdit2.Properties.DisplayMember = "AD";
+            this.lookUpEdit2.Properties.NullText = "";
             this.lookUpEdit2.Properties.ValueMember = "ID";
             this.lookUpEdit2.Size = new System.Drawing.Size(328, 20);
             this.lookUpEdit2.TabIndex = 53;
@@ -411,9 +432,6 @@
             // 
             // panel3
             // 
-            this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(108)))), ((int)(((byte)(89)))));
             this.panel3.Controls.Add(this.pictureEdit1);
             this.panel3.Controls.Add(this.labelControl12);
@@ -463,9 +481,6 @@
             // 
             // panel2
             // 
-            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
             this.panel2.Controls.Add(this.pictureEdit3);
             this.panel2.Controls.Add(this.labelControl14);
@@ -515,9 +530,6 @@
             // 
             // panel1
             // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(63)))), ((int)(((byte)(139)))));
             this.panel1.Controls.Add(this.pictureEdit2);
             this.panel1.Controls.Add(this.labelControl16);
@@ -567,9 +579,6 @@
             // 
             // panel4
             // 
-            this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(28)))), ((int)(((byte)(45)))));
             this.panel4.Controls.Add(this.pictureEdit4);
             this.panel4.Controls.Add(this.labelControl18);
@@ -617,29 +626,11 @@
             this.labelControl19.TabIndex = 0;
             this.labelControl19.Text = "En Fazla Carili İl";
             // 
-            // Txtmail
-            // 
-            this.Txtmail.Location = new System.Drawing.Point(165, 184);
-            this.Txtmail.Name = "Txtmail";
-            this.Txtmail.Properties.MaskSettings.Set("MaskManagerType", typeof(DevExpress.Data.Mask.RegExpMaskManager));
-            this.Txtmail.Properties.MaskSettings.Set("mask", "(\\(\\d\\d\\d\\) )?\\d{1,3}-\\d\\d-\\d\\d");
-            this.Txtmail.Size = new System.Drawing.Size(328, 20);
-            this.Txtmail.TabIndex = 57;
-            // 
-            // xyz
-            // 
-            this.xyz.Appearance.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.xyz.Appearance.Options.UseFont = true;
-            this.xyz.Location = new System.Drawing.Point(122, 189);
-            this.xyz.Name = "xyz";
-            this.xyz.Size = new System.Drawing.Size(32, 15);
-            this.xyz.TabIndex = 56;
-            this.xyz.Text = "Mail :";
-            // 
             // FrmCariListesi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(1924, 861);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel1);
@@ -657,6 +648,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             this.groupControl1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Txtmail.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Txtbank.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit3.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit2.Properties)).EndInit();
@@ -678,7 +670,6 @@
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit4.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Txtmail.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }

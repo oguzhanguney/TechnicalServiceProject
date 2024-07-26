@@ -348,7 +348,7 @@
             this.panelControl1.Controls.Add(this.chartControl1);
             this.panelControl1.Location = new System.Drawing.Point(645, 231);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(616, 568);
+            this.panelControl1.Size = new System.Drawing.Size(616, 618);
             this.panelControl1.TabIndex = 8;
             // 
             // pictureEdit5
@@ -366,7 +366,7 @@
             // 
             // labelControl10
             // 
-            this.labelControl10.Location = new System.Drawing.Point(15, 55);
+            this.labelControl10.Location = new System.Drawing.Point(5, 74);
             this.labelControl10.Name = "labelControl10";
             this.labelControl10.Size = new System.Drawing.Size(565, 39);
             this.labelControl10.TabIndex = 2;
@@ -387,7 +387,7 @@
             // 
             // chartControl1
             // 
-            this.chartControl1.Location = new System.Drawing.Point(5, 100);
+            this.chartControl1.Location = new System.Drawing.Point(5, 147);
             this.chartControl1.Name = "chartControl1";
             this.chartControl1.PaletteName = "Mixed";
             series1.LegendTextPattern = "{A}";
@@ -407,7 +407,7 @@
             this.panelControl2.Controls.Add(this.labelControl12);
             this.panelControl2.Location = new System.Drawing.Point(1271, 231);
             this.panelControl2.Name = "panelControl2";
-            this.panelControl2.Size = new System.Drawing.Size(610, 462);
+            this.panelControl2.Size = new System.Drawing.Size(610, 512);
             this.panelControl2.TabIndex = 9;
             // 
             // chartControl2
@@ -415,7 +415,7 @@
             xyDiagram1.AxisX.VisibleInPanesSerializable = "-1";
             xyDiagram1.AxisY.VisibleInPanesSerializable = "-1";
             this.chartControl2.Diagram = xyDiagram1;
-            this.chartControl2.Location = new System.Drawing.Point(16, 100);
+            this.chartControl2.Location = new System.Drawing.Point(16, 147);
             this.chartControl2.Name = "chartControl2";
             this.chartControl2.PaletteName = "Mixed";
             series2.Name = "Kategoriler";
@@ -423,7 +423,7 @@
             series2.View = stackedBarSeriesView1;
             this.chartControl2.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
         series2};
-            this.chartControl2.Size = new System.Drawing.Size(565, 357);
+            this.chartControl2.Size = new System.Drawing.Size(589, 360);
             this.chartControl2.TabIndex = 8;
             // 
             // pictureEdit6
@@ -441,7 +441,7 @@
             // 
             // labelControl11
             // 
-            this.labelControl11.Location = new System.Drawing.Point(17, 56);
+            this.labelControl11.Location = new System.Drawing.Point(17, 74);
             this.labelControl11.Name = "labelControl11";
             this.labelControl11.Size = new System.Drawing.Size(519, 26);
             this.labelControl11.TabIndex = 6;
@@ -467,7 +467,7 @@
             this.panelControl3.Controls.Add(this.panel8);
             this.panelControl3.Controls.Add(this.panel7);
             this.panelControl3.Controls.Add(this.panel5);
-            this.panelControl3.Location = new System.Drawing.Point(1271, 699);
+            this.panelControl3.Location = new System.Drawing.Point(1271, 749);
             this.panelControl3.Name = "panelControl3";
             this.panelControl3.Size = new System.Drawing.Size(610, 100);
             this.panelControl3.TabIndex = 10;

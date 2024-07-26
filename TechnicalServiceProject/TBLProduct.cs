@@ -17,7 +17,6 @@ namespace TechnicalServiceProject
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public TBLProduct()
         {
-            this.TBLProductAcceptance = new HashSet<TBLProductAcceptance>();
             this.TBLProductMovement = new HashSet<TBLProductMovement>();
             this.TBLProductTracking = new HashSet<TBLProductTracking>();
         }
@@ -32,8 +31,6 @@ namespace TechnicalServiceProject
         public Nullable<bool> DURUM { get; set; }
     
         public virtual TBLCategory TBLCategory { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<TBLProductAcceptance> TBLProductAcceptance { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<TBLProductMovement> TBLProductMovement { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

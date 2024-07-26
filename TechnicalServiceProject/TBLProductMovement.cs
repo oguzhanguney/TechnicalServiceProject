@@ -21,6 +21,7 @@ namespace TechnicalServiceProject
         public Nullable<System.DateTime> TARIH { get; set; }
         public Nullable<short> ADET { get; set; }
         public Nullable<decimal> FIYAT { get; set; }
+        public string URUNSERINO { get; set; }
     
         public virtual TBLCari TBLCari { get; set; }
         public virtual TBLPersonnel TBLPersonnel { get; set; }

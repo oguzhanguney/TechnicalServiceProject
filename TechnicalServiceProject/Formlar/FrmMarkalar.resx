@@ -576,7 +576,7 @@ Her markanın sahip olduğu ürün çeşitliliği ve stok miktarları, markanın
   <data name="pictureEdit6.EditValue" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAABMJJREFUeF7tnDmrFkkUhq8auoc6uIFgYKRiptGogShq4PYDXBhwF8TMaFwCcUv8
+        DAAACwwBP0AiyAAABMJJREFUeF7tnDmrFkkUhq8auoc6uIFgYKRiptGogShq4PYDXBhwF8TMaFwCcUv8
         C0ZugWimojCDgYEoboyBazCDCioq6vvCLSiOp6vqVPe9U59dDzwo3dX1Vb+3qqu+7nt7qFKpVCqVSh7j
         4GZ4Gb6GX+ALeBFugmNhpYE58G/4PeAdyHIVAUN5CbXQpOyZNUQPDsvbUAurSfbUOpyHWQe1kGJuhL1h
         F+RkoAWh+Q/8HY6Hy+AzKMtcgL1gKZQnH5Ph+SyHssxz2AsOQnnyMSdAn4lQlvkEe8EhKE8+JoetT697
@@ -606,7 +606,7 @@ Aşağıda, ürünlerin farklı kategorilerdeki dağılımını gösteren bir ç
   <data name="pictureEdit8.EditValue" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DgAACw4BQL7hQQAABIlJREFUaEPtmFnIVVUYhk/mVGkZFg0aUlSUGUYQUYIXduUARjl1U2IDYYMgRN41
+        DQAACw0B7QfALAAABIlJREFUaEPtmFnIVVUYhk/mVGkZFg0aUlSUGUYQUYIXduUARjl1U2IDYYMgRN41
         QaVXEt4YphDiAAoO1UUOIYFDaGVWN9E83ZhWlhqY+T7fXt//r3//e/Ccs495YD/wcM73rXXWXvvsvdew
         GzU1NTU1gcFysfxF/ixfC7mu43X5X8pXZdfBVaDz98oJ4Tu5c8J98qLka9v4VXDScTvQx0nJ1/5cI/+W
         X8lLSLTI9XKh9I7/IY9E8aPyctkq9I0+/iWvJpFmmeRAGyxqHk6A3/4rvdN5npBL5AjZChsl7bxhUcRV
@@ -631,7 +631,7 @@ Aşağıda, ürünlerin farklı kategorilerdeki dağılımını gösteren bir ç
   <data name="pictureEdit9.EditValue" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAAAzlJREFUaEPt2surTWEcxvEtIveUy8AlRbkl11wylAlzDIk/gJi5lNQR4i9gZEYy
+        EAAACxABrSO9dQAAAzlJREFUaEPt2surTWEcxvEtIveUy8AlRbkl11wylAlzDIk/gJi5lNQR4i9gZEYy
         MKUMXDLA1ECEKIwYuN++z8mq1bt/a+33ttc6+zhPfepc1n7X+56z3vW++7d2Zyz/Sc7iF/44fuAIBiav
         4Q6i8BgDkRn4DWsQ8hUTMOKzBdYAypajtSzCYcwZ/q46+2F1vmw36qJzHMLC4e8yZjFeQJ14h12oynm4
         HXedQlW24w10nObaUmSJGnInr+bABUxCObNwF+VjLbcxHeVMhP4I7vx6hSVIijWIsidYCc2LG/gG6zjL
@@ -651,7 +651,7 @@ Aşağıda, ürünlerin farklı kategorilerdeki dağılımını gösteren bir ç
   <data name="pictureEdit10.EditValue" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAABMFJREFUaEPtmVeoJEUUQMe8KmJaE4JZXHRVRMQIJvwRRAzsh8uqC34YcBVRRMUA
+        DgAACw4BQL7hQQAABMFJREFUaEPtmVeoJEUUQMe8KmJaE4JZXHRVRMQIJvwRRAzsh8uqC34YcBVRRMUA
         gulDxYCIoIhZ1A8jiC6ru2BABbOYc0AMiDmfU8+Lbb3uoae7p2eRd+Dwpup19VR1pVs9gwmyMR6Lt+JT
         +B5+ii/iQ3gW7orLLdvijfgL/lXwN/w+y9Nn8TBcblgBT8If0Qp+gZfhQbg+BmvgXDwV7alo0H1YvG4i
         2Ijr0QrZkNNwdazDvvgKWvYd3BQnxqVoRd7HHcwYERt9C3qP13Ed7J198E/8HLc2o4TN8BJ0+NyAZXNi
@@ -677,7 +677,7 @@ Aşağıda, ürünlerin farklı kategorilerdeki dağılımını gösteren bir ç
   <data name="pictureEdit11.EditValue" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EAAACxABrSO9dQAAAlZJREFUaEPtmk1OVFEQhXsCO4DIPkxIkJFOMA4dsRDdAYpbcFk6cMIIwQ1oSCBR
+        DwAACw8BkvkDpQAAAlZJREFUaEPtmk1OVFEQhXsCO4DIPkxIkJFOMA4dsRDdAYpbcFk6cMIIwQ1oSCBR
         OMf0SZ7lve9WVRcPBnzJSbqq656q2z8X8vqtnviXI+g7dBvUOcS1jwYO1BrUI669V7ahT9APqDVAS1Fa
         Hi1dQh8hzhTmFGqZzilKy2NOH6AwfBW4+OBvNI8aRfGuewGxjjOFiQwXqZ2yRI//FiqeU5SWh5WwsZue
         0dISNnYTMXoFnUGq8YprXkItVCNs7KbMKElZ/zKjJGX9y4ySlPX3Gim/qSw236sb4jVSflNZbL5XN6TM
@@ -693,7 +693,7 @@ Aşağıda, ürünlerin farklı kategorilerdeki dağılımını gösteren bir ç
   <data name="pictureEdit7.EditValue" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAAAw1JREFUaEPtmUnITVEcwD+hZM4ciTJkYZ6FrLCkZCsyJRs7IrIjZNqQkMgGsbAy
+        DgAACw4BQL7hQQAAAw1JREFUaEPtmUnITVEcwD+hZM4ciTJkYZ6FrLCkZCsyJRs7IrIjZNqQkMgGsbAy
         LGQqmWeZI7IxZsr8+93e2X3fu+9+3/feuZ/er351z3nn3Pt/7917zv+cW1PlP2QkbsXb+LGgx1twBOaW
         jrgX/+DfOvSzPdgBc0V3vI4G+RU341hsX9Bj/4FvaJtr2A1zQUu8gAZ2F/thXfTHe2jb89gCo7MGDegp
         drEiBds8Q/ustCIm3ssf0GAmWVEik9E+79BbLBqL0UBOJKVsnEL7LkxKkTiGBjE3KWVjPtr3SFKKxBM0

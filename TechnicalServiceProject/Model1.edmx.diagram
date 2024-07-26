@@ -29,7 +29,6 @@
         <AssociationConnector Association="TeknikServisDBModel.FK_TBLPersonnel_TBLDepartment" ManuallyRouted="false" />
         <AssociationConnector Association="TeknikServisDBModel.FK_TBLProductAcceptance_TBLPersonnel" ManuallyRouted="false" />
         <AssociationConnector Association="TeknikServisDBModel.FK_TBLProductMovement_TBLPersonnel" ManuallyRouted="false" />
-        <AssociationConnector Association="TeknikServisDBModel.FK_TBLProductAcceptance_TBLProduct" ManuallyRouted="false" />
         <AssociationConnector Association="TeknikServisDBModel.FK_TBLProductMovement_TBLProduct" ManuallyRouted="false" />
         <AssociationConnector Association="TeknikServisDBModel.FK_TBLProductTracking_TBLProduct" ManuallyRouted="false" />
       </Diagram>

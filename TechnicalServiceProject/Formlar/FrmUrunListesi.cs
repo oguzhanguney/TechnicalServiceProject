@@ -34,13 +34,17 @@ namespace TechnicalServiceProject.Formlar
                                p.SATISFIYAT
                            };
             gridControl1.DataSource = degerler.ToList();
+
+            
         }
         private void FrmUrunListesi_Load(object sender, EventArgs e)
         {
             //Listeleme
             metot1();
             //kategori listeleme
-            lookUpEdit1.Properties.DataSource = db.TBLCategory.ToList();
+            lookUpEdit1.Properties.DataSource = db.TBLCategory
+                                                .Select(p => new {p.ID,p.AD})
+                                                .ToList();
 
         }
 

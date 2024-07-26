@@ -15,14 +15,13 @@ namespace TechnicalServiceProject
     public partial class TBLProductAcceptance
     {
         public int ISLEMID { get; set; }
-        public Nullable<int> URUN { get; set; }
         public Nullable<int> CARI { get; set; }
         public Nullable<short> PERSONEL { get; set; }
         public Nullable<System.DateTime> GELISTARIHI { get; set; }
         public Nullable<System.DateTime> CIKISTARIHI { get; set; }
+        public string URUNSERINO { get; set; }
     
         public virtual TBLCari TBLCari { get; set; }
         public virtual TBLPersonnel TBLPersonnel { get; set; }
-        public virtual TBLProduct TBLProduct { get; set; }
     }
 }

@@ -96,5 +96,63 @@ namespace TechnicalServiceProject
             Formlar.FrmYeniDepartman fr = new Formlar.FrmYeniDepartman();
             fr.Show();
         }
+
+        private void BtnPersonelList_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmPersonel fr = new Formlar.FrmPersonel();
+            fr.MdiParent = this;
+            fr.Show();
+        }
+
+        private void btnHesapMak_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            System.Diagnostics.Process.Start("Calc.exe");
+        }
+
+        private void btnKurlar_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmKurlar fr = new Formlar.FrmKurlar();
+            fr.MdiParent = this;
+            fr.Show();
+        }
+
+        private void btnWord_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            System.Diagnostics.Process.Start("winword");
+
+        }
+
+        private void btnExcel_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            System.Diagnostics.Process.Start("excel");
+
+        }
+
+        private void btnYoutube_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmYoutube fr = new Formlar.FrmYoutube();
+            fr.MdiParent = this;
+            fr.Show();
+        }
+
+        private void btnAjanda_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmNotlar fr = new Formlar.FrmNotlar();
+            fr.MdiParent = this;
+            fr.Show();
+        }
+
+        private void btnArizalist_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmArizaListesi fr = new Formlar.FrmArizaListesi();
+            fr.MdiParent = this;
+            fr.Show();
+        }
+
+        private void btnUrunSatis_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmUrunSatis fr = new Formlar.FrmUrunSatis();
+            fr.Show();
+        }
     }
 }
