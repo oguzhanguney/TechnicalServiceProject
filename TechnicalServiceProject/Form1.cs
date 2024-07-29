@@ -154,5 +154,18 @@ namespace TechnicalServiceProject
             Formlar.FrmUrunSatis fr = new Formlar.FrmUrunSatis();
             fr.Show();
         }
+
+        private void btnSatisListesi_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmSatisListesi fr = new Formlar.FrmSatisListesi();
+            fr.MdiParent = this;
+            fr.Show();
+        }
+
+        private void btnYeniAriza_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmYeniArızalıUrunKaydı fr = new Formlar.FrmYeniArızalıUrunKaydı();
+            fr.Show();
+        }
     }
 }

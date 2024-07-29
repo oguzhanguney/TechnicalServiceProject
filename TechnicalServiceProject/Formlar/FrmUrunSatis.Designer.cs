@@ -34,41 +34,41 @@
             this.textEdit7 = new DevExpress.XtraEditors.TextEdit();
             this.pictureEdit7 = new DevExpress.XtraEditors.PictureEdit();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.TxtStok = new DevExpress.XtraEditors.TextEdit();
+            this.TxtSatis = new DevExpress.XtraEditors.TextEdit();
             this.pictureEdit6 = new DevExpress.XtraEditors.PictureEdit();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.TxtSatisFiyat = new DevExpress.XtraEditors.TextEdit();
+            this.TxtAdet = new DevExpress.XtraEditors.TextEdit();
             this.pictureEdit5 = new DevExpress.XtraEditors.PictureEdit();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.TxtAlisFiyat = new DevExpress.XtraEditors.TextEdit();
+            this.TxtTarih = new DevExpress.XtraEditors.TextEdit();
             this.pictureEdit4 = new DevExpress.XtraEditors.PictureEdit();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.TxtKategori = new DevExpress.XtraEditors.TextEdit();
+            this.TxtPersonel = new DevExpress.XtraEditors.TextEdit();
             this.pictureEdit3 = new DevExpress.XtraEditors.PictureEdit();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.TxtMarka = new DevExpress.XtraEditors.TextEdit();
+            this.TxtMusteri = new DevExpress.XtraEditors.TextEdit();
             this.pictureEdit2 = new DevExpress.XtraEditors.PictureEdit();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.TxtUrunAd = new DevExpress.XtraEditors.TextEdit();
+            this.TxtUrunıd = new DevExpress.XtraEditors.TextEdit();
             this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
+            this.TxtSeri = new DevExpress.XtraEditors.TextEdit();
             this.pictureEdit8 = new DevExpress.XtraEditors.PictureEdit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit7.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TxtStok.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TxtSatis.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit6.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TxtSatisFiyat.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TxtAdet.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit5.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TxtAlisFiyat.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TxtTarih.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit4.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TxtKategori.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TxtPersonel.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit3.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TxtMarka.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TxtMusteri.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TxtUrunAd.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TxtUrunıd.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TxtSeri.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit8.Properties)).BeginInit();
             this.SuspendLayout();
             // 
@@ -80,6 +80,7 @@
             this.BtnVazgec.Size = new System.Drawing.Size(126, 36);
             this.BtnVazgec.TabIndex = 43;
             this.BtnVazgec.Text = "VAZGEÇ";
+            this.BtnVazgec.Click += new System.EventHandler(this.BtnVazgec_Click);
             // 
             // BtnKaydet
             // 
@@ -89,6 +90,7 @@
             this.BtnKaydet.Size = new System.Drawing.Size(131, 36);
             this.BtnKaydet.TabIndex = 42;
             this.BtnKaydet.Text = "SATIŞ YAP";
+            this.BtnKaydet.Click += new System.EventHandler(this.BtnKaydet_Click);
             // 
             // textEdit7
             // 
@@ -126,20 +128,20 @@
             this.panel6.Size = new System.Drawing.Size(219, 2);
             this.panel6.TabIndex = 39;
             // 
-            // TxtStok
+            // TxtSatis
             // 
-            this.TxtStok.EditValue = "Satış Fiyatı";
-            this.TxtStok.Location = new System.Drawing.Point(74, 349);
-            this.TxtStok.Name = "TxtStok";
-            this.TxtStok.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.TxtStok.Properties.Appearance.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtStok.Properties.Appearance.ForeColor = System.Drawing.Color.White;
-            this.TxtStok.Properties.Appearance.Options.UseBackColor = true;
-            this.TxtStok.Properties.Appearance.Options.UseFont = true;
-            this.TxtStok.Properties.Appearance.Options.UseForeColor = true;
-            this.TxtStok.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.TxtStok.Size = new System.Drawing.Size(181, 24);
-            this.TxtStok.TabIndex = 38;
+            this.TxtSatis.EditValue = "Satış Fiyatı";
+            this.TxtSatis.Location = new System.Drawing.Point(74, 349);
+            this.TxtSatis.Name = "TxtSatis";
+            this.TxtSatis.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.TxtSatis.Properties.Appearance.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.TxtSatis.Properties.Appearance.ForeColor = System.Drawing.Color.White;
+            this.TxtSatis.Properties.Appearance.Options.UseBackColor = true;
+            this.TxtSatis.Properties.Appearance.Options.UseFont = true;
+            this.TxtSatis.Properties.Appearance.Options.UseForeColor = true;
+            this.TxtSatis.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.TxtSatis.Size = new System.Drawing.Size(181, 24);
+            this.TxtSatis.TabIndex = 38;
             // 
             // pictureEdit6
             // 
@@ -162,20 +164,20 @@
             this.panel5.Size = new System.Drawing.Size(219, 2);
             this.panel5.TabIndex = 36;
             // 
-            // TxtSatisFiyat
+            // TxtAdet
             // 
-            this.TxtSatisFiyat.EditValue = "Adet";
-            this.TxtSatisFiyat.Location = new System.Drawing.Point(74, 302);
-            this.TxtSatisFiyat.Name = "TxtSatisFiyat";
-            this.TxtSatisFiyat.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.TxtSatisFiyat.Properties.Appearance.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtSatisFiyat.Properties.Appearance.ForeColor = System.Drawing.Color.White;
-            this.TxtSatisFiyat.Properties.Appearance.Options.UseBackColor = true;
-            this.TxtSatisFiyat.Properties.Appearance.Options.UseFont = true;
-            this.TxtSatisFiyat.Properties.Appearance.Options.UseForeColor = true;
-            this.TxtSatisFiyat.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.TxtSatisFiyat.Size = new System.Drawing.Size(181, 24);
-            this.TxtSatisFiyat.TabIndex = 35;
+            this.TxtAdet.EditValue = "Adet";
+            this.TxtAdet.Location = new System.Drawing.Point(74, 302);
+            this.TxtAdet.Name = "TxtAdet";
+            this.TxtAdet.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.TxtAdet.Properties.Appearance.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.TxtAdet.Properties.Appearance.ForeColor = System.Drawing.Color.White;
+            this.TxtAdet.Properties.Appearance.Options.UseBackColor = true;
+            this.TxtAdet.Properties.Appearance.Options.UseFont = true;
+            this.TxtAdet.Properties.Appearance.Options.UseForeColor = true;
+            this.TxtAdet.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.TxtAdet.Size = new System.Drawing.Size(181, 24);
+            this.TxtAdet.TabIndex = 35;
             // 
             // pictureEdit5
             // 
@@ -198,20 +200,20 @@
             this.panel4.Size = new System.Drawing.Size(219, 2);
             this.panel4.TabIndex = 33;
             // 
-            // TxtAlisFiyat
+            // TxtTarih
             // 
-            this.TxtAlisFiyat.EditValue = "Tarih";
-            this.TxtAlisFiyat.Location = new System.Drawing.Point(74, 254);
-            this.TxtAlisFiyat.Name = "TxtAlisFiyat";
-            this.TxtAlisFiyat.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.TxtAlisFiyat.Properties.Appearance.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtAlisFiyat.Properties.Appearance.ForeColor = System.Drawing.Color.White;
-            this.TxtAlisFiyat.Properties.Appearance.Options.UseBackColor = true;
-            this.TxtAlisFiyat.Properties.Appearance.Options.UseFont = true;
-            this.TxtAlisFiyat.Properties.Appearance.Options.UseForeColor = true;
-            this.TxtAlisFiyat.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.TxtAlisFiyat.Size = new System.Drawing.Size(181, 24);
-            this.TxtAlisFiyat.TabIndex = 32;
+            this.TxtTarih.EditValue = "Tarih";
+            this.TxtTarih.Location = new System.Drawing.Point(74, 254);
+            this.TxtTarih.Name = "TxtTarih";
+            this.TxtTarih.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.TxtTarih.Properties.Appearance.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.TxtTarih.Properties.Appearance.ForeColor = System.Drawing.Color.White;
+            this.TxtTarih.Properties.Appearance.Options.UseBackColor = true;
+            this.TxtTarih.Properties.Appearance.Options.UseFont = true;
+            this.TxtTarih.Properties.Appearance.Options.UseForeColor = true;
+            this.TxtTarih.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.TxtTarih.Size = new System.Drawing.Size(181, 24);
+            this.TxtTarih.TabIndex = 32;
             // 
             // pictureEdit4
             // 
@@ -234,20 +236,20 @@
             this.panel3.Size = new System.Drawing.Size(219, 2);
             this.panel3.TabIndex = 30;
             // 
-            // TxtKategori
+            // TxtPersonel
             // 
-            this.TxtKategori.EditValue = "Personel";
-            this.TxtKategori.Location = new System.Drawing.Point(74, 203);
-            this.TxtKategori.Name = "TxtKategori";
-            this.TxtKategori.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.TxtKategori.Properties.Appearance.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtKategori.Properties.Appearance.ForeColor = System.Drawing.Color.White;
-            this.TxtKategori.Properties.Appearance.Options.UseBackColor = true;
-            this.TxtKategori.Properties.Appearance.Options.UseFont = true;
-            this.TxtKategori.Properties.Appearance.Options.UseForeColor = true;
-            this.TxtKategori.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.TxtKategori.Size = new System.Drawing.Size(181, 24);
-            this.TxtKategori.TabIndex = 29;
+            this.TxtPersonel.EditValue = "Personel";
+            this.TxtPersonel.Location = new System.Drawing.Point(74, 203);
+            this.TxtPersonel.Name = "TxtPersonel";
+            this.TxtPersonel.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.TxtPersonel.Properties.Appearance.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.TxtPersonel.Properties.Appearance.ForeColor = System.Drawing.Color.White;
+            this.TxtPersonel.Properties.Appearance.Options.UseBackColor = true;
+            this.TxtPersonel.Properties.Appearance.Options.UseFont = true;
+            this.TxtPersonel.Properties.Appearance.Options.UseForeColor = true;
+            this.TxtPersonel.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.TxtPersonel.Size = new System.Drawing.Size(181, 24);
+            this.TxtPersonel.TabIndex = 29;
             // 
             // pictureEdit3
             // 
@@ -270,20 +272,20 @@
             this.panel2.Size = new System.Drawing.Size(219, 2);
             this.panel2.TabIndex = 27;
             // 
-            // TxtMarka
+            // TxtMusteri
             // 
-            this.TxtMarka.EditValue = "Müşteri";
-            this.TxtMarka.Location = new System.Drawing.Point(74, 153);
-            this.TxtMarka.Name = "TxtMarka";
-            this.TxtMarka.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.TxtMarka.Properties.Appearance.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtMarka.Properties.Appearance.ForeColor = System.Drawing.Color.White;
-            this.TxtMarka.Properties.Appearance.Options.UseBackColor = true;
-            this.TxtMarka.Properties.Appearance.Options.UseFont = true;
-            this.TxtMarka.Properties.Appearance.Options.UseForeColor = true;
-            this.TxtMarka.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.TxtMarka.Size = new System.Drawing.Size(181, 24);
-            this.TxtMarka.TabIndex = 26;
+            this.TxtMusteri.EditValue = "Müşteri";
+            this.TxtMusteri.Location = new System.Drawing.Point(74, 153);
+            this.TxtMusteri.Name = "TxtMusteri";
+            this.TxtMusteri.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.TxtMusteri.Properties.Appearance.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.TxtMusteri.Properties.Appearance.ForeColor = System.Drawing.Color.White;
+            this.TxtMusteri.Properties.Appearance.Options.UseBackColor = true;
+            this.TxtMusteri.Properties.Appearance.Options.UseFont = true;
+            this.TxtMusteri.Properties.Appearance.Options.UseForeColor = true;
+            this.TxtMusteri.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.TxtMusteri.Size = new System.Drawing.Size(181, 24);
+            this.TxtMusteri.TabIndex = 26;
             // 
             // pictureEdit2
             // 
@@ -306,20 +308,20 @@
             this.panel1.Size = new System.Drawing.Size(219, 2);
             this.panel1.TabIndex = 24;
             // 
-            // TxtUrunAd
+            // TxtUrunıd
             // 
-            this.TxtUrunAd.EditValue = "Ürün ID";
-            this.TxtUrunAd.Location = new System.Drawing.Point(74, 105);
-            this.TxtUrunAd.Name = "TxtUrunAd";
-            this.TxtUrunAd.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.TxtUrunAd.Properties.Appearance.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtUrunAd.Properties.Appearance.ForeColor = System.Drawing.Color.White;
-            this.TxtUrunAd.Properties.Appearance.Options.UseBackColor = true;
-            this.TxtUrunAd.Properties.Appearance.Options.UseFont = true;
-            this.TxtUrunAd.Properties.Appearance.Options.UseForeColor = true;
-            this.TxtUrunAd.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.TxtUrunAd.Size = new System.Drawing.Size(181, 24);
-            this.TxtUrunAd.TabIndex = 23;
+            this.TxtUrunıd.EditValue = "Ürün ID";
+            this.TxtUrunıd.Location = new System.Drawing.Point(74, 105);
+            this.TxtUrunıd.Name = "TxtUrunıd";
+            this.TxtUrunıd.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.TxtUrunıd.Properties.Appearance.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.TxtUrunıd.Properties.Appearance.ForeColor = System.Drawing.Color.White;
+            this.TxtUrunıd.Properties.Appearance.Options.UseBackColor = true;
+            this.TxtUrunıd.Properties.Appearance.Options.UseFont = true;
+            this.TxtUrunıd.Properties.Appearance.Options.UseForeColor = true;
+            this.TxtUrunıd.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.TxtUrunıd.Size = new System.Drawing.Size(181, 24);
+            this.TxtUrunıd.TabIndex = 23;
             // 
             // pictureEdit1
             // 
@@ -342,20 +344,20 @@
             this.panel7.Size = new System.Drawing.Size(219, 2);
             this.panel7.TabIndex = 46;
             // 
-            // textEdit1
+            // TxtSeri
             // 
-            this.textEdit1.EditValue = "Seri No";
-            this.textEdit1.Location = new System.Drawing.Point(74, 397);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.textEdit1.Properties.Appearance.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textEdit1.Properties.Appearance.ForeColor = System.Drawing.Color.White;
-            this.textEdit1.Properties.Appearance.Options.UseBackColor = true;
-            this.textEdit1.Properties.Appearance.Options.UseFont = true;
-            this.textEdit1.Properties.Appearance.Options.UseForeColor = true;
-            this.textEdit1.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.textEdit1.Size = new System.Drawing.Size(181, 24);
-            this.textEdit1.TabIndex = 45;
+            this.TxtSeri.EditValue = "Seri No";
+            this.TxtSeri.Location = new System.Drawing.Point(74, 397);
+            this.TxtSeri.Name = "TxtSeri";
+            this.TxtSeri.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.TxtSeri.Properties.Appearance.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.TxtSeri.Properties.Appearance.ForeColor = System.Drawing.Color.White;
+            this.TxtSeri.Properties.Appearance.Options.UseBackColor = true;
+            this.TxtSeri.Properties.Appearance.Options.UseFont = true;
+            this.TxtSeri.Properties.Appearance.Options.UseForeColor = true;
+            this.TxtSeri.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.TxtSeri.Size = new System.Drawing.Size(181, 24);
+            this.TxtSeri.TabIndex = 45;
             // 
             // pictureEdit8
             // 
@@ -376,50 +378,49 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
             this.ClientSize = new System.Drawing.Size(334, 503);
             this.Controls.Add(this.panel7);
-            this.Controls.Add(this.textEdit1);
+            this.Controls.Add(this.TxtSeri);
             this.Controls.Add(this.pictureEdit8);
             this.Controls.Add(this.BtnVazgec);
             this.Controls.Add(this.BtnKaydet);
             this.Controls.Add(this.textEdit7);
             this.Controls.Add(this.pictureEdit7);
             this.Controls.Add(this.panel6);
-            this.Controls.Add(this.TxtStok);
+            this.Controls.Add(this.TxtSatis);
             this.Controls.Add(this.pictureEdit6);
             this.Controls.Add(this.panel5);
-            this.Controls.Add(this.TxtSatisFiyat);
+            this.Controls.Add(this.TxtAdet);
             this.Controls.Add(this.pictureEdit5);
             this.Controls.Add(this.panel4);
-            this.Controls.Add(this.TxtAlisFiyat);
+            this.Controls.Add(this.TxtTarih);
             this.Controls.Add(this.pictureEdit4);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.TxtKategori);
+            this.Controls.Add(this.TxtPersonel);
             this.Controls.Add(this.pictureEdit3);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.TxtMarka);
+            this.Controls.Add(this.TxtMusteri);
             this.Controls.Add(this.pictureEdit2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.TxtUrunAd);
+            this.Controls.Add(this.TxtUrunıd);
             this.Controls.Add(this.pictureEdit1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmUrunSatis";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmUrunSatis";
-            this.Load += new System.EventHandler(this.FrmUrunSatis_Load);
             ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit7.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TxtStok.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TxtSatis.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit6.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TxtSatisFiyat.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TxtAdet.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit5.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TxtAlisFiyat.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TxtTarih.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit4.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TxtKategori.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TxtPersonel.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit3.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TxtMarka.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TxtMusteri.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TxtUrunAd.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TxtUrunıd.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TxtSeri.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit8.Properties)).EndInit();
             this.ResumeLayout(false);
 
@@ -432,25 +433,25 @@
         private DevExpress.XtraEditors.TextEdit textEdit7;
         private DevExpress.XtraEditors.PictureEdit pictureEdit7;
         private System.Windows.Forms.Panel panel6;
-        private DevExpress.XtraEditors.TextEdit TxtStok;
+        private DevExpress.XtraEditors.TextEdit TxtSatis;
         private DevExpress.XtraEditors.PictureEdit pictureEdit6;
         private System.Windows.Forms.Panel panel5;
-        private DevExpress.XtraEditors.TextEdit TxtSatisFiyat;
+        private DevExpress.XtraEditors.TextEdit TxtAdet;
         private DevExpress.XtraEditors.PictureEdit pictureEdit5;
         private System.Windows.Forms.Panel panel4;
-        private DevExpress.XtraEditors.TextEdit TxtAlisFiyat;
+        private DevExpress.XtraEditors.TextEdit TxtTarih;
         private DevExpress.XtraEditors.PictureEdit pictureEdit4;
         private System.Windows.Forms.Panel panel3;
-        private DevExpress.XtraEditors.TextEdit TxtKategori;
+        private DevExpress.XtraEditors.TextEdit TxtPersonel;
         private DevExpress.XtraEditors.PictureEdit pictureEdit3;
         private System.Windows.Forms.Panel panel2;
-        private DevExpress.XtraEditors.TextEdit TxtMarka;
+        private DevExpress.XtraEditors.TextEdit TxtMusteri;
         private DevExpress.XtraEditors.PictureEdit pictureEdit2;
         private System.Windows.Forms.Panel panel1;
-        private DevExpress.XtraEditors.TextEdit TxtUrunAd;
+        private DevExpress.XtraEditors.TextEdit TxtUrunıd;
         private DevExpress.XtraEditors.PictureEdit pictureEdit1;
         private System.Windows.Forms.Panel panel7;
-        private DevExpress.XtraEditors.TextEdit textEdit1;
+        private DevExpress.XtraEditors.TextEdit TxtSeri;
         private DevExpress.XtraEditors.PictureEdit pictureEdit8;
     }
 }

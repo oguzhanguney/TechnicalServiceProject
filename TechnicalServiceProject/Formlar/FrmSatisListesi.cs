@@ -10,23 +10,25 @@ using System.Windows.Forms;
 
 namespace TechnicalServiceProject.Formlar
 {
-    public partial class FrmArizaListesi : Form
+    public partial class FrmSatisListesi : Form
     {
-        public FrmArizaListesi()
+        public FrmSatisListesi()
         {
             InitializeComponent();
         }
         TeknikServisDBEntities db = new TeknikServisDBEntities();
-        private void FrmArizaListesi_Load(object sender, EventArgs e)
+        private void FrmSatisListesi_Load(object sender, EventArgs e)
         {
-            var degerler = from x in db.TBLProductAcceptance
+            var degerler = from x in db.TBLProductMovement
                            select new
                            {
-                               x.ISLEMID,
-                               CARİ = x.TBLCari.AD +" "+ x.TBLCari.SOYAD,
-                               PERSONEL = x.TBLPersonnel.AD +" "+ x.TBLPersonnel.SOYAD,
-                               x.GELISTARIHI,
-                               x.CIKISTARIHI,
+                               x.HAREKETID,
+                               x.TBLProduct.AD,
+                               MUSTERI = x.TBLCari.AD + " " + x.TBLCari.SOYAD,
+                               PERSONEL = x.TBLPersonnel.AD + " " + x.TBLPersonnel.SOYAD,
+                               x.TARIH,
+                               x.ADET,
+                               x.FIYAT,
                                x.URUNSERINO
                            };
             gridControl1.DataSource = degerler.ToList();

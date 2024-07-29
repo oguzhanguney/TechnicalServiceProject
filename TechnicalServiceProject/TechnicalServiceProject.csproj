@@ -76,6 +76,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formlar\FrmArizaDetaylar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmArizaDetaylar.Designer.cs">
+      <DependentUpon>FrmArizaDetaylar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formlar\FrmArizaListesi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,6 +148,12 @@
     <Compile Include="Formlar\FrmPersonel.Designer.cs">
       <DependentUpon>FrmPersonel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formlar\FrmSatisListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmSatisListesi.Designer.cs">
+      <DependentUpon>FrmSatisListesi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formlar\FrmUrunListesi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -153,6 +165,12 @@
     </Compile>
     <Compile Include="Formlar\FrmUrunSatis.Designer.cs">
       <DependentUpon>FrmUrunSatis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmYeniArızalıUrunKaydı.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmYeniArızalıUrunKaydı.Designer.cs">
+      <DependentUpon>FrmYeniArızalıUrunKaydı.cs</DependentUpon>
     </Compile>
     <Compile Include="Formlar\FrmYeniDepartman.cs">
       <SubType>Form</SubType>
@@ -244,6 +262,9 @@
       <DependentUpon>Form1.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmArizaDetaylar.resx">
+      <DependentUpon>FrmArizaDetaylar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formlar\FrmArizaListesi.resx">
       <DependentUpon>FrmArizaListesi.cs</DependentUpon>
     </EmbeddedResource>
@@ -277,11 +298,17 @@
     <EmbeddedResource Include="Formlar\FrmPersonel.resx">
       <DependentUpon>FrmPersonel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmSatisListesi.resx">
+      <DependentUpon>FrmSatisListesi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formlar\FrmUrunListesi.resx">
       <DependentUpon>FrmUrunListesi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formlar\FrmUrunSatis.resx">
       <DependentUpon>FrmUrunSatis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmYeniArızalıUrunKaydı.resx">
+      <DependentUpon>FrmYeniArızalıUrunKaydı.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formlar\FrmYeniDepartman.resx">
       <DependentUpon>FrmYeniDepartman.cs</DependentUpon>
