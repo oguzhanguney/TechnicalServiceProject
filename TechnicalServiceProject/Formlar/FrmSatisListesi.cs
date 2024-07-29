@@ -24,6 +24,7 @@ namespace TechnicalServiceProject.Formlar
                            {
                                x.HAREKETID,
                                x.TBLProduct.AD,
+                               x.TBLProduct.MARKA,
                                MUSTERI = x.TBLCari.AD + " " + x.TBLCari.SOYAD,
                                PERSONEL = x.TBLPersonnel.AD + " " + x.TBLPersonnel.SOYAD,
                                x.TARIH,

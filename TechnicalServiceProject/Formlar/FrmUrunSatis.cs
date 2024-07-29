@@ -37,7 +37,7 @@ namespace TechnicalServiceProject.Formlar
 
         private void BtnVazgec_Click(object sender, EventArgs e)
         {
-            DialogResult vazgec = MessageBox.Show("Cari ekleme işleminden vazgeçmek istediğinize emin misiniz?", "Çıkış", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult vazgec = MessageBox.Show("Ürün satışı işleminden vazgeçmek istediğinize emin misiniz?", "Çıkış", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if (vazgec == System.Windows.Forms.DialogResult.Yes)
 

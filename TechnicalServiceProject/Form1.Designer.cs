@@ -41,7 +41,7 @@
             this.btnArizalist = new DevExpress.XtraBars.BarButtonItem();
             this.btnYeniAriza = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem10 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem11 = new DevExpress.XtraBars.BarButtonItem();
+            this.btnQrCode = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem12 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem13 = new DevExpress.XtraBars.BarButtonItem();
@@ -49,8 +49,8 @@
             this.barButtonItem15 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem16 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem17 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem18 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem19 = new DevExpress.XtraBars.BarButtonItem();
+            this.btnfaturakalem = new DevExpress.XtraBars.BarButtonItem();
+            this.btnFaturaKalemListesi = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem20 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem21 = new DevExpress.XtraBars.BarButtonItem();
             this.BtnPersonelList = new DevExpress.XtraBars.BarButtonItem();
@@ -73,6 +73,8 @@
             this.btnAjanda = new DevExpress.XtraBars.BarButtonItem();
             this.btnUrunSatis = new DevExpress.XtraBars.BarButtonItem();
             this.btnSatisListesi = new DevExpress.XtraBars.BarButtonItem();
+            this.btnArizaliurundetay = new DevExpress.XtraBars.BarButtonItem();
+            this.btnFaturaListesi = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
@@ -105,6 +107,7 @@
             // 
             // ribbonControl1
             // 
+            this.ribbonControl1.BackColor = System.Drawing.SystemColors.Control;
             this.ribbonControl1.ExpandCollapseItem.Id = 0;
             this.ribbonControl1.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
             this.ribbonControl1.ExpandCollapseItem,
@@ -118,7 +121,7 @@
             this.btnArizalist,
             this.btnYeniAriza,
             this.barButtonItem10,
-            this.barButtonItem11,
+            this.btnQrCode,
             this.barButtonItem12,
             this.barButtonItem3,
             this.barButtonItem13,
@@ -126,8 +129,8 @@
             this.barButtonItem15,
             this.barButtonItem16,
             this.barButtonItem17,
-            this.barButtonItem18,
-            this.barButtonItem19,
+            this.btnfaturakalem,
+            this.btnFaturaKalemListesi,
             this.barButtonItem20,
             this.barButtonItem21,
             this.BtnPersonelList,
@@ -149,9 +152,11 @@
             this.barButtonItem38,
             this.btnAjanda,
             this.btnUrunSatis,
-            this.btnSatisListesi});
+            this.btnSatisListesi,
+            this.btnArizaliurundetay,
+            this.btnFaturaListesi});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl1.MaxItemId = 44;
+            this.ribbonControl1.MaxItemId = 46;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1,
@@ -232,7 +237,7 @@
             // 
             this.btnYeniAriza.Caption = "Yeni Arızalı Ürün Kaydı";
             this.btnYeniAriza.Id = 9;
-            this.btnYeniAriza.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem9.ImageOptions.LargeImage")));
+            this.btnYeniAriza.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnYeniAriza.ImageOptions.LargeImage")));
             this.btnYeniAriza.Name = "btnYeniAriza";
             this.btnYeniAriza.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnYeniAriza_ItemClick);
             // 
@@ -242,13 +247,15 @@
             this.barButtonItem10.Id = 10;
             this.barButtonItem10.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem10.ImageOptions.LargeImage")));
             this.barButtonItem10.Name = "barButtonItem10";
+            this.barButtonItem10.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem10_ItemClick);
             // 
-            // barButtonItem11
+            // btnQrCode
             // 
-            this.barButtonItem11.Caption = "QR Code Oluştur";
-            this.barButtonItem11.Id = 11;
-            this.barButtonItem11.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem11.ImageOptions.SvgImage")));
-            this.barButtonItem11.Name = "barButtonItem11";
+            this.btnQrCode.Caption = "QR Code Oluştur";
+            this.btnQrCode.Id = 11;
+            this.btnQrCode.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnQrCode.ImageOptions.SvgImage")));
+            this.btnQrCode.Name = "btnQrCode";
+            this.btnQrCode.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnQrCode_ItemClick);
             // 
             // barButtonItem12
             // 
@@ -302,19 +309,21 @@
             this.barButtonItem17.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem17.ImageOptions.LargeImage")));
             this.barButtonItem17.Name = "barButtonItem17";
             // 
-            // barButtonItem18
+            // btnfaturakalem
             // 
-            this.barButtonItem18.Caption = "Fatura Kalem Girişi";
-            this.barButtonItem18.Id = 19;
-            this.barButtonItem18.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem18.ImageOptions.LargeImage")));
-            this.barButtonItem18.Name = "barButtonItem18";
+            this.btnfaturakalem.Caption = "Fatura Kalem Girişi";
+            this.btnfaturakalem.Id = 19;
+            this.btnfaturakalem.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnfaturakalem.ImageOptions.LargeImage")));
+            this.btnfaturakalem.Name = "btnfaturakalem";
+            this.btnfaturakalem.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnfaturakalem_ItemClick);
             // 
-            // barButtonItem19
+            // btnFaturaKalemListesi
             // 
-            this.barButtonItem19.Caption = "Detaylı Fatura Sorgulama";
-            this.barButtonItem19.Id = 20;
-            this.barButtonItem19.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem19.ImageOptions.LargeImage")));
-            this.barButtonItem19.Name = "barButtonItem19";
+            this.btnFaturaKalemListesi.Caption = "Detaylı Fatura Sorgulama";
+            this.btnFaturaKalemListesi.Id = 20;
+            this.btnFaturaKalemListesi.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem19.ImageOptions.LargeImage")));
+            this.btnFaturaKalemListesi.Name = "btnFaturaKalemListesi";
+            this.btnFaturaKalemListesi.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnFaturaKalemListesi_ItemClick);
             // 
             // barButtonItem20
             // 
@@ -482,6 +491,22 @@
             this.btnSatisListesi.Name = "btnSatisListesi";
             this.btnSatisListesi.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnSatisListesi_ItemClick);
             // 
+            // btnArizaliurundetay
+            // 
+            this.btnArizaliurundetay.Caption = "Arızalı Ürün Detayları";
+            this.btnArizaliurundetay.Id = 44;
+            this.btnArizaliurundetay.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnArizaliurundetay.ImageOptions.LargeImage")));
+            this.btnArizaliurundetay.Name = "btnArizaliurundetay";
+            this.btnArizaliurundetay.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnArizaliurundetay_ItemClick);
+            // 
+            // btnFaturaListesi
+            // 
+            this.btnFaturaListesi.Caption = "Fatura Listesi";
+            this.btnFaturaListesi.Id = 45;
+            this.btnFaturaListesi.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnFaturaListesi.ImageOptions.LargeImage")));
+            this.btnFaturaListesi.Name = "btnFaturaListesi";
+            this.btnFaturaListesi.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnFaturaListesi_ItemClick);
+            // 
             // ribbonPage1
             // 
             this.ribbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
@@ -532,12 +557,13 @@
             this.ribbonPageGroup11.ItemLinks.Add(this.btnArizalist);
             this.ribbonPageGroup11.ItemLinks.Add(this.btnYeniAriza);
             this.ribbonPageGroup11.ItemLinks.Add(this.barButtonItem10);
+            this.ribbonPageGroup11.ItemLinks.Add(this.btnArizaliurundetay);
             this.ribbonPageGroup11.Name = "ribbonPageGroup11";
             this.ribbonPageGroup11.Text = "ribbonPageGroup11";
             // 
             // ribbonPageGroup12
             // 
-            this.ribbonPageGroup12.ItemLinks.Add(this.barButtonItem11);
+            this.ribbonPageGroup12.ItemLinks.Add(this.btnQrCode);
             this.ribbonPageGroup12.ItemLinks.Add(this.barButtonItem12);
             this.ribbonPageGroup12.Name = "ribbonPageGroup12";
             this.ribbonPageGroup12.Text = "ribbonPageGroup12";
@@ -582,9 +608,10 @@
             // 
             // ribbonPageGroup13
             // 
+            this.ribbonPageGroup13.ItemLinks.Add(this.btnFaturaListesi);
             this.ribbonPageGroup13.ItemLinks.Add(this.barButtonItem17);
-            this.ribbonPageGroup13.ItemLinks.Add(this.barButtonItem18);
-            this.ribbonPageGroup13.ItemLinks.Add(this.barButtonItem19);
+            this.ribbonPageGroup13.ItemLinks.Add(this.btnfaturakalem);
+            this.ribbonPageGroup13.ItemLinks.Add(this.btnFaturaKalemListesi);
             this.ribbonPageGroup13.ItemLinks.Add(this.barButtonItem20);
             this.ribbonPageGroup13.ItemLinks.Add(this.barButtonItem21);
             this.ribbonPageGroup13.Name = "ribbonPageGroup13";
@@ -728,7 +755,7 @@
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup11;
         private DevExpress.XtraBars.BarButtonItem barButtonItem10;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup12;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem11;
+        private DevExpress.XtraBars.BarButtonItem btnQrCode;
         private DevExpress.XtraBars.BarButtonItem barButtonItem12;
         private DevExpress.XtraTabbedMdi.XtraTabbedMdiManager xtraTabbedMdiManager1;
         private DevExpress.XtraBars.BarButtonItem barButtonItem3;
@@ -738,8 +765,8 @@
         private DevExpress.XtraBars.BarButtonItem barButtonItem16;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup13;
         private DevExpress.XtraBars.BarButtonItem barButtonItem17;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem18;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem19;
+        private DevExpress.XtraBars.BarButtonItem btnfaturakalem;
+        private DevExpress.XtraBars.BarButtonItem btnFaturaKalemListesi;
         private DevExpress.XtraBars.BarButtonItem barButtonItem20;
         private DevExpress.XtraBars.BarButtonItem barButtonItem21;
         private DevExpress.XtraBars.BarButtonItem BtnPersonelList;
@@ -766,6 +793,8 @@
         private DevExpress.XtraBars.BarButtonItem btnUrunSatis;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup16;
         private DevExpress.XtraBars.BarButtonItem btnSatisListesi;
+        private DevExpress.XtraBars.BarButtonItem btnArizaliurundetay;
+        private DevExpress.XtraBars.BarButtonItem btnFaturaListesi;
     }
 }
 

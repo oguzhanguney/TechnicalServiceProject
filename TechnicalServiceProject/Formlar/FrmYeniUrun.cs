@@ -22,7 +22,7 @@ namespace TechnicalServiceProject.Formlar
 
         }
 
-        
+
 
         private void BtnVazgec_Click(object sender, EventArgs e)
         {
@@ -39,43 +39,20 @@ namespace TechnicalServiceProject.Formlar
 
         private void BtnKaydet_Click(object sender, EventArgs e)
         {
-            TeknikServisDBEntities db=new TeknikServisDBEntities();
-            TBLProduct p =new TBLProduct();
+            TeknikServisDBEntities db = new TeknikServisDBEntities();
+            TBLProduct p = new TBLProduct();
             p.AD = TxtUrunAd.Text;
-            p.ALISFIYAT=decimal.Parse(TxtAlisFiyat.Text);
+            p.ALISFIYAT = decimal.Parse(TxtAlisFiyat.Text);
             p.SATISFIYAT = decimal.Parse(TxtSatisFiyat.Text);
-            p.MARKA=TxtMarka.Text;
+            p.MARKA = TxtMarka.Text;
             p.STOK = short.Parse(TxtStok.Text);
-            p.KATEGORI=byte.Parse(TxtKategori.Text);
+            p.KATEGORI = byte.Parse(TxtKategori.Text);
             db.TBLProduct.Add(p);
             db.SaveChanges();
             MessageBox.Show("Ürün başarıyla eklendi.");
             this.Close();
         }
 
-        private void pictureEdit7_EditValueChanged(object sender, EventArgs e)
-        {
 
-        }
-
-        private void textEdit7_EditValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureEdit1_EditValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void TxtUrunAd_EditValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
     }
 }

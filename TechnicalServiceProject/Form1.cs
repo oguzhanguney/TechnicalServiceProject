@@ -167,5 +167,45 @@ namespace TechnicalServiceProject
             Formlar.FrmYeniArızalıUrunKaydı fr = new Formlar.FrmYeniArızalıUrunKaydı();
             fr.Show();
         }
+
+        private void barButtonItem10_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmArizaDetaylar fr = new Formlar.FrmArizaDetaylar();
+            fr.Show();
+        }
+
+        private void btnArizaliurundetay_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmArizaliUrunDetayListesi fr = new Formlar.FrmArizaliUrunDetayListesi();
+            fr.MdiParent = this;
+            fr.Show();
+        }
+
+        private void btnQrCode_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmQrCode fr = new Formlar.FrmQrCode();
+            fr.Show();
+        }
+
+        private void btnFaturaListesi_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmFaturaListesi fr = new Formlar.FrmFaturaListesi();
+            fr.MdiParent = this;
+            fr.Show();
+        }
+
+        private void btnfaturakalem_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmFaturaKalem fr = new Formlar.FrmFaturaKalem();
+            fr.MdiParent = this;
+            fr.Show();
+        }
+
+        private void btnFaturaKalemListesi_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmFaturaKalemleri fr = new Formlar.FrmFaturaKalemleri();
+            fr.MdiParent = this;
+            fr.Show();
+        }
     }
 }

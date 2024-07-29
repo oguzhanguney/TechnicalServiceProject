@@ -48,20 +48,7 @@ namespace TechnicalServiceProject.Formlar
 
         }
 
-        private void labelControl1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupControl1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void lookUpEdit1_EditValueChanged(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void BtnKaydet_Click_1(object sender, EventArgs e)
         {

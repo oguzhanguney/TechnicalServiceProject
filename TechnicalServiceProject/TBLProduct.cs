@@ -18,7 +18,6 @@ namespace TechnicalServiceProject
         public TBLProduct()
         {
             this.TBLProductMovement = new HashSet<TBLProductMovement>();
-            this.TBLProductTracking = new HashSet<TBLProductTracking>();
         }
     
         public int ID { get; set; }
@@ -33,7 +32,5 @@ namespace TechnicalServiceProject
         public virtual TBLCategory TBLCategory { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<TBLProductMovement> TBLProductMovement { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<TBLProductTracking> TBLProductTracking { get; set; }
     }
 }
