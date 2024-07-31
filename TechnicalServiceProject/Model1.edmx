@@ -15,6 +15,13 @@
           <Property Name="version" Type="int" />
           <Property Name="definition" Type="varbinary(max)" />
         </EntityType>
+        <EntityType Name="TBLAboutMe">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="tinyint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="METIN" Type="nvarchar" MaxLength="1000" />
+        </EntityType>
         <EntityType Name="TBLAdmin">
           <Key>
             <PropertyRef Name="ID" />
@@ -71,6 +78,16 @@
           <Property Name="ID" Type="tinyint" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="AD" Type="nvarchar" MaxLength="50" />
         </EntityType>
+        <EntityType Name="TBLContact">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="AdSoyad" Type="nvarchar" MaxLength="50" />
+          <Property Name="Mail" Type="nvarchar" MaxLength="50" />
+          <Property Name="Konu" Type="nvarchar" MaxLength="50" />
+          <Property Name="Mesaj" Type="nvarchar" MaxLength="500" />
+        </EntityType>
         <EntityType Name="TBLDepartment">
           <Key>
             <PropertyRef Name="ID" />
@@ -108,6 +125,7 @@
           <Property Name="BASLIK" Type="nvarchar" MaxLength="50" />
           <Property Name="ICERIK" Type="nvarchar" MaxLength="500" />
           <Property Name="DURUM" Type="bit" />
+          <Property Name="TARIH" Type="smalldatetime" />
         </EntityType>
         <EntityType Name="TBLPersonnel">
           <Key>
@@ -287,13 +305,16 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Function Name="urunkategori" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
         <EntityContainer Name="TeknikServisDBModelStoreContainer">
           <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TBLAboutMe" EntityType="Self.TBLAboutMe" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TBLAdmin" EntityType="Self.TBLAdmin" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TBLBillingDetail" EntityType="Self.TBLBillingDetail" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TBLBillingInfo" EntityType="Self.TBLBillingInfo" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TBLCari" EntityType="Self.TBLCari" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TBLCategory" EntityType="Self.TBLCategory" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TBLContact" EntityType="Self.TBLContact" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TBLDepartment" EntityType="Self.TBLDepartment" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TBLExpense" EntityType="Self.TBLExpense" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TBLFaultDetail" EntityType="Self.TBLFaultDetail" Schema="dbo" store:Type="Tables" />
@@ -460,6 +481,7 @@
           <Property Name="BASLIK" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="ICERIK" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
           <Property Name="DURUM" Type="Boolean" />
+          <Property Name="TARIH" Type="DateTime" Precision="0" />
         </EntityType>
         <EntityType Name="TBLPersonnel">
           <Key>
@@ -526,7 +548,7 @@
             <PropertyRef Name="TAKIPID" />
           </Key>
           <Property Name="TAKIPID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="TARIH" Type="DateTime" />
+          <Property Name="TARIH" Type="DateTime" Precision="0" />
           <Property Name="ACIKLAMA" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
           <Property Name="SERINO" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
         </EntityType>
@@ -706,7 +728,31 @@
             <End Role="TBLProduct" EntitySet="TBLProduct" />
             <End Role="TBLProductMovement" EntitySet="TBLProductMovement" />
           </AssociationSet>
+          <EntitySet Name="TBLAboutMe" EntityType="TeknikServisDBModel.TBLAboutMe" />
+          <EntitySet Name="TBLContact" EntityType="TeknikServisDBModel.TBLContact" />
+          <FunctionImport Name="urunkategori" ReturnType="Collection(TeknikServisDBModel.urunkategori_Result)" />
         </EntityContainer>
+        <EntityType Name="TBLAboutMe">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="METIN" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="TBLContact">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AdSoyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Mail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Konu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Mesaj" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <ComplexType Name="urunkategori_Result">
+          <Property Type="String" Name="AD" Nullable="true" MaxLength="50" />
+          <Property Type="Int32" Name="ADET" Nullable="true" />
+        </ComplexType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -820,6 +866,7 @@
           <EntitySetMapping Name="TBLNotes">
             <EntityTypeMapping TypeName="TeknikServisDBModel.TBLNotes">
               <MappingFragment StoreEntitySet="TBLNotes">
+                <ScalarProperty Name="TARIH" ColumnName="TARIH" />
                 <ScalarProperty Name="ID" ColumnName="ID" />
                 <ScalarProperty Name="BASLIK" ColumnName="BASLIK" />
                 <ScalarProperty Name="ICERIK" ColumnName="ICERIK" />
@@ -890,6 +937,33 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
+          <EntitySetMapping Name="TBLAboutMe">
+            <EntityTypeMapping TypeName="TeknikServisDBModel.TBLAboutMe">
+              <MappingFragment StoreEntitySet="TBLAboutMe">
+                <ScalarProperty Name="METIN" ColumnName="METIN" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TBLContact">
+            <EntityTypeMapping TypeName="TeknikServisDBModel.TBLContact">
+              <MappingFragment StoreEntitySet="TBLContact">
+                <ScalarProperty Name="Mesaj" ColumnName="Mesaj" />
+                <ScalarProperty Name="Konu" ColumnName="Konu" />
+                <ScalarProperty Name="Mail" ColumnName="Mail" />
+                <ScalarProperty Name="AdSoyad" ColumnName="AdSoyad" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="urunkategori" FunctionName="TeknikServisDBModel.Store.urunkategori">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="TeknikServisDBModel.urunkategori_Result">
+                <ScalarProperty Name="AD" ColumnName="AD" />
+                <ScalarProperty Name="ADET" ColumnName="ADET" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>

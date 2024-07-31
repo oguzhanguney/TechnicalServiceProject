@@ -207,5 +207,48 @@ namespace TechnicalServiceProject
             fr.MdiParent = this;
             fr.Show();
         }
+
+
+        private void btnGauge_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmGauge fr = new Formlar.FrmGauge();
+            fr.MdiParent = this;
+            fr.Show();
+        }
+
+        private void btnHaritalar_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmHarita fr = new Formlar.FrmHarita();
+            fr.MdiParent = this;
+            fr.Show();
+        }
+
+        private void btnRaporlar_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmRapor fr = new Formlar.FrmRapor();
+            fr.Show();
+        }
+
+        Formlar.FrmAnaSayfa fr;
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            if (fr==null || fr.IsDisposed)
+            {
+                fr=new Formlar.FrmAnaSayfa();
+                fr.MdiParent = this;
+                fr.Show();
+            }
+            
+        }
+
+        private void btnAnaSayfa_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if (fr == null || fr.IsDisposed)
+            {
+                fr = new Formlar.FrmAnaSayfa();
+                fr.MdiParent = this;
+                fr.Show();
+            }
+        }
     }
 }

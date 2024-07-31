@@ -56,6 +56,7 @@
             this.pictureEdit7 = new DevExpress.XtraEditors.PictureEdit();
             this.groupControl9 = new DevExpress.XtraEditors.GroupControl();
             this.pictureEdit8 = new DevExpress.XtraEditors.PictureEdit();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.TxtID.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TxtKategoriAd.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
@@ -110,11 +111,11 @@
             // 
             this.BtnListele.Appearance.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnListele.Appearance.Options.UseFont = true;
-            this.BtnListele.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnListele.ImageOptions.Image")));
+            this.BtnListele.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("BtnListele.ImageOptions.SvgImage")));
             this.BtnListele.Location = new System.Drawing.Point(165, 285);
             this.BtnListele.Name = "BtnListele";
             this.BtnListele.Size = new System.Drawing.Size(328, 41);
-            this.BtnListele.TabIndex = 42;
+            this.BtnListele.TabIndex = 5;
             this.BtnListele.Text = "LİSTELE";
             this.BtnListele.Click += new System.EventHandler(this.BtnListele_Click);
             // 
@@ -122,11 +123,11 @@
             // 
             this.BtnGuncelle.Appearance.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnGuncelle.Appearance.Options.UseFont = true;
-            this.BtnGuncelle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnGuncelle.ImageOptions.Image")));
+            this.BtnGuncelle.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("BtnGuncelle.ImageOptions.SvgImage")));
             this.BtnGuncelle.Location = new System.Drawing.Point(165, 238);
             this.BtnGuncelle.Name = "BtnGuncelle";
             this.BtnGuncelle.Size = new System.Drawing.Size(328, 41);
-            this.BtnGuncelle.TabIndex = 41;
+            this.BtnGuncelle.TabIndex = 4;
             this.BtnGuncelle.Text = "GÜNCELLE";
             this.BtnGuncelle.Click += new System.EventHandler(this.BtnGuncelle_Click);
             // 
@@ -134,11 +135,11 @@
             // 
             this.BtnSil.Appearance.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnSil.Appearance.Options.UseFont = true;
-            this.BtnSil.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnSil.ImageOptions.Image")));
+            this.BtnSil.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("BtnSil.ImageOptions.SvgImage")));
             this.BtnSil.Location = new System.Drawing.Point(165, 191);
             this.BtnSil.Name = "BtnSil";
             this.BtnSil.Size = new System.Drawing.Size(328, 41);
-            this.BtnSil.TabIndex = 40;
+            this.BtnSil.TabIndex = 3;
             this.BtnSil.Text = "SİL";
             this.BtnSil.Click += new System.EventHandler(this.BtnSil_Click);
             // 
@@ -146,11 +147,11 @@
             // 
             this.BtnKaydet.Appearance.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnKaydet.Appearance.Options.UseFont = true;
-            this.BtnKaydet.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnKaydet.ImageOptions.Image")));
+            this.BtnKaydet.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("BtnKaydet.ImageOptions.SvgImage")));
             this.BtnKaydet.Location = new System.Drawing.Point(165, 144);
             this.BtnKaydet.Name = "BtnKaydet";
             this.BtnKaydet.Size = new System.Drawing.Size(328, 41);
-            this.BtnKaydet.TabIndex = 39;
+            this.BtnKaydet.TabIndex = 2;
             this.BtnKaydet.Text = "EKLE";
             this.BtnKaydet.Click += new System.EventHandler(this.BtnKaydet_Click);
             // 
@@ -159,7 +160,7 @@
             this.TxtKategoriAd.Location = new System.Drawing.Point(165, 106);
             this.TxtKategoriAd.Name = "TxtKategoriAd";
             this.TxtKategoriAd.Size = new System.Drawing.Size(328, 20);
-            this.TxtKategoriAd.TabIndex = 4;
+            this.TxtKategoriAd.TabIndex = 1;
             // 
             // labelControl1
             // 
@@ -173,6 +174,7 @@
             // 
             // groupControl1
             // 
+            this.groupControl1.Controls.Add(this.simpleButton1);
             this.groupControl1.Controls.Add(this.TxtID);
             this.groupControl1.Controls.Add(this.labelControl3);
             this.groupControl1.Controls.Add(this.BtnListele);
@@ -219,17 +221,16 @@
             this.groupControl2.Size = new System.Drawing.Size(320, 188);
             this.groupControl2.TabIndex = 4;
             this.groupControl2.Text = "ARÇELİK";
-            this.groupControl2.Paint += new System.Windows.Forms.PaintEventHandler(this.groupControl2_Paint);
             // 
             // pictureEdit1
             // 
             this.pictureEdit1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureEdit1.EditValue = ((object)(resources.GetObject("pictureEdit1.EditValue")));
-            this.pictureEdit1.Location = new System.Drawing.Point(2, 23);
+            this.pictureEdit1.Location = new System.Drawing.Point(0, 0);
             this.pictureEdit1.Name = "pictureEdit1";
             this.pictureEdit1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
             this.pictureEdit1.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.pictureEdit1.Size = new System.Drawing.Size(316, 163);
+            this.pictureEdit1.Size = new System.Drawing.Size(320, 188);
             this.pictureEdit1.TabIndex = 0;
             // 
             // groupControl3
@@ -246,11 +247,11 @@
             // 
             this.pictureEdit2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureEdit2.EditValue = ((object)(resources.GetObject("pictureEdit2.EditValue")));
-            this.pictureEdit2.Location = new System.Drawing.Point(2, 23);
+            this.pictureEdit2.Location = new System.Drawing.Point(0, 0);
             this.pictureEdit2.Name = "pictureEdit2";
             this.pictureEdit2.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
             this.pictureEdit2.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.pictureEdit2.Size = new System.Drawing.Size(316, 163);
+            this.pictureEdit2.Size = new System.Drawing.Size(320, 188);
             this.pictureEdit2.TabIndex = 1;
             // 
             // groupControl4
@@ -262,17 +263,16 @@
             this.groupControl4.Size = new System.Drawing.Size(320, 188);
             this.groupControl4.TabIndex = 5;
             this.groupControl4.Text = "groupControl4";
-            this.groupControl4.Paint += new System.Windows.Forms.PaintEventHandler(this.groupControl4_Paint);
             // 
             // pictureEdit3
             // 
             this.pictureEdit3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureEdit3.EditValue = ((object)(resources.GetObject("pictureEdit3.EditValue")));
-            this.pictureEdit3.Location = new System.Drawing.Point(2, 23);
+            this.pictureEdit3.Location = new System.Drawing.Point(0, 0);
             this.pictureEdit3.Name = "pictureEdit3";
             this.pictureEdit3.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
             this.pictureEdit3.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.pictureEdit3.Size = new System.Drawing.Size(316, 163);
+            this.pictureEdit3.Size = new System.Drawing.Size(320, 188);
             this.pictureEdit3.TabIndex = 1;
             // 
             // groupControl5
@@ -289,11 +289,11 @@
             // 
             this.pictureEdit4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureEdit4.EditValue = ((object)(resources.GetObject("pictureEdit4.EditValue")));
-            this.pictureEdit4.Location = new System.Drawing.Point(2, 23);
+            this.pictureEdit4.Location = new System.Drawing.Point(0, 0);
             this.pictureEdit4.Name = "pictureEdit4";
             this.pictureEdit4.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
             this.pictureEdit4.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.pictureEdit4.Size = new System.Drawing.Size(312, 163);
+            this.pictureEdit4.Size = new System.Drawing.Size(316, 188);
             this.pictureEdit4.TabIndex = 1;
             // 
             // groupControl6
@@ -310,11 +310,11 @@
             // 
             this.pictureEdit5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureEdit5.EditValue = ((object)(resources.GetObject("pictureEdit5.EditValue")));
-            this.pictureEdit5.Location = new System.Drawing.Point(2, 23);
+            this.pictureEdit5.Location = new System.Drawing.Point(0, 0);
             this.pictureEdit5.Name = "pictureEdit5";
             this.pictureEdit5.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
             this.pictureEdit5.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.pictureEdit5.Size = new System.Drawing.Size(316, 163);
+            this.pictureEdit5.Size = new System.Drawing.Size(320, 188);
             this.pictureEdit5.TabIndex = 1;
             // 
             // groupControl7
@@ -331,11 +331,11 @@
             // 
             this.pictureEdit6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureEdit6.EditValue = ((object)(resources.GetObject("pictureEdit6.EditValue")));
-            this.pictureEdit6.Location = new System.Drawing.Point(2, 23);
+            this.pictureEdit6.Location = new System.Drawing.Point(0, 0);
             this.pictureEdit6.Name = "pictureEdit6";
             this.pictureEdit6.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
             this.pictureEdit6.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.pictureEdit6.Size = new System.Drawing.Size(316, 163);
+            this.pictureEdit6.Size = new System.Drawing.Size(320, 188);
             this.pictureEdit6.TabIndex = 1;
             // 
             // groupControl8
@@ -352,11 +352,11 @@
             // 
             this.pictureEdit7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureEdit7.EditValue = ((object)(resources.GetObject("pictureEdit7.EditValue")));
-            this.pictureEdit7.Location = new System.Drawing.Point(2, 23);
+            this.pictureEdit7.Location = new System.Drawing.Point(0, 0);
             this.pictureEdit7.Name = "pictureEdit7";
             this.pictureEdit7.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
             this.pictureEdit7.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.pictureEdit7.Size = new System.Drawing.Size(316, 163);
+            this.pictureEdit7.Size = new System.Drawing.Size(320, 188);
             this.pictureEdit7.TabIndex = 1;
             // 
             // groupControl9
@@ -373,12 +373,24 @@
             // 
             this.pictureEdit8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureEdit8.EditValue = ((object)(resources.GetObject("pictureEdit8.EditValue")));
-            this.pictureEdit8.Location = new System.Drawing.Point(2, 23);
+            this.pictureEdit8.Location = new System.Drawing.Point(0, 0);
             this.pictureEdit8.Name = "pictureEdit8";
             this.pictureEdit8.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
             this.pictureEdit8.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.pictureEdit8.Size = new System.Drawing.Size(312, 163);
+            this.pictureEdit8.Size = new System.Drawing.Size(316, 188);
             this.pictureEdit8.TabIndex = 1;
+            // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Appearance.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.simpleButton1.Appearance.Options.UseFont = true;
+            this.simpleButton1.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("simpleButton1.ImageOptions.SvgImage")));
+            this.simpleButton1.Location = new System.Drawing.Point(165, 332);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(328, 41);
+            this.simpleButton1.TabIndex = 6;
+            this.simpleButton1.Text = "TEMİZLE";
+            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // FrmCategory
             // 
@@ -462,5 +474,6 @@
         private DevExpress.XtraEditors.PictureEdit pictureEdit6;
         private DevExpress.XtraEditors.PictureEdit pictureEdit7;
         private DevExpress.XtraEditors.PictureEdit pictureEdit8;
+        private DevExpress.XtraEditors.SimpleButton simpleButton1;
     }
 }

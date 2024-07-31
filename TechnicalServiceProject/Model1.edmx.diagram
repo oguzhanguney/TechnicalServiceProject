@@ -30,6 +30,8 @@
         <AssociationConnector Association="TeknikServisDBModel.FK_TBLProductAcceptance_TBLPersonnel" ManuallyRouted="false" />
         <AssociationConnector Association="TeknikServisDBModel.FK_TBLProductMovement_TBLPersonnel" ManuallyRouted="false" />
         <AssociationConnector Association="TeknikServisDBModel.FK_TBLProductMovement_TBLProduct" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="TeknikServisDBModel.TBLAboutMe" Width="1.5" PointX="12.375" PointY="8.75" />
+        <EntityTypeShape EntityType="TeknikServisDBModel.TBLContact" Width="1.5" PointX="12.375" PointY="11.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

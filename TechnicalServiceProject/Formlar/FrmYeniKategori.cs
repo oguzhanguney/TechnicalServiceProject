@@ -19,12 +19,21 @@ namespace TechnicalServiceProject.Formlar
         TeknikServisDBEntities db=new TeknikServisDBEntities();
         private void BtnKaydet_Click(object sender, EventArgs e)
         {
-            TBLCategory t = new TBLCategory();
-            t.AD = TxtKategori.Text;
-            db.TBLCategory.Add(t);
-            db.SaveChanges();
-            MessageBox.Show("Kategori başarıyla eklendi.");
-            this.Close();
+            if (TxtKategoriAdi.Text !="" && TxtKategoriAdi.Text.Length<=50)
+            {
+                TBLCategory t = new TBLCategory();
+                t.AD = TxtKategoriAdi.Text;
+                db.TBLCategory.Add(t);
+                db.SaveChanges();
+                MessageBox.Show("Kategori başarıyla eklendi.");
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Kategori adı boş geçilemez ve Kategori adı 50 karakterden uzun olamaz!", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+            }
+
         }
 
         private void BtnVazgec_Click(object sender, EventArgs e)
@@ -38,6 +47,11 @@ namespace TechnicalServiceProject.Formlar
                 this.Close();
 
             }
+        }
+
+        private void pictureEdit1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

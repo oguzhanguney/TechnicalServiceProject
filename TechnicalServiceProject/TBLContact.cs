@@ -12,12 +12,12 @@ namespace TechnicalServiceProject
     using System;
     using System.Collections.Generic;
     
-    public partial class TBLNotes
+    public partial class TBLContact
     {
         public int ID { get; set; }
-        public string BASLIK { get; set; }
-        public string ICERIK { get; set; }
-        public Nullable<bool> DURUM { get; set; }
-        public Nullable<System.DateTime> TARIH { get; set; }
+        public string AdSoyad { get; set; }
+        public string Mail { get; set; }
+        public string Konu { get; set; }
+        public string Mesaj { get; set; }
     }
 }

@@ -17,7 +17,7 @@ namespace TechnicalServiceProject.Formlar
             InitializeComponent();
         }
 
-        TeknikServisDBEntities db=new TeknikServisDBEntities();
+        TeknikServisDBEntities db = new TeknikServisDBEntities();
 
         private void FrmCategory_Load(object sender, EventArgs e)
         {
@@ -32,11 +32,18 @@ namespace TechnicalServiceProject.Formlar
 
         private void BtnKaydet_Click(object sender, EventArgs e)
         {
-            TBLCategory t=new TBLCategory();
-            t.AD = TxtKategoriAd.Text;
-            db.TBLCategory.Add(t);
-            db.SaveChanges();
-            MessageBox.Show("Kategori başarıyla kaydedildi.");
+            if (TxtKategoriAd.Text != "" && TxtKategoriAd.Text.Length <= 30)
+            {
+                TBLCategory t = new TBLCategory();
+                t.AD = TxtKategoriAd.Text;
+                db.TBLCategory.Add(t);
+                db.SaveChanges();
+                MessageBox.Show("Kategori başarıyla kaydedildi.");
+            }
+            else
+            {
+                MessageBox.Show("Kategori adı boş geçilemez ve Kategori adı 50 karakterden uzun olamaz!", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
 
         }
 
@@ -57,18 +64,26 @@ namespace TechnicalServiceProject.Formlar
             TxtKategoriAd.Text = gridView1.GetFocusedRowCellValue("AD").ToString();
         }
 
-        private void groupControl4_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void BtnSil_Click(object sender, EventArgs e)
         {
-            int id =int.Parse(TxtID.Text);
-            var deger=db.TBLCategory.Find(id);
-            db.TBLCategory.Remove(deger);
-            db.SaveChanges();
-            MessageBox.Show("Kategori başarılı bir şekilde silindi.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+            DialogResult secenek = MessageBox.Show("Gerçekten Silme İşlemini Yapmak İstiyor Musunuz?", "Kontrol", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+
+            if (secenek == DialogResult.Cancel)
+
+            {
+
+                MessageBox.Show("Silme İşlemi İptal Edildi!", "Bilgilendirme", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            }
+            else
+            {
+                int id = int.Parse(TxtID.Text);
+                var deger = db.TBLCategory.Find(id);
+                db.TBLCategory.Remove(deger);
+                db.SaveChanges();
+                MessageBox.Show("Kategori başarılı bir şekilde silindi.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+            }
+
         }
 
         private void BtnGuncelle_Click(object sender, EventArgs e)
@@ -81,9 +96,10 @@ namespace TechnicalServiceProject.Formlar
 
         }
 
-        private void groupControl2_Paint(object sender, PaintEventArgs e)
+        private void simpleButton1_Click(object sender, EventArgs e)
         {
-
+            TxtKategoriAd.Text = "";
+            TxtID.Text = "";
         }
     }
 }
