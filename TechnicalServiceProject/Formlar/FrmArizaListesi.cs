@@ -30,6 +30,11 @@ namespace TechnicalServiceProject.Formlar
                                x.URUNSERINO
                            };
             gridControl1.DataSource = degerler.ToList();
+
+            labelControl3.Text=db.TBLProductAcceptance.Count(x=>x.DURUM!="Kargoya Verildi").ToString();
+            labelControl1.Text=db.TBLProductAcceptance.Count(x=>x.DURUM=="İşlem Tamamlandı").ToString();
+            labelControl7.Text = db.TBLProductAcceptance.Count(x => x.DURUM == "Parça Bekliyor").ToString();
+
         }
     }
 }

@@ -49,5 +49,10 @@ namespace TechnicalServiceProject
         {
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<urunkategori_Result>("urunkategori");
         }
+    
+        public virtual ObjectResult<string> maxkategoriurun()
+        {
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("maxkategoriurun");
+        }
     }
 }

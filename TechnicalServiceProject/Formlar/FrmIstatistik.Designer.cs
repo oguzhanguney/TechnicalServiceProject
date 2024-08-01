@@ -133,14 +133,11 @@
             // 
             // panel1
             // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(211)))), ((int)(((byte)(144)))));
             this.panel1.Controls.Add(this.pictureEdit1);
             this.panel1.Controls.Add(this.labelControl2);
             this.panel1.Controls.Add(this.labelControl1);
-            this.panel1.Location = new System.Drawing.Point(35, 37);
+            this.panel1.Location = new System.Drawing.Point(36, 14);
             this.panel1.Margin = new System.Windows.Forms.Padding(5);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(365, 200);
@@ -185,14 +182,11 @@
             // 
             // panel2
             // 
-            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(194)))), ((int)(((byte)(145)))));
             this.panel2.Controls.Add(this.pictureEdit2);
             this.panel2.Controls.Add(this.labelControl3);
             this.panel2.Controls.Add(this.labelControl4);
-            this.panel2.Location = new System.Drawing.Point(406, 37);
+            this.panel2.Location = new System.Drawing.Point(407, 14);
             this.panel2.Margin = new System.Windows.Forms.Padding(5);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(365, 200);
@@ -237,14 +231,11 @@
             // 
             // panel3
             // 
-            this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(137)))), ((int)(((byte)(204)))));
             this.panel3.Controls.Add(this.pictureEdit3);
             this.panel3.Controls.Add(this.labelControl5);
             this.panel3.Controls.Add(this.labelControl6);
-            this.panel3.Location = new System.Drawing.Point(777, 37);
+            this.panel3.Location = new System.Drawing.Point(778, 14);
             this.panel3.Margin = new System.Windows.Forms.Padding(5);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(365, 200);
@@ -289,14 +280,11 @@
             // 
             // panel4
             // 
-            this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(204)))), ((int)(((byte)(221)))));
             this.panel4.Controls.Add(this.pictureEdit4);
             this.panel4.Controls.Add(this.labelControl7);
             this.panel4.Controls.Add(this.labelControl8);
-            this.panel4.Location = new System.Drawing.Point(1148, 37);
+            this.panel4.Location = new System.Drawing.Point(1149, 14);
             this.panel4.Margin = new System.Windows.Forms.Padding(5);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(365, 200);
@@ -341,14 +329,11 @@
             // 
             // panel5
             // 
-            this.panel5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(233)))), ((int)(((byte)(148)))));
             this.panel5.Controls.Add(this.pictureEdit5);
             this.panel5.Controls.Add(this.labelControl9);
             this.panel5.Controls.Add(this.labelControl10);
-            this.panel5.Location = new System.Drawing.Point(1519, 37);
+            this.panel5.Location = new System.Drawing.Point(1520, 14);
             this.panel5.Margin = new System.Windows.Forms.Padding(5);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(365, 200);
@@ -393,13 +378,10 @@
             // 
             // panel6
             // 
-            this.panel6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(224)))), ((int)(((byte)(143)))));
             this.panel6.Controls.Add(this.labelControl11);
             this.panel6.Controls.Add(this.labelControl12);
-            this.panel6.Location = new System.Drawing.Point(1519, 228);
+            this.panel6.Location = new System.Drawing.Point(1520, 224);
             this.panel6.Margin = new System.Windows.Forms.Padding(5);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(365, 200);
@@ -431,13 +413,10 @@
             // 
             // panel7
             // 
-            this.panel7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(163)))), ((int)(((byte)(188)))));
             this.panel7.Controls.Add(this.labelControl13);
             this.panel7.Controls.Add(this.labelControl14);
-            this.panel7.Location = new System.Drawing.Point(1148, 228);
+            this.panel7.Location = new System.Drawing.Point(1149, 224);
             this.panel7.Margin = new System.Windows.Forms.Padding(5);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(365, 200);
@@ -469,13 +448,10 @@
             // 
             // panel8
             // 
-            this.panel8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(105)))), ((int)(((byte)(189)))));
             this.panel8.Controls.Add(this.labelControl15);
             this.panel8.Controls.Add(this.labelControl16);
-            this.panel8.Location = new System.Drawing.Point(777, 228);
+            this.panel8.Location = new System.Drawing.Point(778, 224);
             this.panel8.Margin = new System.Windows.Forms.Padding(5);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(365, 200);
@@ -507,13 +483,10 @@
             // 
             // panel9
             // 
-            this.panel9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(80)))), ((int)(((byte)(57)))));
             this.panel9.Controls.Add(this.labelControl17);
             this.panel9.Controls.Add(this.labelControl18);
-            this.panel9.Location = new System.Drawing.Point(406, 228);
+            this.panel9.Location = new System.Drawing.Point(407, 224);
             this.panel9.Margin = new System.Windows.Forms.Padding(5);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(365, 200);
@@ -545,13 +518,10 @@
             // 
             // panel10
             // 
-            this.panel10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(185)))), ((int)(((byte)(59)))));
             this.panel10.Controls.Add(this.labelControl19);
             this.panel10.Controls.Add(this.labelControl20);
-            this.panel10.Location = new System.Drawing.Point(35, 228);
+            this.panel10.Location = new System.Drawing.Point(36, 224);
             this.panel10.Margin = new System.Windows.Forms.Padding(5);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(365, 200);
@@ -583,13 +553,10 @@
             // 
             // panel11
             // 
-            this.panel11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(153)))), ((int)(((byte)(146)))));
             this.panel11.Controls.Add(this.labelControl21);
             this.panel11.Controls.Add(this.labelControl22);
-            this.panel11.Location = new System.Drawing.Point(1519, 616);
+            this.panel11.Location = new System.Drawing.Point(1520, 644);
             this.panel11.Margin = new System.Windows.Forms.Padding(5);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(365, 200);
@@ -621,13 +588,10 @@
             // 
             // panel12
             // 
-            this.panel12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(61)))), ((int)(((byte)(98)))));
             this.panel12.Controls.Add(this.labelControl23);
             this.panel12.Controls.Add(this.labelControl24);
-            this.panel12.Location = new System.Drawing.Point(1148, 616);
+            this.panel12.Location = new System.Drawing.Point(1149, 644);
             this.panel12.Margin = new System.Windows.Forms.Padding(5);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(365, 200);
@@ -659,13 +623,10 @@
             // 
             // panel13
             // 
-            this.panel13.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(36)))), ((int)(((byte)(97)))));
             this.panel13.Controls.Add(this.labelControl25);
             this.panel13.Controls.Add(this.labelControl26);
-            this.panel13.Location = new System.Drawing.Point(777, 616);
+            this.panel13.Location = new System.Drawing.Point(778, 644);
             this.panel13.Margin = new System.Windows.Forms.Padding(5);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(365, 200);
@@ -697,13 +658,10 @@
             // 
             // panel14
             // 
-            this.panel14.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(21)))), ((int)(((byte)(64)))));
             this.panel14.Controls.Add(this.labelControl27);
             this.panel14.Controls.Add(this.labelControl28);
-            this.panel14.Location = new System.Drawing.Point(406, 616);
+            this.panel14.Location = new System.Drawing.Point(407, 644);
             this.panel14.Margin = new System.Windows.Forms.Padding(5);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(365, 200);
@@ -735,13 +693,10 @@
             // 
             // panel15
             // 
-            this.panel15.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(142)))), ((int)(((byte)(38)))));
             this.panel15.Controls.Add(this.labelControl29);
             this.panel15.Controls.Add(this.labelControl30);
-            this.panel15.Location = new System.Drawing.Point(35, 616);
+            this.panel15.Location = new System.Drawing.Point(36, 644);
             this.panel15.Margin = new System.Windows.Forms.Padding(5);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(365, 200);
@@ -773,14 +728,11 @@
             // 
             // panel16
             // 
-            this.panel16.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(173)))), ((int)(((byte)(169)))));
             this.panel16.Controls.Add(this.pictureEdit6);
             this.panel16.Controls.Add(this.labelControl31);
             this.panel16.Controls.Add(this.labelControl32);
-            this.panel16.Location = new System.Drawing.Point(1519, 419);
+            this.panel16.Location = new System.Drawing.Point(1520, 434);
             this.panel16.Margin = new System.Windows.Forms.Padding(5);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(365, 200);
@@ -825,14 +777,11 @@
             // 
             // panel17
             // 
-            this.panel17.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(99)))), ((int)(((byte)(130)))));
             this.panel17.Controls.Add(this.pictureEdit7);
             this.panel17.Controls.Add(this.labelControl33);
             this.panel17.Controls.Add(this.labelControl34);
-            this.panel17.Location = new System.Drawing.Point(1148, 419);
+            this.panel17.Location = new System.Drawing.Point(1149, 434);
             this.panel17.Margin = new System.Windows.Forms.Padding(5);
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(365, 200);
@@ -877,14 +826,11 @@
             // 
             // panel18
             // 
-            this.panel18.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(55)))), ((int)(((byte)(153)))));
             this.panel18.Controls.Add(this.pictureEdit8);
             this.panel18.Controls.Add(this.labelControl35);
             this.panel18.Controls.Add(this.labelControl36);
-            this.panel18.Location = new System.Drawing.Point(777, 419);
+            this.panel18.Location = new System.Drawing.Point(778, 434);
             this.panel18.Margin = new System.Windows.Forms.Padding(5);
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(365, 200);
@@ -929,14 +875,11 @@
             // 
             // panel19
             // 
-            this.panel19.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(47)))), ((int)(((byte)(6)))));
             this.panel19.Controls.Add(this.pictureEdit9);
             this.panel19.Controls.Add(this.labelControl37);
             this.panel19.Controls.Add(this.labelControl38);
-            this.panel19.Location = new System.Drawing.Point(406, 419);
+            this.panel19.Location = new System.Drawing.Point(407, 434);
             this.panel19.Margin = new System.Windows.Forms.Padding(5);
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(365, 200);
@@ -945,7 +888,7 @@
             // pictureEdit9
             // 
             this.pictureEdit9.EditValue = ((object)(resources.GetObject("pictureEdit9.EditValue")));
-            this.pictureEdit9.Location = new System.Drawing.Point(177, 49);
+            this.pictureEdit9.Location = new System.Drawing.Point(239, 49);
             this.pictureEdit9.Name = "pictureEdit9";
             this.pictureEdit9.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.pictureEdit9.Properties.Appearance.Options.UseBackColor = true;
@@ -981,14 +924,11 @@
             // 
             // panel20
             // 
-            this.panel20.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(152)))), ((int)(((byte)(58)))));
             this.panel20.Controls.Add(this.pictureEdit10);
             this.panel20.Controls.Add(this.labelControl39);
             this.panel20.Controls.Add(this.labelControl40);
-            this.panel20.Location = new System.Drawing.Point(35, 419);
+            this.panel20.Location = new System.Drawing.Point(36, 434);
             this.panel20.Margin = new System.Windows.Forms.Padding(5);
             this.panel20.Name = "panel20";
             this.panel20.Size = new System.Drawing.Size(365, 200);
@@ -1057,7 +997,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "FrmIstatistik";
-            this.Text = "FrmIstatistik";
+            this.Text = "İstatistikler";
             this.Load += new System.EventHandler(this.FrmIstatistik_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

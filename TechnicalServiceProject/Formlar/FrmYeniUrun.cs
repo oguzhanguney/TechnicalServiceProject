@@ -16,10 +16,15 @@ namespace TechnicalServiceProject.Formlar
         {
             InitializeComponent();
         }
-
+        TeknikServisDBEntities db = new TeknikServisDBEntities();
         private void FrmYeniUrun_Load(object sender, EventArgs e)
         {
-
+            lookupcateg.Properties.DataSource = (from x in db.TBLCategory
+                                                 select new
+                                                 {
+                                                     x.ID,
+                                                     Kategori=x.AD
+                                                 }).ToList();
         }
 
 
@@ -46,13 +51,16 @@ namespace TechnicalServiceProject.Formlar
             p.SATISFIYAT = decimal.Parse(TxtSatisFiyat.Text);
             p.MARKA = TxtMarka.Text;
             p.STOK = short.Parse(TxtStok.Text);
-            p.KATEGORI = byte.Parse(TxtKategori.Text);
+            p.KATEGORI = byte.Parse(lookupcateg.EditValue.ToString());
             db.TBLProduct.Add(p);
             db.SaveChanges();
             MessageBox.Show("Ürün başarıyla eklendi.");
             this.Close();
         }
 
-
+        private void pictureEdit8_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

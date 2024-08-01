@@ -17,7 +17,6 @@ namespace TechnicalServiceProject.Formlar
             InitializeComponent();
         }
 
-        //
         TeknikServisDBEntities db=new TeknikServisDBEntities();
 
         void metot1()
@@ -42,14 +41,13 @@ namespace TechnicalServiceProject.Formlar
             //Listeleme
             metot1();
             //kategori listeleme
-            lookUpEdit1.Properties.DataSource = db.TBLCategory
+            lookupcateg.Properties.DataSource = db.TBLCategory
                                                 .Select(p => new {p.ID,p.AD})
                                                 .ToList();
 
         }
 
         
-
         private void BtnKaydet_Click_1(object sender, EventArgs e)
         {
             TBLProduct p = new TBLProduct();
@@ -59,7 +57,7 @@ namespace TechnicalServiceProject.Formlar
             p.SATISFIYAT = decimal.Parse(TxtSatisFiyat.Text);
             p.STOK = short.Parse(TxtStok.Text);
             p.DURUM = false;
-            p.KATEGORI=byte.Parse( lookUpEdit1.EditValue.ToString());
+            p.KATEGORI=byte.Parse( lookupcateg.EditValue.ToString());
             db.TBLProduct.Add(p);
             db.SaveChanges();
             MessageBox.Show("Ürün başarılı bir şekilde eklendi.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -79,6 +77,7 @@ namespace TechnicalServiceProject.Formlar
             TxtAlisFiyat.Text=gridView1.GetFocusedRowCellValue("ALISFIYAT").ToString();
             TxtSatisFiyat.Text=gridView1.GetFocusedRowCellValue("SATISFIYAT").ToString();
             TxtStok.Text=gridView1.GetFocusedRowCellValue("STOK").ToString();
+            lookupcateg.Text=gridView1.GetFocusedRowCellValue("KATEGORI").ToString();
         }
 
 
@@ -100,9 +99,21 @@ namespace TechnicalServiceProject.Formlar
             deger.MARKA=TxtMarka.Text;
             deger.ALISFIYAT = decimal.Parse(TxtAlisFiyat.Text);
             deger.SATISFIYAT=decimal.Parse(TxtSatisFiyat.Text);
-            deger.KATEGORI=byte.Parse(lookUpEdit1.EditValue.ToString());
+            deger.KATEGORI=byte.Parse(lookupcateg.EditValue.ToString());
             db.SaveChanges();
             MessageBox.Show("Ürün başarılı bir Şekilde güncellendi.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+        }
+
+        private void simpleButton1_Click(object sender, EventArgs e)
+        {
+            TxtID.Text = "";
+            TxtUrunAd.Text = "";
+            TxtMarka.Text = "";
+            TxtAlisFiyat.Text = "";
+            TxtSatisFiyat.Text = "";
+            TxtStok.Text = "";
+            lookupcateg.EditValue = "";
 
         }
     }

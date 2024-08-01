@@ -162,6 +162,7 @@
           <Property Name="GELISTARIHI" Type="smalldatetime" />
           <Property Name="CIKISTARIHI" Type="smalldatetime" />
           <Property Name="URUNSERINO" Type="char" MaxLength="5" />
+          <Property Name="DURUM" Type="nvarchar" MaxLength="20" />
         </EntityType>
         <EntityType Name="TBLProductMovement">
           <Key>
@@ -305,6 +306,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Function Name="maxkategoriurun" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
         <Function Name="urunkategori" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
         <EntityContainer Name="TeknikServisDBModelStoreContainer">
           <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
@@ -526,6 +528,7 @@
           <NavigationProperty Name="TBLCari" Relationship="Self.FK_TBLProductAcceptance_TBLCari" FromRole="TBLProductAcceptance" ToRole="TBLCari" />
           <NavigationProperty Name="TBLPersonnel" Relationship="Self.FK_TBLProductAcceptance_TBLPersonnel" FromRole="TBLProductAcceptance" ToRole="TBLPersonnel" />
           <Property Name="URUNSERINO" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+          <Property Name="DURUM" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="TBLProductMovement">
           <Key>
@@ -731,6 +734,7 @@
           <EntitySet Name="TBLAboutMe" EntityType="TeknikServisDBModel.TBLAboutMe" />
           <EntitySet Name="TBLContact" EntityType="TeknikServisDBModel.TBLContact" />
           <FunctionImport Name="urunkategori" ReturnType="Collection(TeknikServisDBModel.urunkategori_Result)" />
+          <FunctionImport Name="maxkategoriurun" ReturnType="Collection(String)" />
         </EntityContainer>
         <EntityType Name="TBLAboutMe">
           <Key>
@@ -904,6 +908,7 @@
           <EntitySetMapping Name="TBLProductAcceptance">
             <EntityTypeMapping TypeName="TeknikServisDBModel.TBLProductAcceptance">
               <MappingFragment StoreEntitySet="TBLProductAcceptance">
+                <ScalarProperty Name="DURUM" ColumnName="DURUM" />
                 <ScalarProperty Name="URUNSERINO" ColumnName="URUNSERINO" />
                 <ScalarProperty Name="ISLEMID" ColumnName="ISLEMID" />
                 <ScalarProperty Name="CARI" ColumnName="CARI" />
@@ -964,6 +969,7 @@
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="maxkategoriurun" FunctionName="TeknikServisDBModel.Store.maxkategoriurun" />
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>

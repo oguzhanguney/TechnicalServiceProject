@@ -16,104 +16,146 @@ namespace TechnicalServiceProject
         {
             InitializeComponent();
         }
-
+        Formlar.FrmUrunListesi fr3;
         private void BtnUrunListesiFormu_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Formlar.FrmUrunListesi fr=new Formlar.FrmUrunListesi();
-            fr.MdiParent = this;
-            fr.Show();
-
+            if (fr3 == null || fr3.IsDisposed)
+            {
+                fr3 = new Formlar.FrmUrunListesi();
+                fr3.MdiParent = this;
+                fr3.Show();
+            }
         }
 
+        Formlar.FrmCariEkle fr5;
         private void barButtonItem3_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Formlar.FrmCariEkle fr = new Formlar.FrmCariEkle();
-            fr.Show();
+            if(fr5 == null || fr5.IsDisposed)
+            {
+                fr5 = new Formlar.FrmCariEkle();
+                fr5.Show();
+            }
         }
+
 
         private void barButtonItem38_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
 
         }
 
+        Formlar.FrmYeniUrun fr6;
         private void BtnYeniUrun_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Formlar.FrmYeniUrun fr = new Formlar.FrmYeniUrun();
-            //fr.MdiParent = this;
-            fr.Show();
+            if (fr6==null||fr6.IsDisposed)
+            {
+                fr6 = new Formlar.FrmYeniUrun();
+                fr6.Show();
+            }
         }
 
+
+        Formlar.FrmCategory fr2;
         private void BtnKategori_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Formlar.FrmCategory fr = new Formlar.FrmCategory();
-            fr.MdiParent = this;
-            fr.Show();
+            if (fr2 == null || fr2.IsDisposed)
+            {
+                fr2 = new Formlar.FrmCategory();
+                fr2.MdiParent = this;
+                fr2.Show();
+            }
         }
-
+        Formlar.FrmYeniKategori fr7;
         private void BtnYeniKategori_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Formlar.FrmYeniKategori fr=new Formlar.FrmYeniKategori();
-            fr.Show();
+            if(fr7==null || fr7.IsDisposed)
+            {
+                fr7 = new Formlar.FrmYeniKategori();
+                fr7.Show();
+            }
         }
-
+        Formlar.FrmIstatistik fr4;
         private void BtnIstatistik_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Formlar.FrmIstatistik fr= new Formlar.FrmIstatistik();
-            fr.MdiParent= this;
-            fr.Show();
+            if (fr4==null||fr4.IsDisposed)
+            {
+                fr4 = new Formlar.FrmIstatistik();
+                fr4.MdiParent = this;
+                fr4.Show();
+            }
         }
-
+        Formlar.FrmMarkalar fr8;
         private void BtnMarkaIst_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Formlar.FrmMarkalar fr = new Formlar.FrmMarkalar();
-            fr.MdiParent = this;
-            fr.Show();
+            if (fr8 == null || fr8.IsDisposed)
+            {
+                fr8 = new Formlar.FrmMarkalar();
+                fr8.MdiParent = this;
+                fr8.Show();
+            }
         }
-
+        Formlar.FrmCariListesi fr9;
         private void barButtonItem13_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Formlar.FrmCariListesi fr = new Formlar.FrmCariListesi();
-            fr.MdiParent = this;
-            fr.Show();
+            if (fr9 == null || fr9.IsDisposed)
+            {
+                fr9 = new Formlar.FrmCariListesi();
+                fr9.MdiParent = this;
+                fr9.Show();
+            }
         }
-
+        Formlar.FrmCariIller fr10;
         private void barButtonItem14_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Formlar.FrmCariIller fr = new Formlar.FrmCariIller();
-            fr.MdiParent = this;
-            fr.Show();
+            if(fr10 == null || fr10.IsDisposed)
+            {
+                fr10 = new Formlar.FrmCariIller();
+                fr10.MdiParent = this;
+                fr10.Show();
+            }
         }
-
+        Formlar.FrmDepartman fr11;
         private void BtnDepList_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Formlar.FrmDepartman fr = new Formlar.FrmDepartman();
-            fr.MdiParent = this;
-            fr.Show();
+            if (fr11 == null || fr11.IsDisposed)
+            {
+                fr11 = new Formlar.FrmDepartman();
+                fr11.MdiParent = this;
+                fr11.Show();
+            }
         }
-
+        Formlar.FrmYeniDepartman fr12;
         private void BtnYeniDep_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Formlar.FrmYeniDepartman fr = new Formlar.FrmYeniDepartman();
-            fr.Show();
+            if (fr12 == null || fr12.IsDisposed)
+            {
+                fr12 = new Formlar.FrmYeniDepartman();
+                fr12.Show();
+            }
         }
-
+        Formlar.FrmPersonel fr13;
         private void BtnPersonelList_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Formlar.FrmPersonel fr = new Formlar.FrmPersonel();
-            fr.MdiParent = this;
-            fr.Show();
+            if(fr13 == null || fr13.IsDisposed)
+            {
+                fr13 = new Formlar.FrmPersonel();
+                fr13.MdiParent = this;
+                fr13.Show();
+            }
         }
 
         private void btnHesapMak_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             System.Diagnostics.Process.Start("Calc.exe");
         }
-
+        Formlar.FrmKurlar fr14;
         private void btnKurlar_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Formlar.FrmKurlar fr = new Formlar.FrmKurlar();
-            fr.MdiParent = this;
-            fr.Show();
+            if (fr14 == null || fr14.IsDisposed)
+            {
+                fr14 = new Formlar.FrmKurlar();
+                fr14.MdiParent = this;
+                fr14.Show();
+            }
         }
 
         private void btnWord_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -127,120 +169,165 @@ namespace TechnicalServiceProject
             System.Diagnostics.Process.Start("excel");
 
         }
-
+        Formlar.FrmYoutube fr15;
         private void btnYoutube_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Formlar.FrmYoutube fr = new Formlar.FrmYoutube();
-            fr.MdiParent = this;
-            fr.Show();
+            if(fr15 == null || fr15.IsDisposed)
+            {
+                fr15 = new Formlar.FrmYoutube();
+                fr15.MdiParent = this;
+                fr15.Show();
+            }
         }
-
+        Formlar.FrmNotlar fr16;
         private void btnAjanda_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Formlar.FrmNotlar fr = new Formlar.FrmNotlar();
-            fr.MdiParent = this;
-            fr.Show();
+            if(fr16 == null || fr16.IsDisposed)
+            {
+                fr16 = new Formlar.FrmNotlar();
+                fr16.MdiParent = this;
+                fr16.Show();
+            }
         }
-
+        Formlar.FrmArizaListesi fr17;
         private void btnArizalist_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Formlar.FrmArizaListesi fr = new Formlar.FrmArizaListesi();
-            fr.MdiParent = this;
-            fr.Show();
+            if (fr17 == null || fr17.IsDisposed)
+            {
+                fr17 = new Formlar.FrmArizaListesi();
+                fr17.MdiParent = this;
+                fr17.Show();
+            }
         }
-
+        Formlar.FrmUrunSatis fr18;
         private void btnUrunSatis_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Formlar.FrmUrunSatis fr = new Formlar.FrmUrunSatis();
-            fr.Show();
+            if (fr18 == null || fr18.IsDisposed)
+            {
+                fr18 = new Formlar.FrmUrunSatis();
+                fr18.Show();
+            }
         }
-
+        Formlar.FrmSatisListesi fr19;
         private void btnSatisListesi_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Formlar.FrmSatisListesi fr = new Formlar.FrmSatisListesi();
-            fr.MdiParent = this;
-            fr.Show();
+            if(fr19 == null || fr19.IsDisposed)
+            {
+                fr19 = new Formlar.FrmSatisListesi();
+                fr19.MdiParent = this;
+                fr19.Show();
+            }
         }
-
+        Formlar.FrmYeniArızalıUrunKaydı fr20;
         private void btnYeniAriza_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Formlar.FrmYeniArızalıUrunKaydı fr = new Formlar.FrmYeniArızalıUrunKaydı();
-            fr.Show();
+            if (fr20 == null || fr20.IsDisposed)
+            fr20 = new Formlar.FrmYeniArızalıUrunKaydı();
+            fr20.Show();
         }
-
+        Formlar.FrmArizaDetaylar fr21;
         private void barButtonItem10_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Formlar.FrmArizaDetaylar fr = new Formlar.FrmArizaDetaylar();
-            fr.Show();
+            if (fr21 == null || fr21.IsDisposed)
+            {
+                fr21 = new Formlar.FrmArizaDetaylar();
+                fr21.Show();
+            }
         }
-
+        Formlar.FrmArizaliUrunDetayListesi fr22;
         private void btnArizaliurundetay_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Formlar.FrmArizaliUrunDetayListesi fr = new Formlar.FrmArizaliUrunDetayListesi();
-            fr.MdiParent = this;
-            fr.Show();
+            if(fr22 == null || fr22.IsDisposed)
+            {
+                fr22 = new Formlar.FrmArizaliUrunDetayListesi();
+                fr22.MdiParent = this;
+                fr22.Show();
+            }
         }
-
+        Formlar.FrmQrCode fr23;
         private void btnQrCode_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Formlar.FrmQrCode fr = new Formlar.FrmQrCode();
-            fr.Show();
+            if (fr23 == null || fr23.IsDisposed)
+            {
+                fr23 = new Formlar.FrmQrCode();
+                fr23.Show();
+            }
         }
-
+        Formlar.FrmFaturaListesi fr24;
         private void btnFaturaListesi_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Formlar.FrmFaturaListesi fr = new Formlar.FrmFaturaListesi();
-            fr.MdiParent = this;
-            fr.Show();
+            if (fr24 == null || fr24.IsDisposed)
+            {
+                fr24 = new Formlar.FrmFaturaListesi();
+                fr24.MdiParent = this;
+                fr24.Show();
+            }
+            
         }
-
+        Formlar.FrmFaturaKalem fr25;
         private void btnfaturakalem_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Formlar.FrmFaturaKalem fr = new Formlar.FrmFaturaKalem();
-            fr.MdiParent = this;
-            fr.Show();
+            if(fr25 == null || fr25.IsDisposed)
+            {
+                fr25 = new Formlar.FrmFaturaKalem();
+                fr25.MdiParent = this;
+                fr25.Show();
+            }
         }
-
+        Formlar.FrmFaturaKalemleri fr26;
         private void btnFaturaKalemListesi_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Formlar.FrmFaturaKalemleri fr = new Formlar.FrmFaturaKalemleri();
-            fr.MdiParent = this;
-            fr.Show();
+            if (fr26 == null || fr26.IsDisposed)
+            {
+                fr26 = new Formlar.FrmFaturaKalemleri();
+                fr26.MdiParent = this;
+                fr26.Show();
+            }
         }
 
-
+        Formlar.FrmGauge fr27;
         private void btnGauge_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Formlar.FrmGauge fr = new Formlar.FrmGauge();
-            fr.MdiParent = this;
-            fr.Show();
+            if (fr27 == null || fr27.IsDisposed)
+            {
+                fr27 = new Formlar.FrmGauge();
+                fr27.MdiParent = this;
+                fr27.Show();
+            }
         }
-
+        Formlar.FrmHarita fr28;
         private void btnHaritalar_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Formlar.FrmHarita fr = new Formlar.FrmHarita();
-            fr.MdiParent = this;
-            fr.Show();
+            if (fr28 == null || fr28.IsDisposed)
+            {
+                fr28 = new Formlar.FrmHarita();
+                fr28.MdiParent = this;
+                fr28.Show();
+            }
         }
-
+        Formlar.FrmRapor fr29;
         private void btnRaporlar_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Formlar.FrmRapor fr = new Formlar.FrmRapor();
-            fr.Show();
-        }
-
-        Formlar.FrmAnaSayfa fr;
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            if (fr==null || fr.IsDisposed)
+            if(fr29 == null || fr29.IsDisposed)
             {
-                fr=new Formlar.FrmAnaSayfa();
-                fr.MdiParent = this;
-                fr.Show();
+                fr29 = new Formlar.FrmRapor();
+                fr29.Show();
             }
             
         }
 
+
+        Formlar.FrmAnaSayfa fr;
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            if (fr == null || fr.IsDisposed)
+            {
+                fr = new Formlar.FrmAnaSayfa();
+                fr.MdiParent = this;
+                fr.Show();
+            }
+
+        }
         private void btnAnaSayfa_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             if (fr == null || fr.IsDisposed)
