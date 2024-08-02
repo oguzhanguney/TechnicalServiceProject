@@ -44,6 +44,8 @@ namespace TechnicalServiceProject
         public virtual DbSet<TBLProductTracking> TBLProductTracking { get; set; }
         public virtual DbSet<TBLAboutMe> TBLAboutMe { get; set; }
         public virtual DbSet<TBLContact> TBLContact { get; set; }
+        public virtual DbSet<TBLIlceler> TBLIlceler { get; set; }
+        public virtual DbSet<TBLIller> TBLIller { get; set; }
     
         public virtual ObjectResult<urunkategori_Result> urunkategori()
         {

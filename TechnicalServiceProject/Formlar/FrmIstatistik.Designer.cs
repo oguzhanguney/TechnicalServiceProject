@@ -137,7 +137,7 @@
             this.panel1.Controls.Add(this.pictureEdit1);
             this.panel1.Controls.Add(this.labelControl2);
             this.panel1.Controls.Add(this.labelControl1);
-            this.panel1.Location = new System.Drawing.Point(36, 14);
+            this.panel1.Location = new System.Drawing.Point(36, 5);
             this.panel1.Margin = new System.Windows.Forms.Padding(5);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(365, 200);
@@ -148,6 +148,7 @@
             this.pictureEdit1.EditValue = ((object)(resources.GetObject("pictureEdit1.EditValue")));
             this.pictureEdit1.Location = new System.Drawing.Point(177, 49);
             this.pictureEdit1.Name = "pictureEdit1";
+            this.pictureEdit1.Properties.AllowFocused = false;
             this.pictureEdit1.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.pictureEdit1.Properties.Appearance.Options.UseBackColor = true;
             this.pictureEdit1.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
@@ -186,7 +187,7 @@
             this.panel2.Controls.Add(this.pictureEdit2);
             this.panel2.Controls.Add(this.labelControl3);
             this.panel2.Controls.Add(this.labelControl4);
-            this.panel2.Location = new System.Drawing.Point(407, 14);
+            this.panel2.Location = new System.Drawing.Point(407, 5);
             this.panel2.Margin = new System.Windows.Forms.Padding(5);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(365, 200);
@@ -197,6 +198,7 @@
             this.pictureEdit2.EditValue = ((object)(resources.GetObject("pictureEdit2.EditValue")));
             this.pictureEdit2.Location = new System.Drawing.Point(177, 49);
             this.pictureEdit2.Name = "pictureEdit2";
+            this.pictureEdit2.Properties.AllowFocused = false;
             this.pictureEdit2.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.pictureEdit2.Properties.Appearance.Options.UseBackColor = true;
             this.pictureEdit2.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
@@ -235,7 +237,7 @@
             this.panel3.Controls.Add(this.pictureEdit3);
             this.panel3.Controls.Add(this.labelControl5);
             this.panel3.Controls.Add(this.labelControl6);
-            this.panel3.Location = new System.Drawing.Point(778, 14);
+            this.panel3.Location = new System.Drawing.Point(778, 5);
             this.panel3.Margin = new System.Windows.Forms.Padding(5);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(365, 200);
@@ -246,6 +248,7 @@
             this.pictureEdit3.EditValue = ((object)(resources.GetObject("pictureEdit3.EditValue")));
             this.pictureEdit3.Location = new System.Drawing.Point(177, 49);
             this.pictureEdit3.Name = "pictureEdit3";
+            this.pictureEdit3.Properties.AllowFocused = false;
             this.pictureEdit3.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.pictureEdit3.Properties.Appearance.Options.UseBackColor = true;
             this.pictureEdit3.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
@@ -284,7 +287,7 @@
             this.panel4.Controls.Add(this.pictureEdit4);
             this.panel4.Controls.Add(this.labelControl7);
             this.panel4.Controls.Add(this.labelControl8);
-            this.panel4.Location = new System.Drawing.Point(1149, 14);
+            this.panel4.Location = new System.Drawing.Point(1149, 5);
             this.panel4.Margin = new System.Windows.Forms.Padding(5);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(365, 200);
@@ -295,6 +298,7 @@
             this.pictureEdit4.EditValue = ((object)(resources.GetObject("pictureEdit4.EditValue")));
             this.pictureEdit4.Location = new System.Drawing.Point(177, 49);
             this.pictureEdit4.Name = "pictureEdit4";
+            this.pictureEdit4.Properties.AllowFocused = false;
             this.pictureEdit4.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.pictureEdit4.Properties.Appearance.Options.UseBackColor = true;
             this.pictureEdit4.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
@@ -333,7 +337,7 @@
             this.panel5.Controls.Add(this.pictureEdit5);
             this.panel5.Controls.Add(this.labelControl9);
             this.panel5.Controls.Add(this.labelControl10);
-            this.panel5.Location = new System.Drawing.Point(1520, 14);
+            this.panel5.Location = new System.Drawing.Point(1520, 5);
             this.panel5.Margin = new System.Windows.Forms.Padding(5);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(365, 200);
@@ -344,6 +348,7 @@
             this.pictureEdit5.EditValue = ((object)(resources.GetObject("pictureEdit5.EditValue")));
             this.pictureEdit5.Location = new System.Drawing.Point(177, 49);
             this.pictureEdit5.Name = "pictureEdit5";
+            this.pictureEdit5.Properties.AllowFocused = false;
             this.pictureEdit5.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.pictureEdit5.Properties.Appearance.Options.UseBackColor = true;
             this.pictureEdit5.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
@@ -381,7 +386,7 @@
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(224)))), ((int)(((byte)(143)))));
             this.panel6.Controls.Add(this.labelControl11);
             this.panel6.Controls.Add(this.labelControl12);
-            this.panel6.Location = new System.Drawing.Point(1520, 224);
+            this.panel6.Location = new System.Drawing.Point(1520, 215);
             this.panel6.Margin = new System.Windows.Forms.Padding(5);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(365, 200);
@@ -416,7 +421,7 @@
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(163)))), ((int)(((byte)(188)))));
             this.panel7.Controls.Add(this.labelControl13);
             this.panel7.Controls.Add(this.labelControl14);
-            this.panel7.Location = new System.Drawing.Point(1149, 224);
+            this.panel7.Location = new System.Drawing.Point(1149, 215);
             this.panel7.Margin = new System.Windows.Forms.Padding(5);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(365, 200);
@@ -451,7 +456,7 @@
             this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(105)))), ((int)(((byte)(189)))));
             this.panel8.Controls.Add(this.labelControl15);
             this.panel8.Controls.Add(this.labelControl16);
-            this.panel8.Location = new System.Drawing.Point(778, 224);
+            this.panel8.Location = new System.Drawing.Point(778, 215);
             this.panel8.Margin = new System.Windows.Forms.Padding(5);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(365, 200);
@@ -486,7 +491,7 @@
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(80)))), ((int)(((byte)(57)))));
             this.panel9.Controls.Add(this.labelControl17);
             this.panel9.Controls.Add(this.labelControl18);
-            this.panel9.Location = new System.Drawing.Point(407, 224);
+            this.panel9.Location = new System.Drawing.Point(407, 215);
             this.panel9.Margin = new System.Windows.Forms.Padding(5);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(365, 200);
@@ -521,7 +526,7 @@
             this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(185)))), ((int)(((byte)(59)))));
             this.panel10.Controls.Add(this.labelControl19);
             this.panel10.Controls.Add(this.labelControl20);
-            this.panel10.Location = new System.Drawing.Point(36, 224);
+            this.panel10.Location = new System.Drawing.Point(36, 215);
             this.panel10.Margin = new System.Windows.Forms.Padding(5);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(365, 200);
@@ -556,7 +561,7 @@
             this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(153)))), ((int)(((byte)(146)))));
             this.panel11.Controls.Add(this.labelControl21);
             this.panel11.Controls.Add(this.labelControl22);
-            this.panel11.Location = new System.Drawing.Point(1520, 644);
+            this.panel11.Location = new System.Drawing.Point(1520, 635);
             this.panel11.Margin = new System.Windows.Forms.Padding(5);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(365, 200);
@@ -591,7 +596,7 @@
             this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(61)))), ((int)(((byte)(98)))));
             this.panel12.Controls.Add(this.labelControl23);
             this.panel12.Controls.Add(this.labelControl24);
-            this.panel12.Location = new System.Drawing.Point(1149, 644);
+            this.panel12.Location = new System.Drawing.Point(1149, 635);
             this.panel12.Margin = new System.Windows.Forms.Padding(5);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(365, 200);
@@ -626,7 +631,7 @@
             this.panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(36)))), ((int)(((byte)(97)))));
             this.panel13.Controls.Add(this.labelControl25);
             this.panel13.Controls.Add(this.labelControl26);
-            this.panel13.Location = new System.Drawing.Point(778, 644);
+            this.panel13.Location = new System.Drawing.Point(778, 635);
             this.panel13.Margin = new System.Windows.Forms.Padding(5);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(365, 200);
@@ -661,7 +666,7 @@
             this.panel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(21)))), ((int)(((byte)(64)))));
             this.panel14.Controls.Add(this.labelControl27);
             this.panel14.Controls.Add(this.labelControl28);
-            this.panel14.Location = new System.Drawing.Point(407, 644);
+            this.panel14.Location = new System.Drawing.Point(407, 635);
             this.panel14.Margin = new System.Windows.Forms.Padding(5);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(365, 200);
@@ -696,7 +701,7 @@
             this.panel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(142)))), ((int)(((byte)(38)))));
             this.panel15.Controls.Add(this.labelControl29);
             this.panel15.Controls.Add(this.labelControl30);
-            this.panel15.Location = new System.Drawing.Point(36, 644);
+            this.panel15.Location = new System.Drawing.Point(36, 635);
             this.panel15.Margin = new System.Windows.Forms.Padding(5);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(365, 200);
@@ -732,7 +737,7 @@
             this.panel16.Controls.Add(this.pictureEdit6);
             this.panel16.Controls.Add(this.labelControl31);
             this.panel16.Controls.Add(this.labelControl32);
-            this.panel16.Location = new System.Drawing.Point(1520, 434);
+            this.panel16.Location = new System.Drawing.Point(1520, 425);
             this.panel16.Margin = new System.Windows.Forms.Padding(5);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(365, 200);
@@ -743,6 +748,7 @@
             this.pictureEdit6.EditValue = ((object)(resources.GetObject("pictureEdit6.EditValue")));
             this.pictureEdit6.Location = new System.Drawing.Point(177, 49);
             this.pictureEdit6.Name = "pictureEdit6";
+            this.pictureEdit6.Properties.AllowFocused = false;
             this.pictureEdit6.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.pictureEdit6.Properties.Appearance.Options.UseBackColor = true;
             this.pictureEdit6.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
@@ -781,7 +787,7 @@
             this.panel17.Controls.Add(this.pictureEdit7);
             this.panel17.Controls.Add(this.labelControl33);
             this.panel17.Controls.Add(this.labelControl34);
-            this.panel17.Location = new System.Drawing.Point(1149, 434);
+            this.panel17.Location = new System.Drawing.Point(1149, 425);
             this.panel17.Margin = new System.Windows.Forms.Padding(5);
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(365, 200);
@@ -792,6 +798,7 @@
             this.pictureEdit7.EditValue = ((object)(resources.GetObject("pictureEdit7.EditValue")));
             this.pictureEdit7.Location = new System.Drawing.Point(177, 49);
             this.pictureEdit7.Name = "pictureEdit7";
+            this.pictureEdit7.Properties.AllowFocused = false;
             this.pictureEdit7.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.pictureEdit7.Properties.Appearance.Options.UseBackColor = true;
             this.pictureEdit7.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
@@ -830,7 +837,7 @@
             this.panel18.Controls.Add(this.pictureEdit8);
             this.panel18.Controls.Add(this.labelControl35);
             this.panel18.Controls.Add(this.labelControl36);
-            this.panel18.Location = new System.Drawing.Point(778, 434);
+            this.panel18.Location = new System.Drawing.Point(778, 425);
             this.panel18.Margin = new System.Windows.Forms.Padding(5);
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(365, 200);
@@ -841,6 +848,7 @@
             this.pictureEdit8.EditValue = ((object)(resources.GetObject("pictureEdit8.EditValue")));
             this.pictureEdit8.Location = new System.Drawing.Point(177, 49);
             this.pictureEdit8.Name = "pictureEdit8";
+            this.pictureEdit8.Properties.AllowFocused = false;
             this.pictureEdit8.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.pictureEdit8.Properties.Appearance.Options.UseBackColor = true;
             this.pictureEdit8.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
@@ -879,7 +887,7 @@
             this.panel19.Controls.Add(this.pictureEdit9);
             this.panel19.Controls.Add(this.labelControl37);
             this.panel19.Controls.Add(this.labelControl38);
-            this.panel19.Location = new System.Drawing.Point(407, 434);
+            this.panel19.Location = new System.Drawing.Point(407, 425);
             this.panel19.Margin = new System.Windows.Forms.Padding(5);
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(365, 200);
@@ -890,6 +898,7 @@
             this.pictureEdit9.EditValue = ((object)(resources.GetObject("pictureEdit9.EditValue")));
             this.pictureEdit9.Location = new System.Drawing.Point(239, 49);
             this.pictureEdit9.Name = "pictureEdit9";
+            this.pictureEdit9.Properties.AllowFocused = false;
             this.pictureEdit9.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.pictureEdit9.Properties.Appearance.Options.UseBackColor = true;
             this.pictureEdit9.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
@@ -928,7 +937,7 @@
             this.panel20.Controls.Add(this.pictureEdit10);
             this.panel20.Controls.Add(this.labelControl39);
             this.panel20.Controls.Add(this.labelControl40);
-            this.panel20.Location = new System.Drawing.Point(36, 434);
+            this.panel20.Location = new System.Drawing.Point(36, 425);
             this.panel20.Margin = new System.Windows.Forms.Padding(5);
             this.panel20.Name = "panel20";
             this.panel20.Size = new System.Drawing.Size(365, 200);
@@ -939,6 +948,7 @@
             this.pictureEdit10.EditValue = ((object)(resources.GetObject("pictureEdit10.EditValue")));
             this.pictureEdit10.Location = new System.Drawing.Point(177, 49);
             this.pictureEdit10.Name = "pictureEdit10";
+            this.pictureEdit10.Properties.AllowFocused = false;
             this.pictureEdit10.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.pictureEdit10.Properties.Appearance.Options.UseBackColor = true;
             this.pictureEdit10.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;

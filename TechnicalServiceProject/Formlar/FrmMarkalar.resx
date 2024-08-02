@@ -603,31 +603,6 @@ Her markanın sahip olduğu ürün çeşitliliği ve stok miktarları, markanın
     <value>Ürün çeşitliliği ve bu ürünlerin kategorilere göre dağılımı, bir işletmenin pazar stratejisinin önemli bir parçasıdır. 
 Aşağıda, ürünlerin farklı kategorilerdeki dağılımını gösteren bir çizgi grafik (line chart) bulunmaktadır.</value>
   </data>
-  <data name="pictureEdit8.EditValue" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DAAACwwBP0AiyAAABIlJREFUaEPtmFnIVVUYhk/mVGkZFg0aUlSUGUYQUYIXduUARjl1U2IDYYMgRN41
-        QaVXEt4YphDiAAoO1UUOIYFDaGVWN9E83ZhWlhqY+T7fXt//r3//e/Ccs495YD/wcM73rXXWXvvsvdew
-        GzU1NTU1gcFysfxF/ixfC7mu43X5X8pXZdfBVaDz98oJ4Tu5c8J98qLka9v4VXDScTvQx0nJ1/5cI/+W
-        X8lLSLTI9XKh9I7/IY9E8aPyctkq9I0+/iWvJpFmmeRAGyxqHk6A3/4rvdN5npBL5AjZChsl7bxhUcRV
-        8h95St5KIjBHLpAXWpTPA5J/iMa5qm/K++UYeXGQ7+SWS+pQ92s5XhbBsekDfXHGSvp6Ul5JwnlW0vAm
-        ixKGyu8l+ekkcpgm/SqskZmXOwV11kp+c1TeLvPg5Kn3nRxCIrBFkn/aosA+SXKmRQlPSXIH5AASGdwo
-        f5fUe5lEE1wgX5H8lj9suMyCY38iqfckicBsSW6PReI6SYKHMh6x9kvyD1qUzTpJHT7pWLPwG54r2lhK
-        Igf+YOp8ZFECfaXPp+VoEl7pHYIA9yC5wzJvNr5Zcksdl4x4rUInuNdpZySJDLilfOS7hUTgXUluBgGj
-        B8ELBIFnJLm3LMrmOUmdFRa1x9uStvrc7ylWyXSdFyU5lkKNHSGYQhBYLck9ZlE270vqFN16Z8tDkraK
-        hv4nJHU4aYeBhtx2gs9DwO3kfCbJ3WFRNgyd1GH+aJebJG3RZh53Sup8alHCOEmOc2j8GoJ42MzKpfF5
-        o51VgHOppK0/LcrmWkmdnyxK8Jyt4XjICOIRy3PMJXlQjlVR1h79o5y+OX1yLBcI4k5nnVwayrEqytrj
-        ylPOneCwYiBnJ8LGhyAeQn+U5Gx8zoFyrIqy9ljiUM7k6YyS5Ox284f9NoLAx5Lc3RZlQzlWRVl790jK
-        magdf9gPETB0EcTD70pJjvkkD8qxKsra8/VgPG/58LuNgMmEIJ4QH5fkWHrkQTlWRVl76yXl7GeclyQ5
-        ttU2vRMw3Ts3SNYwx2Te8Fp24GYpam+YpC/0KZ633pP8xiZlFo1USC8aP5RUetii/hQduBWK2psrKdtl
-        UQIjFvNOz6IR9koqzrIoYZ4kx4OUXsZfISn7zaJq4I+kzcss6oWN1ReSskdIBHwZv9uigD9Imy1KYNX7
-        jSTPDjBmoiTP6FYVPnreZVEv3DbkWb4MIhHYKsmzb+oh3urGay6uECc50KJe/J1V0R6iWdgC02Y86ADH
-        pg/x3cJUwRai31YX/OUDG/si+Ff8nVXuK5kWmCxpk8k43tJmkfvyAc72dRD3KY18KVvZFebBc8ixaXs+
-        iRxKXwdB2Qs61mPfSg4WP3hVwf6Htn+QRQtW+tjW3eCT50FZ9oqoFWjT90K26+sErLsYDHjIeJfbKTp+
-        HHZm/FPn0ng3WBkfyKyDddKd8n+DZQOdYBuaxvcPvNQ77/G3Ms9b1JdFkjJ763G+M1XSWVYKnAxXBvlO
-        jjImv66A98B0OEv2EF0FO05uIZ4Z5HvXXImampqaTtJonAFOZZgRWSSFPAAAAABJRU5ErkJggg==
-</value>
-  </data>
   <data name="pictureEdit9.EditValue" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
@@ -646,32 +621,6 @@ Aşağıda, ürünlerin farklı kategorilerdeki dağılımını gösteren bir ç
         Cqpd1RUB1QedJynWYLSmaJV29zx60ONTlVQxwd1gqpqoHbS7C88yiCLlR2/PsQ1V8bldawNYlY0ongJk
         HUQRPfhROUbFtrocgNtx117URY80dK6oBzu54rMv01Z8xGfUfGBAqbvTDcxHOBRVAEfFh2rGEpdO5y9h
         0oRXYbH73wAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="pictureEdit10.EditValue" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DAAACwwBP0AiyAAABMFJREFUaEPtmVeoJEUUQMe8KmJaE4JZXHRVRMQIJvwRRAzsh8uqC34YcBVRRMUA
-        gulDxYCIoIhZ1A8jiC6ru2BABbOYc0AMiDmfU8+Lbb3uoae7p2eRd+Dwpup19VR1pVs9gwmyMR6Lt+JT
-        +B5+ii/iQ3gW7orLLdvijfgL/lXwN/w+y9Nn8TBcblgBT8If0Qp+gZfhQbg+BmvgXDwV7alo0H1YvG4i
-        2Ijr0QrZkNNwdazDvvgKWvYd3BQnxqVoRd7HHcwYERt9C3qP13Ed7J198E/8HLc2o4TN8BJ0+NyAZXNi
-        JbwbbYy92zvPo19+ZEpNZ0eMSf4Z/vrP5yswZ238BP/Anc3oC7/MSj2dUuXchV5zREoNBtvgd2gvlg2h
-        E9DrL0+pnjgP/dKTU6ocG3AcuiAEr6Lltkup/7Ie2mvvplRP3IRWyHlSBxtzNlrmZVwRy3gTf8eVU6oH
-        HsaqJ5uzKt6PXv8CboFVLEOv2yileiBWmQNSajjz0WttzCwzhvAWtu4Rh8md6OphmPEx3oF7Y07MkUUp
-        NZxT8Gs8JKWqcXd3jrg5NsLWX4tWrMqrsfiUtkdXn5dSqhtORL+r8aoVjfgBz8Wt0HHtJmfafP9/DRZZ
-        jObH8lrFArTBx6RUOS7HRsjuIzuZMSoOp2jE7maUsAdGY4rDbDd0CH6D7hFVPIiWdYEow539HvSa68xo
-        gnPAG/jkhxFz4raU+pfT0fwPsOqMYcR7MbrT5xhreW7xHu4x7vCNcGJ7E4fTMHziXucCkHMBOl9+wnlm
-        1GR/fA2979vYKvqNQ5BzYhirodf9nFLTOR/9f8RR7hX74bopNcWaaGhjqP8Mer3ei+7qrYgeqYpeg+iR
-        j1JqOlei/z8a3SRdQqOiNj7mWFHjtEOxE+rOkXji+RyR2eg+YWVdOqPSj6MnQedPnNkfwDNxF+wUVyG/
-        1C93dSpjT/T05zzwc47nDO8Ruqn5gqEYLPaCm100xtXJYeaccTjZE3EWvwpzDFG+Qs8bz+FFuDlOBHds
-        N7viUy1qT9iI3iLStuyFt6MT2tXMv86JsuE0wwwVGN8sxCX4LZbNjVzniq99LkQ3yIlj3L8Uyypb10ew
-        6rjaC/ZENMKnexQWw4hhWPZA9JWo5c/BieFwikY0PRf7Ttdzgy+ny06PLtPu3gaCXhe9GPogW/MEejN7
-        og2+PfQ+PpBij7qbR9hT5ZfYGg9B3qzucKpiFYw36kavgcPNPL/HgNDrxAYaGfs/D1qt8UbaBVtirHjH
-        48HoUFI/Bx6oHkWv8w2J4X1rumyIeJDyfsZj0du+iAvOQCtvvjFZ1Xvikem6IVKMfh1mEfXaCPPsIcP7
-        1oenInlDPKk51kfBVcdId8OUmvolynt4UFrLDDgcY5h11gtF8obk6TpEGd/hRmOKeGiKnxPslbGQVzxP
-        1yHKqL8ybYKBv+h+iP7vZjPGRVQgyNN1iDL2SPzdAH2vG0uyw2+s8VhUIsjTdYgyDqtojCuSm6Of/X3D
-        ho2VqESQp+tQLGOFH8PIewOb/Cg6MsVKSJ6uQ17G5XYOOsljJx87eSXydB2alOmcvBJNKtWkTOfklWhS
-        qSZlOievRJNKNSnTOa7vT059TOTpOjQpM8P/hMHgbzPqpexKUChAAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="pictureEdit11.EditValue" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -707,6 +656,57 @@ Aşağıda, ürünlerin farklı kategorilerdeki dağılımını gösteren bir ç
         cLsmbATPsqJUzqKd3PuMjZObsZxJSiUwFO3grrObT7ExhrADPsSKNDahjbcnpXzgctSYjC2Vi2jjqUkp
         HxiLMfkmKJXwBaYlpXwwHY3J3Y9U1qKNfWk32IrIGMMNNKbVVqRh7hNexOVJXyCW/DrKfGQnumqq7WSV
         1Bh2YCXysCpVmhg1Nf8AU7gii7P88hYAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="pictureEdit10.EditValue" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAABMFJREFUaEPtmVeoJEUUQMe8KmJaE4JZXHRVRMQIJvwRRAzsh8uqC34YcBVRRMUA
+        gulDxYCIoIhZ1A8jiC6ru2BABbOYc0AMiDmfU8+Lbb3uoae7p2eRd+Dwpup19VR1pVs9gwmyMR6Lt+JT
+        +B5+ii/iQ3gW7orLLdvijfgL/lXwN/w+y9Nn8TBcblgBT8If0Qp+gZfhQbg+BmvgXDwV7alo0H1YvG4i
+        2Ijr0QrZkNNwdazDvvgKWvYd3BQnxqVoRd7HHcwYERt9C3qP13Ed7J198E/8HLc2o4TN8BJ0+NyAZXNi
+        JbwbbYy92zvPo19+ZEpNZ0eMSf4Z/vrP5yswZ238BP/Anc3oC7/MSj2dUuXchV5zREoNBtvgd2gvlg2h
+        E9DrL0+pnjgP/dKTU6ocG3AcuiAEr6Lltkup/7Ie2mvvplRP3IRWyHlSBxtzNlrmZVwRy3gTf8eVU6oH
+        HsaqJ5uzKt6PXv8CboFVLEOv2yileiBWmQNSajjz0WttzCwzhvAWtu4Rh8md6OphmPEx3oF7Y07MkUUp
+        NZxT8Gs8JKWqcXd3jrg5NsLWX4tWrMqrsfiUtkdXn5dSqhtORL+r8aoVjfgBz8Wt0HHtJmfafP9/DRZZ
+        jObH8lrFArTBx6RUOS7HRsjuIzuZMSoOp2jE7maUsAdGY4rDbDd0CH6D7hFVPIiWdYEow539HvSa68xo
+        gnPAG/jkhxFz4raU+pfT0fwPsOqMYcR7MbrT5xhreW7xHu4x7vCNcGJ7E4fTMHziXucCkHMBOl9+wnlm
+        1GR/fA2979vYKvqNQ5BzYhirodf9nFLTOR/9f8RR7hX74bopNcWaaGhjqP8Mer3ei+7qrYgeqYpeg+iR
+        j1JqOlei/z8a3SRdQqOiNj7mWFHjtEOxE+rOkXji+RyR2eg+YWVdOqPSj6MnQedPnNkfwDNxF+wUVyG/
+        1C93dSpjT/T05zzwc47nDO8Ruqn5gqEYLPaCm100xtXJYeaccTjZE3EWvwpzDFG+Qs8bz+FFuDlOBHds
+        N7viUy1qT9iI3iLStuyFt6MT2tXMv86JsuE0wwwVGN8sxCX4LZbNjVzniq99LkQ3yIlj3L8Uyypb10ew
+        6rjaC/ZENMKnexQWw4hhWPZA9JWo5c/BieFwikY0PRf7Ttdzgy+ny06PLtPu3gaCXhe9GPogW/MEejN7
+        og2+PfQ+PpBij7qbR9hT5ZfYGg9B3qzucKpiFYw36kavgcPNPL/HgNDrxAYaGfs/D1qt8UbaBVtirHjH
+        48HoUFI/Bx6oHkWv8w2J4X1rumyIeJDyfsZj0du+iAvOQCtvvjFZ1Xvikem6IVKMfh1mEfXaCPPsIcP7
+        1oenInlDPKk51kfBVcdId8OUmvolynt4UFrLDDgcY5h11gtF8obk6TpEGd/hRmOKeGiKnxPslbGQVzxP
+        1yHKqL8ybYKBv+h+iP7vZjPGRVQgyNN1iDL2SPzdAH2vG0uyw2+s8VhUIsjTdYgyDqtojCuSm6Of/X3D
+        ho2VqESQp+tQLGOFH8PIewOb/Cg6MsVKSJ6uQ17G5XYOOsljJx87eSXydB2alOmcvBJNKtWkTOfklWhS
+        qSZlOievRJNKNSnTOa7vT059TOTpOjQpM8P/hMHgbzPqpexKUChAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="pictureEdit8.EditValue" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAABIlJREFUaEPtmFnIVVUYhk/mVGkZFg0aUlSUGUYQUYIXduUARjl1U2IDYYMgRN41
+        QaVXEt4YphDiAAoO1UUOIYFDaGVWN9E83ZhWlhqY+T7fXt//r3//e/Ccs495YD/wcM73rXXWXvvsvdew
+        GzU1NTU1gcFysfxF/ixfC7mu43X5X8pXZdfBVaDz98oJ4Tu5c8J98qLka9v4VXDScTvQx0nJ1/5cI/+W
+        X8lLSLTI9XKh9I7/IY9E8aPyctkq9I0+/iWvJpFmmeRAGyxqHk6A3/4rvdN5npBL5AjZChsl7bxhUcRV
+        8h95St5KIjBHLpAXWpTPA5J/iMa5qm/K++UYeXGQ7+SWS+pQ92s5XhbBsekDfXHGSvp6Ul5JwnlW0vAm
+        ixKGyu8l+ekkcpgm/SqskZmXOwV11kp+c1TeLvPg5Kn3nRxCIrBFkn/aosA+SXKmRQlPSXIH5AASGdwo
+        f5fUe5lEE1wgX5H8lj9suMyCY38iqfckicBsSW6PReI6SYKHMh6x9kvyD1qUzTpJHT7pWLPwG54r2lhK
+        Igf+YOp8ZFECfaXPp+VoEl7pHYIA9yC5wzJvNr5Zcksdl4x4rUInuNdpZySJDLilfOS7hUTgXUluBgGj
+        B8ELBIFnJLm3LMrmOUmdFRa1x9uStvrc7ylWyXSdFyU5lkKNHSGYQhBYLck9ZlE270vqFN16Z8tDkraK
+        hv4nJHU4aYeBhtx2gs9DwO3kfCbJ3WFRNgyd1GH+aJebJG3RZh53Sup8alHCOEmOc2j8GoJ42MzKpfF5
+        o51VgHOppK0/LcrmWkmdnyxK8Jyt4XjICOIRy3PMJXlQjlVR1h79o5y+OX1yLBcI4k5nnVwayrEqytrj
+        ylPOneCwYiBnJ8LGhyAeQn+U5Gx8zoFyrIqy9ljiUM7k6YyS5Ox284f9NoLAx5Lc3RZlQzlWRVl790jK
+        magdf9gPETB0EcTD70pJjvkkD8qxKsra8/VgPG/58LuNgMmEIJ4QH5fkWHrkQTlWRVl76yXl7GeclyQ5
+        ttU2vRMw3Ts3SNYwx2Te8Fp24GYpam+YpC/0KZ633pP8xiZlFo1USC8aP5RUetii/hQduBWK2psrKdtl
+        UQIjFvNOz6IR9koqzrIoYZ4kx4OUXsZfISn7zaJq4I+kzcss6oWN1ReSskdIBHwZv9uigD9Imy1KYNX7
+        jSTPDjBmoiTP6FYVPnreZVEv3DbkWb4MIhHYKsmzb+oh3urGay6uECc50KJe/J1V0R6iWdgC02Y86ADH
+        pg/x3cJUwRai31YX/OUDG/si+Ff8nVXuK5kWmCxpk8k43tJmkfvyAc72dRD3KY18KVvZFebBc8ixaXs+
+        iRxKXwdB2Qs61mPfSg4WP3hVwf6Htn+QRQtW+tjW3eCT50FZ9oqoFWjT90K26+sErLsYDHjIeJfbKTp+
+        HHZm/FPn0ng3WBkfyKyDddKd8n+DZQOdYBuaxvcPvNQ77/G3Ms9b1JdFkjJ763G+M1XSWVYKnAxXBvlO
+        jjImv66A98B0OEv2EF0FO05uIZ4Z5HvXXImampqaTtJonAFOZZgRWSSFPAAAAABJRU5ErkJggg==
 </value>
   </data>
 </root>

@@ -45,11 +45,12 @@
             this.TxtCariAd = new DevExpress.XtraEditors.TextEdit();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.Txtmail = new DevExpress.XtraEditors.TextEdit();
             this.xyz = new DevExpress.XtraEditors.LabelControl();
             this.Txtbank = new DevExpress.XtraEditors.TextEdit();
-            this.lookUpEdit3 = new DevExpress.XtraEditors.LookUpEdit();
             this.lookUpEdit2 = new DevExpress.XtraEditors.LookUpEdit();
+            this.lookUpEdit1 = new DevExpress.XtraEditors.LookUpEdit();
             this.Txtadr = new DevExpress.XtraEditors.TextEdit();
             this.labelControl10 = new DevExpress.XtraEditors.LabelControl();
             this.Txtstat = new DevExpress.XtraEditors.TextEdit();
@@ -84,8 +85,8 @@
             this.groupControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Txtmail.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Txtbank.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit3.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Txtadr.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Txtstat.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Txtvergino.Properties)).BeginInit();
@@ -124,11 +125,11 @@
             // 
             this.BtnListele.Appearance.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnListele.Appearance.Options.UseFont = true;
-            this.BtnListele.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnListele.ImageOptions.Image")));
+            this.BtnListele.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("BtnListele.ImageOptions.SvgImage")));
             this.BtnListele.Location = new System.Drawing.Point(165, 543);
             this.BtnListele.Name = "BtnListele";
             this.BtnListele.Size = new System.Drawing.Size(328, 41);
-            this.BtnListele.TabIndex = 42;
+            this.BtnListele.TabIndex = 15;
             this.BtnListele.Text = "LİSTELE";
             this.BtnListele.Click += new System.EventHandler(this.BtnListele_Click);
             // 
@@ -136,11 +137,11 @@
             // 
             this.BtnGuncelle.Appearance.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnGuncelle.Appearance.Options.UseFont = true;
-            this.BtnGuncelle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnGuncelle.ImageOptions.Image")));
+            this.BtnGuncelle.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("BtnGuncelle.ImageOptions.SvgImage")));
             this.BtnGuncelle.Location = new System.Drawing.Point(165, 496);
             this.BtnGuncelle.Name = "BtnGuncelle";
             this.BtnGuncelle.Size = new System.Drawing.Size(328, 41);
-            this.BtnGuncelle.TabIndex = 41;
+            this.BtnGuncelle.TabIndex = 14;
             this.BtnGuncelle.Text = "GÜNCELLE";
             this.BtnGuncelle.Click += new System.EventHandler(this.BtnGuncelle_Click);
             // 
@@ -148,11 +149,11 @@
             // 
             this.BtnSil.Appearance.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnSil.Appearance.Options.UseFont = true;
-            this.BtnSil.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnSil.ImageOptions.Image")));
+            this.BtnSil.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("BtnSil.ImageOptions.SvgImage")));
             this.BtnSil.Location = new System.Drawing.Point(165, 449);
             this.BtnSil.Name = "BtnSil";
             this.BtnSil.Size = new System.Drawing.Size(328, 41);
-            this.BtnSil.TabIndex = 40;
+            this.BtnSil.TabIndex = 13;
             this.BtnSil.Text = "SİL";
             this.BtnSil.Click += new System.EventHandler(this.BtnSil_Click);
             // 
@@ -160,11 +161,11 @@
             // 
             this.BtnKaydet.Appearance.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnKaydet.Appearance.Options.UseFont = true;
-            this.BtnKaydet.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnKaydet.ImageOptions.Image")));
+            this.BtnKaydet.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("BtnKaydet.ImageOptions.SvgImage")));
             this.BtnKaydet.Location = new System.Drawing.Point(165, 402);
             this.BtnKaydet.Name = "BtnKaydet";
             this.BtnKaydet.Size = new System.Drawing.Size(328, 41);
-            this.BtnKaydet.TabIndex = 39;
+            this.BtnKaydet.TabIndex = 12;
             this.BtnKaydet.Text = "EKLE";
             this.BtnKaydet.Click += new System.EventHandler(this.BtnKaydet_Click);
             // 
@@ -202,10 +203,8 @@
             // 
             this.Txttel.Location = new System.Drawing.Point(165, 158);
             this.Txttel.Name = "Txttel";
-            this.Txttel.Properties.MaskSettings.Set("MaskManagerType", typeof(DevExpress.Data.Mask.RegExpMaskManager));
-            this.Txttel.Properties.MaskSettings.Set("mask", "(\\(\\d\\d\\d\\) )?\\d{1,3}-\\d\\d-\\d\\d");
             this.Txttel.Size = new System.Drawing.Size(328, 20);
-            this.Txttel.TabIndex = 32;
+            this.Txttel.TabIndex = 3;
             // 
             // labelControl4
             // 
@@ -222,7 +221,7 @@
             this.Txtcarsoyad.Location = new System.Drawing.Point(165, 132);
             this.Txtcarsoyad.Name = "Txtcarsoyad";
             this.Txtcarsoyad.Size = new System.Drawing.Size(328, 20);
-            this.Txtcarsoyad.TabIndex = 20;
+            this.Txtcarsoyad.TabIndex = 2;
             // 
             // labelControl2
             // 
@@ -239,7 +238,7 @@
             this.TxtCariAd.Location = new System.Drawing.Point(165, 106);
             this.TxtCariAd.Name = "TxtCariAd";
             this.TxtCariAd.Size = new System.Drawing.Size(328, 20);
-            this.TxtCariAd.TabIndex = 4;
+            this.TxtCariAd.TabIndex = 1;
             // 
             // labelControl1
             // 
@@ -255,11 +254,12 @@
             // 
             this.groupControl1.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(85)))), ((int)(((byte)(186)))));
             this.groupControl1.Appearance.Options.UseBackColor = true;
+            this.groupControl1.Controls.Add(this.simpleButton1);
             this.groupControl1.Controls.Add(this.Txtmail);
             this.groupControl1.Controls.Add(this.xyz);
             this.groupControl1.Controls.Add(this.Txtbank);
-            this.groupControl1.Controls.Add(this.lookUpEdit3);
             this.groupControl1.Controls.Add(this.lookUpEdit2);
+            this.groupControl1.Controls.Add(this.lookUpEdit1);
             this.groupControl1.Controls.Add(this.Txtadr);
             this.groupControl1.Controls.Add(this.labelControl10);
             this.groupControl1.Controls.Add(this.Txtstat);
@@ -289,14 +289,24 @@
             this.groupControl1.TabIndex = 3;
             this.groupControl1.Text = "CARİ İŞLEMLERİ";
             // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Appearance.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.simpleButton1.Appearance.Options.UseFont = true;
+            this.simpleButton1.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("simpleButton1.ImageOptions.SvgImage")));
+            this.simpleButton1.Location = new System.Drawing.Point(165, 590);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(328, 41);
+            this.simpleButton1.TabIndex = 16;
+            this.simpleButton1.Text = "TEMİZLE";
+            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
+            // 
             // Txtmail
             // 
             this.Txtmail.Location = new System.Drawing.Point(165, 184);
             this.Txtmail.Name = "Txtmail";
-            this.Txtmail.Properties.MaskSettings.Set("MaskManagerType", typeof(DevExpress.Data.Mask.RegExpMaskManager));
-            this.Txtmail.Properties.MaskSettings.Set("mask", "(\\(\\d\\d\\d\\) )?\\d{1,3}-\\d\\d-\\d\\d");
             this.Txtmail.Size = new System.Drawing.Size(328, 20);
-            this.Txtmail.TabIndex = 57;
+            this.Txtmail.TabIndex = 4;
             // 
             // xyz
             // 
@@ -313,38 +323,39 @@
             this.Txtbank.Location = new System.Drawing.Point(165, 266);
             this.Txtbank.Name = "Txtbank";
             this.Txtbank.Size = new System.Drawing.Size(328, 20);
-            this.Txtbank.TabIndex = 55;
-            // 
-            // lookUpEdit3
-            // 
-            this.lookUpEdit3.Location = new System.Drawing.Point(165, 240);
-            this.lookUpEdit3.Name = "lookUpEdit3";
-            this.lookUpEdit3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.lookUpEdit3.Properties.DisplayMember = "AD";
-            this.lookUpEdit3.Properties.NullText = "";
-            this.lookUpEdit3.Properties.ValueMember = "ID";
-            this.lookUpEdit3.Size = new System.Drawing.Size(328, 20);
-            this.lookUpEdit3.TabIndex = 54;
+            this.Txtbank.TabIndex = 7;
             // 
             // lookUpEdit2
             // 
-            this.lookUpEdit2.Location = new System.Drawing.Point(165, 214);
+            this.lookUpEdit2.Location = new System.Drawing.Point(165, 240);
             this.lookUpEdit2.Name = "lookUpEdit2";
             this.lookUpEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.lookUpEdit2.Properties.DisplayMember = "AD";
+            this.lookUpEdit2.Properties.DisplayMember = "ilce";
             this.lookUpEdit2.Properties.NullText = "";
-            this.lookUpEdit2.Properties.ValueMember = "ID";
+            this.lookUpEdit2.Properties.ValueMember = "id";
             this.lookUpEdit2.Size = new System.Drawing.Size(328, 20);
-            this.lookUpEdit2.TabIndex = 53;
+            this.lookUpEdit2.TabIndex = 6;
+            // 
+            // lookUpEdit1
+            // 
+            this.lookUpEdit1.Location = new System.Drawing.Point(165, 214);
+            this.lookUpEdit1.Name = "lookUpEdit1";
+            this.lookUpEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.lookUpEdit1.Properties.DisplayMember = "sehir";
+            this.lookUpEdit1.Properties.NullText = "";
+            this.lookUpEdit1.Properties.ValueMember = "id";
+            this.lookUpEdit1.Size = new System.Drawing.Size(328, 20);
+            this.lookUpEdit1.TabIndex = 5;
+            this.lookUpEdit1.EditValueChanged += new System.EventHandler(this.lookUpEdit1_EditValueChanged);
             // 
             // Txtadr
             // 
             this.Txtadr.Location = new System.Drawing.Point(165, 370);
             this.Txtadr.Name = "Txtadr";
             this.Txtadr.Size = new System.Drawing.Size(328, 20);
-            this.Txtadr.TabIndex = 52;
+            this.Txtadr.TabIndex = 11;
             // 
             // labelControl10
             // 
@@ -361,7 +372,7 @@
             this.Txtstat.Location = new System.Drawing.Point(165, 344);
             this.Txtstat.Name = "Txtstat";
             this.Txtstat.Size = new System.Drawing.Size(328, 20);
-            this.Txtstat.TabIndex = 50;
+            this.Txtstat.TabIndex = 10;
             // 
             // labelControl11
             // 
@@ -378,7 +389,7 @@
             this.Txtvergino.Location = new System.Drawing.Point(165, 318);
             this.Txtvergino.Name = "Txtvergino";
             this.Txtvergino.Size = new System.Drawing.Size(328, 20);
-            this.Txtvergino.TabIndex = 48;
+            this.Txtvergino.TabIndex = 9;
             // 
             // labelControl8
             // 
@@ -395,7 +406,7 @@
             this.Txtvergid.Location = new System.Drawing.Point(165, 292);
             this.Txtvergid.Name = "Txtvergid";
             this.Txtvergid.Size = new System.Drawing.Size(328, 20);
-            this.Txtvergid.TabIndex = 46;
+            this.Txtvergid.TabIndex = 8;
             // 
             // labelControl9
             // 
@@ -419,14 +430,18 @@
             // 
             // gridView1
             // 
+            this.gridView1.Appearance.FocusedRow.BackColor = System.Drawing.Color.White;
+            this.gridView1.Appearance.FocusedRow.Options.UseBackColor = true;
             this.gridView1.Appearance.Row.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(201)))), ((int)(((byte)(214)))));
             this.gridView1.Appearance.Row.BorderColor = System.Drawing.SystemColors.WindowText;
             this.gridView1.Appearance.Row.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.gridView1.Appearance.Row.Options.UseBackColor = true;
             this.gridView1.Appearance.Row.Options.UseBorderColor = true;
             this.gridView1.Appearance.Row.Options.UseFont = true;
+            this.gridView1.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFullFocus;
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsSelection.EnableAppearanceFocusedCell = false;
             this.gridView1.OptionsView.ShowGroupPanel = false;
             this.gridView1.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.gridView1_FocusedRowChanged);
             // 
@@ -463,9 +478,9 @@
             this.labelControl12.Appearance.Options.UseForeColor = true;
             this.labelControl12.Location = new System.Drawing.Point(30, 80);
             this.labelControl12.Name = "labelControl12";
-            this.labelControl12.Size = new System.Drawing.Size(100, 47);
+            this.labelControl12.Size = new System.Drawing.Size(69, 47);
             this.labelControl12.TabIndex = 1;
-            this.labelControl12.Text = "34500";
+            this.labelControl12.Text = "XXX";
             // 
             // labelControl13
             // 
@@ -506,15 +521,15 @@
             // 
             // labelControl14
             // 
-            this.labelControl14.Appearance.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelControl14.Appearance.Font = new System.Drawing.Font("Segoe UI", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl14.Appearance.ForeColor = System.Drawing.Color.White;
             this.labelControl14.Appearance.Options.UseFont = true;
             this.labelControl14.Appearance.Options.UseForeColor = true;
             this.labelControl14.Location = new System.Drawing.Point(15, 80);
             this.labelControl14.Name = "labelControl14";
-            this.labelControl14.Size = new System.Drawing.Size(110, 37);
+            this.labelControl14.Size = new System.Drawing.Size(69, 47);
             this.labelControl14.TabIndex = 1;
-            this.labelControl14.Text = "ARÇELİK";
+            this.labelControl14.Text = "XXX";
             // 
             // labelControl15
             // 
@@ -524,9 +539,9 @@
             this.labelControl15.Appearance.Options.UseForeColor = true;
             this.labelControl15.Location = new System.Drawing.Point(15, 15);
             this.labelControl15.Name = "labelControl15";
-            this.labelControl15.Size = new System.Drawing.Size(115, 21);
+            this.labelControl15.Size = new System.Drawing.Size(130, 21);
             this.labelControl15.TabIndex = 0;
-            this.labelControl15.Text = "Aktif Cari Sayısı";
+            this.labelControl15.Text = "Toplam İlçe Sayısı";
             // 
             // panel1
             // 
@@ -561,9 +576,9 @@
             this.labelControl16.Appearance.Options.UseForeColor = true;
             this.labelControl16.Location = new System.Drawing.Point(30, 80);
             this.labelControl16.Name = "labelControl16";
-            this.labelControl16.Size = new System.Drawing.Size(100, 47);
+            this.labelControl16.Size = new System.Drawing.Size(69, 47);
             this.labelControl16.TabIndex = 1;
-            this.labelControl16.Text = "34500";
+            this.labelControl16.Text = "XXX";
             // 
             // labelControl17
             // 
@@ -592,7 +607,7 @@
             // pictureEdit4
             // 
             this.pictureEdit4.EditValue = ((object)(resources.GetObject("pictureEdit4.EditValue")));
-            this.pictureEdit4.Location = new System.Drawing.Point(164, 65);
+            this.pictureEdit4.Location = new System.Drawing.Point(237, 65);
             this.pictureEdit4.Name = "pictureEdit4";
             this.pictureEdit4.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.pictureEdit4.Properties.Appearance.Options.UseBackColor = true;
@@ -608,11 +623,11 @@
             this.labelControl18.Appearance.ForeColor = System.Drawing.Color.White;
             this.labelControl18.Appearance.Options.UseFont = true;
             this.labelControl18.Appearance.Options.UseForeColor = true;
-            this.labelControl18.Location = new System.Drawing.Point(30, 80);
+            this.labelControl18.Location = new System.Drawing.Point(15, 74);
             this.labelControl18.Name = "labelControl18";
-            this.labelControl18.Size = new System.Drawing.Size(100, 47);
+            this.labelControl18.Size = new System.Drawing.Size(69, 47);
             this.labelControl18.TabIndex = 1;
-            this.labelControl18.Text = "34500";
+            this.labelControl18.Text = "XXX";
             // 
             // labelControl19
             // 
@@ -650,8 +665,8 @@
             this.groupControl1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Txtmail.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Txtbank.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit3.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Txtadr.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Txtstat.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Txtvergino.Properties)).EndInit();
@@ -702,8 +717,8 @@
         private DevExpress.XtraEditors.LabelControl labelControl10;
         private DevExpress.XtraEditors.TextEdit Txtstat;
         private DevExpress.XtraEditors.LabelControl labelControl11;
-        private DevExpress.XtraEditors.LookUpEdit lookUpEdit3;
         private DevExpress.XtraEditors.LookUpEdit lookUpEdit2;
+        private DevExpress.XtraEditors.LookUpEdit lookUpEdit1;
         private DevExpress.XtraEditors.TextEdit Txtbank;
         private System.Windows.Forms.Panel panel3;
         private DevExpress.XtraEditors.PictureEdit pictureEdit1;
@@ -723,5 +738,6 @@
         private DevExpress.XtraEditors.LabelControl labelControl19;
         private DevExpress.XtraEditors.TextEdit Txtmail;
         private DevExpress.XtraEditors.LabelControl xyz;
+        private DevExpress.XtraEditors.SimpleButton simpleButton1;
     }
 }

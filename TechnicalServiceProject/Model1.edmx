@@ -117,6 +117,21 @@
           <Property Name="NETFIYAT" Type="decimal" Precision="18" Scale="2" />
           <Property Name="ISLEMLER" Type="nvarchar" MaxLength="500" />
         </EntityType>
+        <EntityType Name="TBLIlceler">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="ilce" Type="nvarchar" MaxLength="255" />
+          <Property Name="sehir" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TBLIller">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="sehir" Type="nvarchar" MaxLength="255" />
+        </EntityType>
         <EntityType Name="TBLNotes">
           <Key>
             <PropertyRef Name="ID" />
@@ -222,6 +237,18 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="FK_TBLIlceler_TBLIller">
+          <End Role="TBLIller" Type="Self.TBLIller" Multiplicity="1" />
+          <End Role="TBLIlceler" Type="Self.TBLIlceler" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TBLIller">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="TBLIlceler">
+              <PropertyRef Name="sehir" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <Association Name="FK_TBLPersonnel_TBLDepartment">
           <End Role="TBLDepartment" Type="Self.TBLDepartment" Multiplicity="0..1" />
           <End Role="TBLPersonnel" Type="Self.TBLPersonnel" Multiplicity="*" />
@@ -320,6 +347,8 @@
           <EntitySet Name="TBLDepartment" EntityType="Self.TBLDepartment" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TBLExpense" EntityType="Self.TBLExpense" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TBLFaultDetail" EntityType="Self.TBLFaultDetail" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TBLIlceler" EntityType="Self.TBLIlceler" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TBLIller" EntityType="Self.TBLIller" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TBLNotes" EntityType="Self.TBLNotes" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TBLPersonnel" EntityType="Self.TBLPersonnel" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TBLProduct" EntityType="Self.TBLProduct" Schema="dbo" store:Type="Tables" />
@@ -337,6 +366,10 @@
           <AssociationSet Name="FK_TBLBillingInfo_TBLPersonnel" Association="Self.FK_TBLBillingInfo_TBLPersonnel">
             <End Role="TBLPersonnel" EntitySet="TBLPersonnel" />
             <End Role="TBLBillingInfo" EntitySet="TBLBillingInfo" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TBLIlceler_TBLIller" Association="Self.FK_TBLIlceler_TBLIller">
+            <End Role="TBLIller" EntitySet="TBLIller" />
+            <End Role="TBLIlceler" EntitySet="TBLIlceler" />
           </AssociationSet>
           <AssociationSet Name="FK_TBLPersonnel_TBLDepartment" Association="Self.FK_TBLPersonnel_TBLDepartment">
             <End Role="TBLDepartment" EntitySet="TBLDepartment" />
@@ -735,6 +768,12 @@
           <EntitySet Name="TBLContact" EntityType="TeknikServisDBModel.TBLContact" />
           <FunctionImport Name="urunkategori" ReturnType="Collection(TeknikServisDBModel.urunkategori_Result)" />
           <FunctionImport Name="maxkategoriurun" ReturnType="Collection(String)" />
+          <EntitySet Name="TBLIlceler" EntityType="TeknikServisDBModel.TBLIlceler" />
+          <EntitySet Name="TBLIller" EntityType="TeknikServisDBModel.TBLIller" />
+          <AssociationSet Name="FK_TBLIlceler_TBLIller" Association="TeknikServisDBModel.FK_TBLIlceler_TBLIller">
+            <End Role="TBLIller" EntitySet="TBLIller" />
+            <End Role="TBLIlceler" EntitySet="TBLIlceler" />
+          </AssociationSet>
         </EntityContainer>
         <EntityType Name="TBLAboutMe">
           <Key>
@@ -757,6 +796,35 @@
           <Property Type="String" Name="AD" Nullable="true" MaxLength="50" />
           <Property Type="Int32" Name="ADET" Nullable="true" />
         </ComplexType>
+        <EntityType Name="TBLIlceler">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="ilce" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="sehir" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="TBLIller" Relationship="TeknikServisDBModel.FK_TBLIlceler_TBLIller" FromRole="TBLIlceler" ToRole="TBLIller" />
+        </EntityType>
+        <EntityType Name="TBLIller">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="sehir" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="TBLIlceler" Relationship="TeknikServisDBModel.FK_TBLIlceler_TBLIller" FromRole="TBLIller" ToRole="TBLIlceler" />
+        </EntityType>
+        <Association Name="FK_TBLIlceler_TBLIller">
+          <End Type="TeknikServisDBModel.TBLIller" Role="TBLIller" Multiplicity="1" />
+          <End Type="TeknikServisDBModel.TBLIlceler" Role="TBLIlceler" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TBLIller">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="TBLIlceler">
+              <PropertyRef Name="sehir" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -970,6 +1038,23 @@
             </ResultMapping>
           </FunctionImportMapping>
           <FunctionImportMapping FunctionImportName="maxkategoriurun" FunctionName="TeknikServisDBModel.Store.maxkategoriurun" />
+          <EntitySetMapping Name="TBLIlceler">
+            <EntityTypeMapping TypeName="TeknikServisDBModel.TBLIlceler">
+              <MappingFragment StoreEntitySet="TBLIlceler">
+                <ScalarProperty Name="sehir" ColumnName="sehir" />
+                <ScalarProperty Name="ilce" ColumnName="ilce" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TBLIller">
+            <EntityTypeMapping TypeName="TeknikServisDBModel.TBLIller">
+              <MappingFragment StoreEntitySet="TBLIller">
+                <ScalarProperty Name="sehir" ColumnName="sehir" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>

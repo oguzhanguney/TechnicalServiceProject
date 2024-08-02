@@ -336,6 +336,12 @@
     <Compile Include="TBLFaultDetail.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="TBLIlceler.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TBLIller.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
     <Compile Include="TBLNotes.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>

@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmArizaListesi));
-            DevExpress.XtraCharts.SimpleDiagram3D simpleDiagram3D2 = new DevExpress.XtraCharts.SimpleDiagram3D();
-            DevExpress.XtraCharts.Series series2 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.Doughnut3DSeriesView doughnut3DSeriesView2 = new DevExpress.XtraCharts.Doughnut3DSeriesView();
+            DevExpress.XtraCharts.SimpleDiagram3D simpleDiagram3D4 = new DevExpress.XtraCharts.SimpleDiagram3D();
+            DevExpress.XtraCharts.Series series4 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.Doughnut3DSeriesView doughnut3DSeriesView4 = new DevExpress.XtraCharts.Doughnut3DSeriesView();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             this.pictureEdit3 = new DevExpress.XtraEditors.PictureEdit();
@@ -72,9 +72,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(simpleDiagram3D2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(doughnut3DSeriesView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(simpleDiagram3D4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(doughnut3DSeriesView4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit5.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
@@ -248,6 +248,8 @@
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsSelection.EnableAppearanceFocusedCell = false;
             this.gridView1.OptionsView.ShowGroupPanel = false;
+            this.gridView1.RowCellClick += new DevExpress.XtraGrid.Views.Grid.RowCellClickEventHandler(this.gridView1_RowCellClick);
+            this.gridView1.DoubleClick += new System.EventHandler(this.gridView1_DoubleClick);
             // 
             // gridControl1
             // 
@@ -261,18 +263,24 @@
             // 
             // chartControl1
             // 
-            simpleDiagram3D2.RotationMatrixSerializable = "1;0;0;0;0;0.5;-0.866025403784439;0;0;0.866025403784439;0.5;0;0;0;0;1";
-            this.chartControl1.Diagram = simpleDiagram3D2;
+            simpleDiagram3D4.RotationMatrixSerializable = "0.918525087950862;-0.0471700653895967;0.39253872132059;0;0.306421335503836;0.7123" +
+    "35033738764;-0.631414891221646;0;-0.249835201588783;0.700252657716869;0.66875151" +
+    "3947862;0;0;0;0;1";
+            this.chartControl1.Diagram = simpleDiagram3D4;
             this.chartControl1.Location = new System.Drawing.Point(5, 119);
             this.chartControl1.Name = "chartControl1";
             this.chartControl1.PaletteName = "Mixed";
-            series2.Name = "Series 1";
-            series2.SeriesID = 1;
-            series2.View = doughnut3DSeriesView2;
+            series4.LegendTextPattern = "{A}";
+            series4.Name = "Series 1";
+            series4.SeriesID = 1;
+            series4.View = doughnut3DSeriesView4;
             this.chartControl1.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series2};
+        series4};
+            this.chartControl1.SeriesTemplate.LegendTextPattern = "{A}";
+            this.chartControl1.SeriesTemplate.ToolTipPointPattern = "{A}";
             this.chartControl1.Size = new System.Drawing.Size(919, 294);
             this.chartControl1.TabIndex = 0;
+            this.chartControl1.ToolTipOptions.Tag = "";
             // 
             // labelcontrol9
             // 
@@ -413,9 +421,9 @@
             this.labelControl14.Appearance.Options.UseForeColor = true;
             this.labelControl14.Location = new System.Drawing.Point(15, 15);
             this.labelControl14.Name = "labelControl14";
-            this.labelControl14.Size = new System.Drawing.Size(205, 21);
+            this.labelControl14.Size = new System.Drawing.Size(145, 21);
             this.labelControl14.TabIndex = 0;
-            this.labelControl14.Text = "En Fazla Arıza Kayıtlı Marka";
+            this.labelControl14.Text = "İptal Edilen İşlemler";
             // 
             // panel7
             // 
@@ -462,9 +470,9 @@
             this.labelControl16.Appearance.Options.UseForeColor = true;
             this.labelControl16.Location = new System.Drawing.Point(15, 15);
             this.labelControl16.Name = "labelControl16";
-            this.labelControl16.Size = new System.Drawing.Size(138, 21);
+            this.labelControl16.Size = new System.Drawing.Size(190, 21);
             this.labelControl16.TabIndex = 0;
-            this.labelControl16.Text = "Arızalı Ürün Cirosu";
+            this.labelControl16.Text = "Mesaj Beklenen Müşteriler";
             // 
             // FrmArizaListesi
             // 
@@ -493,9 +501,9 @@
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(simpleDiagram3D2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(doughnut3DSeriesView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(simpleDiagram3D4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(doughnut3DSeriesView4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit5.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();

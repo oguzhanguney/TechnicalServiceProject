@@ -23,5 +23,10 @@ namespace TechnicalServiceProject.Formlar
             pictureEdit1.Image = enc.Encode(textEdit1.Text);
             
         }
+
+        private void BtnVazgec_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
