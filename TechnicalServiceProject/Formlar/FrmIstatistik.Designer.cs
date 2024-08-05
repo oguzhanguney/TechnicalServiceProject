@@ -165,9 +165,9 @@
             this.labelControl2.Appearance.Options.UseForeColor = true;
             this.labelControl2.Location = new System.Drawing.Point(15, 49);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(60, 47);
+            this.labelControl2.Size = new System.Drawing.Size(69, 47);
             this.labelControl2.TabIndex = 1;
-            this.labelControl2.Text = "145";
+            this.labelControl2.Text = "XXX";
             // 
             // labelControl1
             // 
@@ -215,9 +215,9 @@
             this.labelControl3.Appearance.Options.UseForeColor = true;
             this.labelControl3.Location = new System.Drawing.Point(15, 49);
             this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(40, 47);
+            this.labelControl3.Size = new System.Drawing.Size(69, 47);
             this.labelControl3.TabIndex = 1;
-            this.labelControl3.Text = "14";
+            this.labelControl3.Text = "XXX";
             // 
             // labelControl4
             // 
@@ -265,9 +265,9 @@
             this.labelControl5.Appearance.Options.UseForeColor = true;
             this.labelControl5.Location = new System.Drawing.Point(15, 49);
             this.labelControl5.Name = "labelControl5";
-            this.labelControl5.Size = new System.Drawing.Size(100, 47);
+            this.labelControl5.Size = new System.Drawing.Size(69, 47);
             this.labelControl5.TabIndex = 1;
-            this.labelControl5.Text = "34500";
+            this.labelControl5.Text = "XXX";
             // 
             // labelControl6
             // 
@@ -315,9 +315,9 @@
             this.labelControl7.Appearance.Options.UseForeColor = true;
             this.labelControl7.Location = new System.Drawing.Point(15, 49);
             this.labelControl7.Name = "labelControl7";
-            this.labelControl7.Size = new System.Drawing.Size(40, 47);
+            this.labelControl7.Size = new System.Drawing.Size(69, 47);
             this.labelControl7.TabIndex = 1;
-            this.labelControl7.Text = "20";
+            this.labelControl7.Text = "XXX";
             // 
             // labelControl8
             // 
@@ -365,9 +365,9 @@
             this.labelControl9.Appearance.Options.UseForeColor = true;
             this.labelControl9.Location = new System.Drawing.Point(15, 49);
             this.labelControl9.Name = "labelControl9";
-            this.labelControl9.Size = new System.Drawing.Size(60, 47);
+            this.labelControl9.Size = new System.Drawing.Size(69, 47);
             this.labelControl9.TabIndex = 1;
-            this.labelControl9.Text = "115";
+            this.labelControl9.Text = "XXX";
             // 
             // labelControl10
             // 
@@ -400,9 +400,9 @@
             this.labelControl11.Appearance.Options.UseForeColor = true;
             this.labelControl11.Location = new System.Drawing.Point(15, 49);
             this.labelControl11.Name = "labelControl11";
-            this.labelControl11.Size = new System.Drawing.Size(113, 40);
+            this.labelControl11.Size = new System.Drawing.Size(57, 40);
             this.labelControl11.TabIndex = 1;
-            this.labelControl11.Text = "Su Isıtıcı";
+            this.labelControl11.Text = "XXX";
             // 
             // labelControl12
             // 
@@ -435,9 +435,9 @@
             this.labelControl13.Appearance.Options.UseForeColor = true;
             this.labelControl13.Location = new System.Drawing.Point(15, 49);
             this.labelControl13.Name = "labelControl13";
-            this.labelControl13.Size = new System.Drawing.Size(96, 40);
+            this.labelControl13.Size = new System.Drawing.Size(57, 40);
             this.labelControl13.TabIndex = 1;
-            this.labelControl13.Text = "Laptop";
+            this.labelControl13.Text = "XXX";
             // 
             // labelControl14
             // 
@@ -470,9 +470,9 @@
             this.labelControl15.Appearance.Options.UseForeColor = true;
             this.labelControl15.Location = new System.Drawing.Point(15, 49);
             this.labelControl15.Name = "labelControl15";
-            this.labelControl15.Size = new System.Drawing.Size(149, 40);
+            this.labelControl15.Size = new System.Drawing.Size(57, 40);
             this.labelControl15.TabIndex = 1;
-            this.labelControl15.Text = "Beyaz Eşya";
+            this.labelControl15.Text = "XXX";
             // 
             // labelControl16
             // 
@@ -505,9 +505,9 @@
             this.labelControl17.Appearance.Options.UseForeColor = true;
             this.labelControl17.Location = new System.Drawing.Point(15, 49);
             this.labelControl17.Name = "labelControl17";
-            this.labelControl17.Size = new System.Drawing.Size(61, 40);
+            this.labelControl17.Size = new System.Drawing.Size(57, 40);
             this.labelControl17.TabIndex = 1;
-            this.labelControl17.Text = "Fırın";
+            this.labelControl17.Text = "XXX";
             // 
             // labelControl18
             // 
@@ -540,9 +540,9 @@
             this.labelControl19.Appearance.Options.UseForeColor = true;
             this.labelControl19.Location = new System.Drawing.Point(15, 49);
             this.labelControl19.Name = "labelControl19";
-            this.labelControl19.Size = new System.Drawing.Size(137, 40);
+            this.labelControl19.Size = new System.Drawing.Size(57, 40);
             this.labelControl19.TabIndex = 1;
-            this.labelControl19.Text = "Buzdolabı";
+            this.labelControl19.Text = "XXX";
             // 
             // labelControl20
             // 
@@ -575,9 +575,9 @@
             this.labelControl21.Appearance.Options.UseForeColor = true;
             this.labelControl21.Location = new System.Drawing.Point(15, 49);
             this.labelControl21.Name = "labelControl21";
-            this.labelControl21.Size = new System.Drawing.Size(138, 47);
+            this.labelControl21.Size = new System.Drawing.Size(69, 47);
             this.labelControl21.TabIndex = 1;
-            this.labelControl21.Text = "Su Isıtıcı";
+            this.labelControl21.Text = "XXX";
             // 
             // labelControl22
             // 
@@ -610,9 +610,9 @@
             this.labelControl23.Appearance.Options.UseForeColor = true;
             this.labelControl23.Location = new System.Drawing.Point(15, 49);
             this.labelControl23.Name = "labelControl23";
-            this.labelControl23.Size = new System.Drawing.Size(116, 47);
+            this.labelControl23.Size = new System.Drawing.Size(69, 47);
             this.labelControl23.TabIndex = 1;
-            this.labelControl23.Text = "Laptop";
+            this.labelControl23.Text = "XXX";
             // 
             // labelControl24
             // 
@@ -645,9 +645,9 @@
             this.labelControl25.Appearance.Options.UseForeColor = true;
             this.labelControl25.Location = new System.Drawing.Point(15, 49);
             this.labelControl25.Name = "labelControl25";
-            this.labelControl25.Size = new System.Drawing.Size(178, 47);
+            this.labelControl25.Size = new System.Drawing.Size(69, 47);
             this.labelControl25.TabIndex = 1;
-            this.labelControl25.Text = "Beyaz Eşya";
+            this.labelControl25.Text = "XXX";
             // 
             // labelControl26
             // 
@@ -680,9 +680,9 @@
             this.labelControl27.Appearance.Options.UseForeColor = true;
             this.labelControl27.Location = new System.Drawing.Point(15, 49);
             this.labelControl27.Name = "labelControl27";
-            this.labelControl27.Size = new System.Drawing.Size(73, 47);
+            this.labelControl27.Size = new System.Drawing.Size(69, 47);
             this.labelControl27.TabIndex = 1;
-            this.labelControl27.Text = "Fırın";
+            this.labelControl27.Text = "XXX";
             // 
             // labelControl28
             // 
@@ -715,9 +715,9 @@
             this.labelControl29.Appearance.Options.UseForeColor = true;
             this.labelControl29.Location = new System.Drawing.Point(15, 49);
             this.labelControl29.Name = "labelControl29";
-            this.labelControl29.Size = new System.Drawing.Size(164, 47);
+            this.labelControl29.Size = new System.Drawing.Size(69, 47);
             this.labelControl29.TabIndex = 1;
-            this.labelControl29.Text = "Buzdolabı";
+            this.labelControl29.Text = "XXX";
             // 
             // labelControl30
             // 
@@ -765,9 +765,9 @@
             this.labelControl31.Appearance.Options.UseForeColor = true;
             this.labelControl31.Location = new System.Drawing.Point(15, 49);
             this.labelControl31.Name = "labelControl31";
-            this.labelControl31.Size = new System.Drawing.Size(60, 47);
+            this.labelControl31.Size = new System.Drawing.Size(69, 47);
             this.labelControl31.TabIndex = 1;
-            this.labelControl31.Text = "115";
+            this.labelControl31.Text = "XXX";
             // 
             // labelControl32
             // 
@@ -815,9 +815,9 @@
             this.labelControl33.Appearance.Options.UseForeColor = true;
             this.labelControl33.Location = new System.Drawing.Point(15, 49);
             this.labelControl33.Name = "labelControl33";
-            this.labelControl33.Size = new System.Drawing.Size(40, 47);
+            this.labelControl33.Size = new System.Drawing.Size(69, 47);
             this.labelControl33.TabIndex = 1;
-            this.labelControl33.Text = "20";
+            this.labelControl33.Text = "XXX";
             // 
             // labelControl34
             // 
@@ -865,9 +865,9 @@
             this.labelControl35.Appearance.Options.UseForeColor = true;
             this.labelControl35.Location = new System.Drawing.Point(15, 49);
             this.labelControl35.Name = "labelControl35";
-            this.labelControl35.Size = new System.Drawing.Size(100, 47);
+            this.labelControl35.Size = new System.Drawing.Size(69, 47);
             this.labelControl35.TabIndex = 1;
-            this.labelControl35.Text = "34500";
+            this.labelControl35.Text = "XXX";
             // 
             // labelControl36
             // 
@@ -915,9 +915,9 @@
             this.labelControl37.Appearance.Options.UseForeColor = true;
             this.labelControl37.Location = new System.Drawing.Point(15, 49);
             this.labelControl37.Name = "labelControl37";
-            this.labelControl37.Size = new System.Drawing.Size(40, 47);
+            this.labelControl37.Size = new System.Drawing.Size(69, 47);
             this.labelControl37.TabIndex = 1;
-            this.labelControl37.Text = "14";
+            this.labelControl37.Text = "XXX";
             // 
             // labelControl38
             // 
@@ -965,9 +965,9 @@
             this.labelControl39.Appearance.Options.UseForeColor = true;
             this.labelControl39.Location = new System.Drawing.Point(15, 49);
             this.labelControl39.Name = "labelControl39";
-            this.labelControl39.Size = new System.Drawing.Size(60, 47);
+            this.labelControl39.Size = new System.Drawing.Size(69, 47);
             this.labelControl39.TabIndex = 1;
-            this.labelControl39.Text = "145";
+            this.labelControl39.Text = "XXX";
             // 
             // labelControl40
             // 

@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmArizaListesi));
-            DevExpress.XtraCharts.SimpleDiagram3D simpleDiagram3D4 = new DevExpress.XtraCharts.SimpleDiagram3D();
-            DevExpress.XtraCharts.Series series4 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.Doughnut3DSeriesView doughnut3DSeriesView4 = new DevExpress.XtraCharts.Doughnut3DSeriesView();
+            DevExpress.XtraCharts.SimpleDiagram3D simpleDiagram3D1 = new DevExpress.XtraCharts.SimpleDiagram3D();
+            DevExpress.XtraCharts.Series series1 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.Doughnut3DSeriesView doughnut3DSeriesView1 = new DevExpress.XtraCharts.Doughnut3DSeriesView();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             this.pictureEdit3 = new DevExpress.XtraEditors.PictureEdit();
@@ -72,9 +72,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(simpleDiagram3D4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(doughnut3DSeriesView4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(simpleDiagram3D1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(doughnut3DSeriesView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit5.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
@@ -106,9 +106,9 @@
             this.labelControl3.Appearance.Options.UseForeColor = true;
             this.labelControl3.Location = new System.Drawing.Point(15, 80);
             this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(110, 37);
+            this.labelControl3.Size = new System.Drawing.Size(54, 37);
             this.labelControl3.TabIndex = 1;
-            this.labelControl3.Text = "ARÇELİK";
+            this.labelControl3.Text = "XXX";
             // 
             // pictureEdit3
             // 
@@ -155,9 +155,9 @@
             this.labelControl7.Appearance.Options.UseForeColor = true;
             this.labelControl7.Location = new System.Drawing.Point(30, 80);
             this.labelControl7.Name = "labelControl7";
-            this.labelControl7.Size = new System.Drawing.Size(100, 47);
+            this.labelControl7.Size = new System.Drawing.Size(69, 47);
             this.labelControl7.TabIndex = 1;
-            this.labelControl7.Text = "34500";
+            this.labelControl7.Text = "XXX";
             // 
             // pictureEdit4
             // 
@@ -204,9 +204,9 @@
             this.labelControl1.Appearance.Options.UseForeColor = true;
             this.labelControl1.Location = new System.Drawing.Point(30, 80);
             this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(100, 47);
+            this.labelControl1.Size = new System.Drawing.Size(69, 47);
             this.labelControl1.TabIndex = 1;
-            this.labelControl1.Text = "34500";
+            this.labelControl1.Text = "XXX";
             // 
             // pictureEdit2
             // 
@@ -263,19 +263,19 @@
             // 
             // chartControl1
             // 
-            simpleDiagram3D4.RotationMatrixSerializable = "0.918525087950862;-0.0471700653895967;0.39253872132059;0;0.306421335503836;0.7123" +
+            simpleDiagram3D1.RotationMatrixSerializable = "0.918525087950862;-0.0471700653895967;0.39253872132059;0;0.306421335503836;0.7123" +
     "35033738764;-0.631414891221646;0;-0.249835201588783;0.700252657716869;0.66875151" +
     "3947862;0;0;0;0;1";
-            this.chartControl1.Diagram = simpleDiagram3D4;
+            this.chartControl1.Diagram = simpleDiagram3D1;
             this.chartControl1.Location = new System.Drawing.Point(5, 119);
             this.chartControl1.Name = "chartControl1";
             this.chartControl1.PaletteName = "Mixed";
-            series4.LegendTextPattern = "{A}";
-            series4.Name = "Series 1";
-            series4.SeriesID = 1;
-            series4.View = doughnut3DSeriesView4;
+            series1.LegendTextPattern = "{A}";
+            series1.Name = "Series 1";
+            series1.SeriesID = 1;
+            series1.View = doughnut3DSeriesView1;
             this.chartControl1.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series4};
+        series1};
             this.chartControl1.SeriesTemplate.LegendTextPattern = "{A}";
             this.chartControl1.SeriesTemplate.ToolTipPointPattern = "{A}";
             this.chartControl1.Size = new System.Drawing.Size(919, 294);
@@ -360,9 +360,9 @@
             this.labelControl11.Appearance.Options.UseForeColor = true;
             this.labelControl11.Location = new System.Drawing.Point(30, 80);
             this.labelControl11.Name = "labelControl11";
-            this.labelControl11.Size = new System.Drawing.Size(100, 47);
+            this.labelControl11.Size = new System.Drawing.Size(69, 47);
             this.labelControl11.TabIndex = 1;
-            this.labelControl11.Text = "34500";
+            this.labelControl11.Text = "XXX";
             // 
             // labelControl12
             // 
@@ -409,9 +409,9 @@
             this.labelControl13.Appearance.Options.UseForeColor = true;
             this.labelControl13.Location = new System.Drawing.Point(30, 80);
             this.labelControl13.Name = "labelControl13";
-            this.labelControl13.Size = new System.Drawing.Size(100, 47);
+            this.labelControl13.Size = new System.Drawing.Size(69, 47);
             this.labelControl13.TabIndex = 1;
-            this.labelControl13.Text = "34500";
+            this.labelControl13.Text = "XXX";
             // 
             // labelControl14
             // 
@@ -458,9 +458,9 @@
             this.labelControl15.Appearance.Options.UseForeColor = true;
             this.labelControl15.Location = new System.Drawing.Point(15, 80);
             this.labelControl15.Name = "labelControl15";
-            this.labelControl15.Size = new System.Drawing.Size(110, 37);
+            this.labelControl15.Size = new System.Drawing.Size(54, 37);
             this.labelControl15.TabIndex = 1;
-            this.labelControl15.Text = "ARÇELİK";
+            this.labelControl15.Text = "XXX";
             // 
             // labelControl16
             // 
@@ -501,9 +501,9 @@
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(simpleDiagram3D4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(doughnut3DSeriesView4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(simpleDiagram3D1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(doughnut3DSeriesView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit5.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();

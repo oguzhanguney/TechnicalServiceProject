@@ -337,5 +337,15 @@ namespace TechnicalServiceProject
                 fr.Show();
             }
         }
+        Formlar.FrmRehber fr30;
+        private void btnRehber_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if (fr30 == null || fr30.IsDisposed)
+            {
+                fr30 = new Formlar.FrmRehber();
+                fr30.MdiParent = this;
+                fr30.Show();
+            }
+        }
     }
 }

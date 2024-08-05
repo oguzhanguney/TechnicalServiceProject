@@ -176,9 +176,9 @@
             this.labelControl5.Appearance.Options.UseForeColor = true;
             this.labelControl5.Location = new System.Drawing.Point(30, 80);
             this.labelControl5.Name = "labelControl5";
-            this.labelControl5.Size = new System.Drawing.Size(100, 47);
+            this.labelControl5.Size = new System.Drawing.Size(69, 47);
             this.labelControl5.TabIndex = 1;
-            this.labelControl5.Text = "34500";
+            this.labelControl5.Text = "XXX";
             // 
             // labelControl6
             // 
@@ -228,9 +228,9 @@
             this.labelControl1.Appearance.Options.UseForeColor = true;
             this.labelControl1.Location = new System.Drawing.Point(30, 80);
             this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(100, 47);
+            this.labelControl1.Size = new System.Drawing.Size(69, 47);
             this.labelControl1.TabIndex = 1;
-            this.labelControl1.Text = "34500";
+            this.labelControl1.Text = "XXX";
             // 
             // labelControl2
             // 
@@ -280,9 +280,9 @@
             this.labelControl3.Appearance.Options.UseForeColor = true;
             this.labelControl3.Location = new System.Drawing.Point(15, 80);
             this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(110, 37);
+            this.labelControl3.Size = new System.Drawing.Size(54, 37);
             this.labelControl3.TabIndex = 1;
-            this.labelControl3.Text = "ARÇELİK";
+            this.labelControl3.Text = "XXX";
             // 
             // labelControl4
             // 
@@ -332,9 +332,9 @@
             this.labelControl7.Appearance.Options.UseForeColor = true;
             this.labelControl7.Location = new System.Drawing.Point(30, 80);
             this.labelControl7.Name = "labelControl7";
-            this.labelControl7.Size = new System.Drawing.Size(100, 47);
+            this.labelControl7.Size = new System.Drawing.Size(69, 47);
             this.labelControl7.TabIndex = 1;
-            this.labelControl7.Text = "34500";
+            this.labelControl7.Text = "XXX";
             // 
             // labelControl8
             // 

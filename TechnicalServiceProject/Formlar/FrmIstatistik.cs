@@ -39,7 +39,6 @@ namespace TechnicalServiceProject.Formlar
                                    where x.KATEGORI == 4
                                    select x.STOK).Sum(x => x.Value).ToString();
 
-            // another method :labelControl25.Text=db.TBLProduct.Where(x=>x.KATEGORI==4).Sum(x=>x.STOK).ToString();
 
             labelControl23.Text = (from x in db.TBLProduct
                                    where x.KATEGORI == 1
@@ -63,7 +62,6 @@ namespace TechnicalServiceProject.Formlar
             labelControl37.Text = marka.Key;
 
             labelControl9.Text=db.TBLProductMovement.Count(x=>x.TARIH==today).ToString();
-            //label9--
 
         }
     }

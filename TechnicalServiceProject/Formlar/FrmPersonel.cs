@@ -25,7 +25,7 @@ namespace TechnicalServiceProject.Formlar
                                p.ID,
                                p.AD,
                                p.SOYAD,
-                               p.FOTOGRAF,
+                               DEP = p.TBLDepartment.AD,
                                p.MAIL,
                                p.TELEFON
                            };
@@ -35,30 +35,24 @@ namespace TechnicalServiceProject.Formlar
                 .Select(p => new {p.ID,p.AD})
                 .ToList();
 
-            string ad1, soyad1,ad2,soyad2,ad3,soyad3,ad4,soyad4;
-            ad1 =  db.TBLPersonnel.First(x => x.ID == 1).AD;
-            soyad1 =  db.TBLPersonnel.First(x => x.ID == 1).SOYAD;
-            Txtperadsoyad.Text = ad1 + " " + soyad1;
-            txtpermail.Text=db.TBLPersonnel.First(x=>x.ID == 1).MAIL.ToLower();
-            Txtperdep.Text="("+db.TBLPersonnel.First(x=>x.ID==1).TBLDepartment.AD+")";
+            var personnelIDs = new[] { 1, 2, 3, 4 };
+            var nameTextBoxes = new[] { Txtperadsoyad, textBox3, textBox6, textBox9 };
+            var emailTextBoxes = new[] { txtpermail, textBox2, textBox5, textBox8 };
+            var departmentTextBoxes = new[] { Txtperdep, textBox1, textBox4, textBox7 };
 
-            ad2 = db.TBLPersonnel.First(x => x.ID == 2).AD;
-            soyad2 = db.TBLPersonnel.First(x => x.ID == 2).SOYAD;
-            textBox3.Text = ad2 + " " + soyad2;
-            textBox2.Text = db.TBLPersonnel.First(x => x.ID == 2).MAIL.ToLower();
-            textBox1.Text = "(" + db.TBLPersonnel.First(x => x.ID == 2).TBLDepartment.AD + ")";
+            for (int i = 0; i < personnelIDs.Length; i++)
+            {
+                var id = personnelIDs[i];
+                var personnel = db.TBLPersonnel.First(x => x.ID == id);
 
-            ad3 = db.TBLPersonnel.First(x => x.ID == 3).AD;
-            soyad3 = db.TBLPersonnel.First(x => x.ID == 3).SOYAD;
-            textBox6.Text = ad3 + " " + soyad3;
-            textBox5.Text = db.TBLPersonnel.First(x => x.ID == 3).MAIL.ToLower();
-            textBox4.Text = "(" + db.TBLPersonnel.First(x => x.ID == 3).TBLDepartment.AD + ")";
+                string fullName = personnel.AD + " " + personnel.SOYAD;
+                string email = personnel.MAIL.ToLower();
+                string department = $"({personnel.TBLDepartment.AD})";
 
-            ad4 = db.TBLPersonnel.First(x => x.ID == 4).AD;
-            soyad4 = db.TBLPersonnel.First(x => x.ID == 4).SOYAD;
-            textBox9.Text = ad4 + " " + soyad4;
-            textBox8.Text = db.TBLPersonnel.First(x => x.ID == 4).MAIL.ToLower();
-            textBox7.Text = "(" + db.TBLPersonnel.First(x => x.ID == 4).TBLDepartment.AD + ")";
+                nameTextBoxes[i].Text = fullName;
+                emailTextBoxes[i].Text = email;
+                departmentTextBoxes[i].Text = department;
+            }
         }
 
         private void BtnKaydet_Click(object sender, EventArgs e)
@@ -107,7 +101,7 @@ namespace TechnicalServiceProject.Formlar
                                p.ID,
                                p.AD,
                                p.SOYAD,
-                               p.FOTOGRAF,
+                               DEP=p.TBLDepartment.AD,
                                p.MAIL,
                                p.TELEFON
                            };
@@ -123,6 +117,16 @@ namespace TechnicalServiceProject.Formlar
             txtpersonelmail.Text = gridView1.GetFocusedRowCellValue("MAIL").ToString();
             var fotovalue = gridView1.GetFocusedRowCellValue("FOTOGRAF");
             Txtfoto.Text = fotovalue != null ? fotovalue.ToString() : "";
+            var departmanValue = gridView1.GetFocusedRowCellValue("DEP");
+            if (departmanValue != null)
+            {
+                lookUpEdit1.Text = departmanValue.ToString();
+            }
+            else
+            {
+                lookUpEdit1.Text = ""; // Veya başka bir varsayılan değer
+            }
+
         }
     }
 }

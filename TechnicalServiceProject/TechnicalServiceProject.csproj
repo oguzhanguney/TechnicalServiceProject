@@ -178,6 +178,12 @@
     <Compile Include="Formlar\FrmFaturaListesi.Designer.cs">
       <DependentUpon>FrmFaturaListesi.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formlar\FrmFaturaPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmFaturaPopup.Designer.cs">
+      <DependentUpon>FrmFaturaPopup.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formlar\FrmGauge.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -231,6 +237,12 @@
     </Compile>
     <Compile Include="Formlar\FrmRapor.Designer.cs">
       <DependentUpon>FrmRapor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmRehber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmRehber.Designer.cs">
+      <DependentUpon>FrmRehber.cs</DependentUpon>
     </Compile>
     <Compile Include="Formlar\FrmSatisListesi.cs">
       <SubType>Form</SubType>
@@ -403,6 +415,9 @@
     <EmbeddedResource Include="Formlar\FrmFaturaListesi.resx">
       <DependentUpon>FrmFaturaListesi.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmFaturaPopup.resx">
+      <DependentUpon>FrmFaturaPopup.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formlar\FrmGauge.resx">
       <DependentUpon>FrmGauge.cs</DependentUpon>
     </EmbeddedResource>
@@ -429,6 +444,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formlar\FrmRapor.resx">
       <DependentUpon>FrmRapor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmRehber.resx">
+      <DependentUpon>FrmRehber.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formlar\FrmSatisListesi.resx">
       <DependentUpon>FrmSatisListesi.cs</DependentUpon>

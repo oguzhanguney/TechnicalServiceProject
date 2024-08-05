@@ -19,7 +19,7 @@ namespace TechnicalServiceProject.Formlar
 
         TeknikServisDBEntities db = new TeknikServisDBEntities();
 
-        private void FrmCategory_Load(object sender, EventArgs e)
+        private void listele()
         {
             var degerler = from x in db.TBLCategory
                            select new
@@ -28,6 +28,10 @@ namespace TechnicalServiceProject.Formlar
                                x.AD
                            };
             gridControl1.DataSource = degerler.ToList();
+        }
+        private void FrmCategory_Load(object sender, EventArgs e)
+        {
+            listele();
         }
 
         private void BtnKaydet_Click(object sender, EventArgs e)
@@ -39,6 +43,7 @@ namespace TechnicalServiceProject.Formlar
                 db.TBLCategory.Add(t);
                 db.SaveChanges();
                 MessageBox.Show("Kategori başarıyla kaydedildi.");
+                listele();
             }
             else
             {
@@ -49,13 +54,7 @@ namespace TechnicalServiceProject.Formlar
 
         private void BtnListele_Click(object sender, EventArgs e)
         {
-            var degerler = from x in db.TBLCategory
-                           select new
-                           {
-                               x.ID,
-                               x.AD
-                           };
-            gridControl1.DataSource = degerler.ToList();
+            listele();
         }
 
         private void gridView1_FocusedRowChanged(object sender, DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs e)
@@ -82,6 +81,7 @@ namespace TechnicalServiceProject.Formlar
                 db.TBLCategory.Remove(deger);
                 db.SaveChanges();
                 MessageBox.Show("Kategori başarılı bir şekilde silindi.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                listele();
             }
 
         }
@@ -93,6 +93,7 @@ namespace TechnicalServiceProject.Formlar
             deger.AD = TxtKategoriAd.Text;
             db.SaveChanges();
             MessageBox.Show("Kategori başarılı bir Şekilde güncellendi.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            listele();
 
         }
 

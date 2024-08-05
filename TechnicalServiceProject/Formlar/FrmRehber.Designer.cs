@@ -1,6 +1,6 @@
 ﻿namespace TechnicalServiceProject.Formlar
 {
-    partial class FrmArizaliUrunDetayListesi
+    partial class FrmRehber
     {
         /// <summary>
         /// Required designer variable.
@@ -41,7 +41,7 @@
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
             this.gridControl1.Size = new System.Drawing.Size(1924, 861);
-            this.gridControl1.TabIndex = 13;
+            this.gridControl1.TabIndex = 3;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
             // 
@@ -59,18 +59,17 @@
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsSelection.EnableAppearanceFocusedCell = false;
-            this.gridView1.OptionsView.ShowAutoFilterRow = true;
-            this.gridView1.OptionsView.ShowFilterPanelMode = DevExpress.XtraGrid.Views.Base.ShowFilterPanelMode.ShowAlways;
+            this.gridView1.OptionsView.ShowGroupPanel = false;
             // 
-            // FrmArizaliUrunDetayListesi
+            // FrmRehber
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1924, 861);
             this.Controls.Add(this.gridControl1);
-            this.Name = "FrmArizaliUrunDetayListesi";
-            this.Text = "Arızalı Ürün Detayları";
-            this.Load += new System.EventHandler(this.FrmArizaliUrunDetayListesi_Load);
+            this.Name = "FrmRehber";
+            this.Text = "Rehber";
+            this.Load += new System.EventHandler(this.FrmRehber_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             this.ResumeLayout(false);

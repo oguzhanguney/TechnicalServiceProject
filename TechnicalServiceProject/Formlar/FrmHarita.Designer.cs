@@ -31,8 +31,8 @@
             this.mapControl1 = new DevExpress.XtraMap.MapControl();
             this.ımageLayer1 = new DevExpress.XtraMap.ImageLayer();
             this.bingMapDataProvider1 = new DevExpress.XtraMap.BingMapDataProvider();
-            this.wmsDataProvider1 = new DevExpress.XtraMap.WmsDataProvider();
             this.ımageLayer2 = new DevExpress.XtraMap.ImageLayer();
+            this.wmsDataProvider1 = new DevExpress.XtraMap.WmsDataProvider();
             ((System.ComponentModel.ISupportInitialize)(this.mapControl1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -56,7 +56,7 @@
             this.ClientSize = new System.Drawing.Size(1924, 861);
             this.Controls.Add(this.mapControl1);
             this.Name = "FrmHarita";
-            this.Text = "FrmHarita";
+            this.Text = "Harita";
             ((System.ComponentModel.ISupportInitialize)(this.mapControl1)).EndInit();
             this.ResumeLayout(false);
 
