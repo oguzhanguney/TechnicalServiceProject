@@ -16,8 +16,7 @@ namespace TechnicalServiceProject.Formlar
         {
             InitializeComponent();
         }
-        TeknikServisDBEntities db= new TeknikServisDBEntities();
-        private void FrmPersonel_Load(object sender, EventArgs e)
+        private void listele()
         {
             var degerler = from p in db.TBLPersonnel
                            select new
@@ -30,6 +29,11 @@ namespace TechnicalServiceProject.Formlar
                                p.TELEFON
                            };
             gridControl1.DataSource = degerler.ToList();
+        }
+        TeknikServisDBEntities db= new TeknikServisDBEntities();
+        private void FrmPersonel_Load(object sender, EventArgs e)
+        {
+            listele();
 
             lookUpEdit1.Properties.DataSource= db.TBLDepartment
                 .Select(p => new {p.ID,p.AD})
@@ -46,7 +50,7 @@ namespace TechnicalServiceProject.Formlar
                 var personnel = db.TBLPersonnel.First(x => x.ID == id);
 
                 string fullName = personnel.AD + " " + personnel.SOYAD;
-                string email = personnel.MAIL.ToLower();
+                 string email = personnel.MAIL.ToLower();
                 string department = $"({personnel.TBLDepartment.AD})";
 
                 nameTextBoxes[i].Text = fullName;
@@ -68,6 +72,7 @@ namespace TechnicalServiceProject.Formlar
             db.TBLPersonnel.Add(d);
             db.SaveChanges();
             MessageBox.Show("Personel başarılı bir şekilde eklendi.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            listele();
         }
 
         private void BtnSil_Click(object sender, EventArgs e)
@@ -77,6 +82,7 @@ namespace TechnicalServiceProject.Formlar
             db.TBLPersonnel.Remove(deger);
             db.SaveChanges();
             MessageBox.Show("Personel başarılı bir şekilde silindi.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+            listele();
         }
 
         private void BtnGuncelle_Click(object sender, EventArgs e)
@@ -91,21 +97,12 @@ namespace TechnicalServiceProject.Formlar
             deger.DEPARTMAN=byte.Parse(lookUpEdit1.EditValue.ToString());
             db.SaveChanges();
             MessageBox.Show("Personel başarılı bir Şekilde güncellendi.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            listele();
         }
 
         private void BtnListele_Click(object sender, EventArgs e)
         {
-            var degerler = from p in db.TBLPersonnel
-                           select new
-                           {
-                               p.ID,
-                               p.AD,
-                               p.SOYAD,
-                               DEP=p.TBLDepartment.AD,
-                               p.MAIL,
-                               p.TELEFON
-                           };
-            gridControl1.DataSource = degerler.ToList();
+            listele();
         }
 
         private void gridView1_FocusedRowChanged(object sender, DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs e)
@@ -124,9 +121,20 @@ namespace TechnicalServiceProject.Formlar
             }
             else
             {
-                lookUpEdit1.Text = ""; // Veya başka bir varsayılan değer
+                lookUpEdit1.EditValue = ""; // Veya başka bir varsayılan değer    
             }
 
+        }
+
+        private void simpleButton1_Click(object sender, EventArgs e)
+        {
+            TxtID.Text = "";
+            Txtad.Text = "";
+            Txtsoyad.Text = "";
+            Txttel.Text = "";
+            txtpersonelmail.Text = "";
+            Txtfoto.Text = "";
+            lookUpEdit1.EditValue = "";
         }
     }
 }

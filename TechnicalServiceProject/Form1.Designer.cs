@@ -59,9 +59,8 @@
             this.btnExcel = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem33 = new DevExpress.XtraBars.BarButtonItem();
             this.btnRehber = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem35 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem36 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem37 = new DevExpress.XtraBars.BarButtonItem();
+            this.btnGelenmesajlar = new DevExpress.XtraBars.BarButtonItem();
+            this.btnMailGönder = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem38 = new DevExpress.XtraBars.BarButtonItem();
             this.btnAjanda = new DevExpress.XtraBars.BarButtonItem();
             this.btnUrunSatis = new DevExpress.XtraBars.BarButtonItem();
@@ -135,9 +134,8 @@
             this.btnExcel,
             this.barButtonItem33,
             this.btnRehber,
-            this.barButtonItem35,
-            this.barButtonItem36,
-            this.barButtonItem37,
+            this.btnGelenmesajlar,
+            this.btnMailGönder,
             this.barButtonItem38,
             this.btnAjanda,
             this.btnUrunSatis,
@@ -380,30 +378,25 @@
             // 
             this.btnRehber.Caption = "Rehber";
             this.btnRehber.Id = 35;
-            this.btnRehber.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem34.ImageOptions.SvgImage")));
+            this.btnRehber.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnRehber.ImageOptions.SvgImage")));
             this.btnRehber.Name = "btnRehber";
             this.btnRehber.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnRehber_ItemClick);
             // 
-            // barButtonItem35
+            // btnGelenmesajlar
             // 
-            this.barButtonItem35.Caption = "Bize Ulaşın Mesajları";
-            this.barButtonItem35.Id = 36;
-            this.barButtonItem35.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem35.ImageOptions.SvgImage")));
-            this.barButtonItem35.Name = "barButtonItem35";
+            this.btnGelenmesajlar.Caption = "Bize Ulaşın Mesajları";
+            this.btnGelenmesajlar.Id = 36;
+            this.btnGelenmesajlar.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnGelenmesajlar.ImageOptions.SvgImage")));
+            this.btnGelenmesajlar.Name = "btnGelenmesajlar";
+            this.btnGelenmesajlar.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnGelenmesajlar_ItemClick);
             // 
-            // barButtonItem36
+            // btnMailGönder
             // 
-            this.barButtonItem36.Caption = "Yeni Mail Gönder";
-            this.barButtonItem36.Id = 37;
-            this.barButtonItem36.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem36.ImageOptions.SvgImage")));
-            this.barButtonItem36.Name = "barButtonItem36";
-            // 
-            // barButtonItem37
-            // 
-            this.barButtonItem37.Caption = "SMS Gönder";
-            this.barButtonItem37.Id = 38;
-            this.barButtonItem37.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem37.ImageOptions.LargeImage")));
-            this.barButtonItem37.Name = "barButtonItem37";
+            this.btnMailGönder.Caption = "Yeni Mail Gönder";
+            this.btnMailGönder.Id = 37;
+            this.btnMailGönder.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnMailGönder.ImageOptions.SvgImage")));
+            this.btnMailGönder.Name = "btnMailGönder";
+            this.btnMailGönder.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnMailGönder_ItemClick);
             // 
             // barButtonItem38
             // 
@@ -648,9 +641,8 @@
             // ribbonPageGroup15
             // 
             this.ribbonPageGroup15.ItemLinks.Add(this.btnRehber);
-            this.ribbonPageGroup15.ItemLinks.Add(this.barButtonItem35);
-            this.ribbonPageGroup15.ItemLinks.Add(this.barButtonItem36);
-            this.ribbonPageGroup15.ItemLinks.Add(this.barButtonItem37);
+            this.ribbonPageGroup15.ItemLinks.Add(this.btnGelenmesajlar);
+            this.ribbonPageGroup15.ItemLinks.Add(this.btnMailGönder);
             this.ribbonPageGroup15.Name = "ribbonPageGroup15";
             // 
             // xtraTabbedMdiManager1
@@ -730,9 +722,8 @@
         private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage9;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup15;
         private DevExpress.XtraBars.BarButtonItem btnRehber;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem35;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem36;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem37;
+        private DevExpress.XtraBars.BarButtonItem btnGelenmesajlar;
+        private DevExpress.XtraBars.BarButtonItem btnMailGönder;
         private DevExpress.XtraBars.BarButtonItem barButtonItem38;
         private DevExpress.XtraBars.BarButtonItem btnAjanda;
         private DevExpress.XtraBars.BarButtonItem btnUrunSatis;

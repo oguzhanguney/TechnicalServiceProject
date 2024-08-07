@@ -190,6 +190,12 @@
     <Compile Include="Formlar\FrmGauge.Designer.cs">
       <DependentUpon>FrmGauge.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formlar\FrmGelenMesajlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmGelenMesajlar.Designer.cs">
+      <DependentUpon>FrmGelenMesajlar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formlar\FrmHarita.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -207,6 +213,18 @@
     </Compile>
     <Compile Include="Formlar\FrmKurlar.Designer.cs">
       <DependentUpon>FrmKurlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmMail.Designer.cs">
+      <DependentUpon>FrmMail.cs</DependentUpon>
     </Compile>
     <Compile Include="Formlar\FrmMarkalar.cs">
       <SubType>Form</SubType>
@@ -421,6 +439,9 @@
     <EmbeddedResource Include="Formlar\FrmGauge.resx">
       <DependentUpon>FrmGauge.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmGelenMesajlar.resx">
+      <DependentUpon>FrmGelenMesajlar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formlar\FrmHarita.resx">
       <DependentUpon>FrmHarita.cs</DependentUpon>
     </EmbeddedResource>
@@ -429,6 +450,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formlar\FrmKurlar.resx">
       <DependentUpon>FrmKurlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmMail.resx">
+      <DependentUpon>FrmMail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formlar\FrmMarkalar.resx">
       <DependentUpon>FrmMarkalar.cs</DependentUpon>

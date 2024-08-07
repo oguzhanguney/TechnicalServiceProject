@@ -368,6 +368,7 @@
             this.lookUpEdit1.Properties.ValueMember = "ID";
             this.lookUpEdit1.Size = new System.Drawing.Size(219, 26);
             this.lookUpEdit1.TabIndex = 48;
+            this.lookUpEdit1.EditValueChanged += new System.EventHandler(this.lookUpEdit1_EditValueChanged);
             // 
             // lookUpEdit2
             // 

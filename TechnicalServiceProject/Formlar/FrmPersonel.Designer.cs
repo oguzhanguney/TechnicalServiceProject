@@ -70,6 +70,7 @@
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.pictureEdit4 = new DevExpress.XtraEditors.PictureEdit();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.TxtID.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Txtad.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
@@ -97,7 +98,7 @@
             this.TxtID.Location = new System.Drawing.Point(123, 94);
             this.TxtID.Name = "TxtID";
             this.TxtID.Size = new System.Drawing.Size(328, 20);
-            this.TxtID.TabIndex = 44;
+            this.TxtID.TabIndex = 1;
             // 
             // labelControl3
             // 
@@ -113,11 +114,11 @@
             // 
             this.BtnListele.Appearance.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnListele.Appearance.Options.UseFont = true;
-            this.BtnListele.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnListele.ImageOptions.Image")));
+            this.BtnListele.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("BtnListele.ImageOptions.SvgImage")));
             this.BtnListele.Location = new System.Drawing.Point(123, 416);
             this.BtnListele.Name = "BtnListele";
             this.BtnListele.Size = new System.Drawing.Size(328, 41);
-            this.BtnListele.TabIndex = 42;
+            this.BtnListele.TabIndex = 11;
             this.BtnListele.Text = "LİSTELE";
             this.BtnListele.Click += new System.EventHandler(this.BtnListele_Click);
             // 
@@ -125,11 +126,11 @@
             // 
             this.BtnGuncelle.Appearance.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnGuncelle.Appearance.Options.UseFont = true;
-            this.BtnGuncelle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnGuncelle.ImageOptions.Image")));
+            this.BtnGuncelle.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("BtnGuncelle.ImageOptions.SvgImage")));
             this.BtnGuncelle.Location = new System.Drawing.Point(123, 369);
             this.BtnGuncelle.Name = "BtnGuncelle";
             this.BtnGuncelle.Size = new System.Drawing.Size(328, 41);
-            this.BtnGuncelle.TabIndex = 41;
+            this.BtnGuncelle.TabIndex = 10;
             this.BtnGuncelle.Text = "GÜNCELLE";
             this.BtnGuncelle.Click += new System.EventHandler(this.BtnGuncelle_Click);
             // 
@@ -137,11 +138,11 @@
             // 
             this.BtnSil.Appearance.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnSil.Appearance.Options.UseFont = true;
-            this.BtnSil.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnSil.ImageOptions.Image")));
+            this.BtnSil.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("BtnSil.ImageOptions.SvgImage")));
             this.BtnSil.Location = new System.Drawing.Point(123, 322);
             this.BtnSil.Name = "BtnSil";
             this.BtnSil.Size = new System.Drawing.Size(328, 41);
-            this.BtnSil.TabIndex = 40;
+            this.BtnSil.TabIndex = 9;
             this.BtnSil.Text = "SİL";
             this.BtnSil.Click += new System.EventHandler(this.BtnSil_Click);
             // 
@@ -149,11 +150,11 @@
             // 
             this.BtnKaydet.Appearance.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnKaydet.Appearance.Options.UseFont = true;
-            this.BtnKaydet.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnKaydet.ImageOptions.Image")));
+            this.BtnKaydet.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("BtnKaydet.ImageOptions.SvgImage")));
             this.BtnKaydet.Location = new System.Drawing.Point(123, 275);
             this.BtnKaydet.Name = "BtnKaydet";
             this.BtnKaydet.Size = new System.Drawing.Size(328, 41);
-            this.BtnKaydet.TabIndex = 39;
+            this.BtnKaydet.TabIndex = 8;
             this.BtnKaydet.Text = "EKLE";
             this.BtnKaydet.Click += new System.EventHandler(this.BtnKaydet_Click);
             // 
@@ -162,7 +163,7 @@
             this.Txtad.Location = new System.Drawing.Point(123, 120);
             this.Txtad.Name = "Txtad";
             this.Txtad.Size = new System.Drawing.Size(328, 20);
-            this.Txtad.TabIndex = 4;
+            this.Txtad.TabIndex = 2;
             // 
             // labelControl1
             // 
@@ -206,6 +207,7 @@
             // 
             this.groupControl1.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(85)))), ((int)(((byte)(186)))));
             this.groupControl1.Appearance.Options.UseBackColor = true;
+            this.groupControl1.Controls.Add(this.simpleButton1);
             this.groupControl1.Controls.Add(this.lookUpEdit1);
             this.groupControl1.Controls.Add(this.Txttel);
             this.groupControl1.Controls.Add(this.labelControl7);
@@ -240,7 +242,7 @@
             this.lookUpEdit1.Properties.NullText = "";
             this.lookUpEdit1.Properties.ValueMember = "ID";
             this.lookUpEdit1.Size = new System.Drawing.Size(328, 20);
-            this.lookUpEdit1.TabIndex = 55;
+            this.lookUpEdit1.TabIndex = 4;
             // 
             // Txttel
             // 
@@ -250,7 +252,7 @@
             this.Txttel.Properties.MaskSettings.Set("MaskManagerSignature", "isOptimistic=False");
             this.Txttel.Properties.MaskSettings.Set("mask", "(\\(\\d\\d\\d\\) )?\\d{1,3}-\\d\\d-\\d\\d");
             this.Txttel.Size = new System.Drawing.Size(328, 20);
-            this.Txttel.TabIndex = 54;
+            this.Txttel.TabIndex = 7;
             // 
             // labelControl7
             // 
@@ -267,7 +269,7 @@
             this.Txtfoto.Location = new System.Drawing.Point(123, 198);
             this.Txtfoto.Name = "Txtfoto";
             this.Txtfoto.Size = new System.Drawing.Size(328, 20);
-            this.Txtfoto.TabIndex = 52;
+            this.Txtfoto.TabIndex = 5;
             // 
             // labelControl5
             // 
@@ -284,7 +286,7 @@
             this.txtpersonelmail.Location = new System.Drawing.Point(123, 224);
             this.txtpersonelmail.Name = "txtpersonelmail";
             this.txtpersonelmail.Size = new System.Drawing.Size(328, 20);
-            this.txtpersonelmail.TabIndex = 50;
+            this.txtpersonelmail.TabIndex = 6;
             // 
             // x
             // 
@@ -301,7 +303,7 @@
             this.Txtsoyad.Location = new System.Drawing.Point(123, 146);
             this.Txtsoyad.Name = "Txtsoyad";
             this.Txtsoyad.Size = new System.Drawing.Size(328, 20);
-            this.Txtsoyad.TabIndex = 48;
+            this.Txtsoyad.TabIndex = 3;
             // 
             // labelControl2
             // 
@@ -325,12 +327,12 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(230)))), ((int)(((byte)(193)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(189)))), ((int)(((byte)(227)))));
             this.panel1.Controls.Add(this.textBox4);
             this.panel1.Controls.Add(this.textBox5);
             this.panel1.Controls.Add(this.textBox6);
             this.panel1.Controls.Add(this.pictureEdit3);
-            this.panel1.Location = new System.Drawing.Point(654, 14);
+            this.panel1.Location = new System.Drawing.Point(655, 5);
             this.panel1.Margin = new System.Windows.Forms.Padding(5);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(320, 354);
@@ -338,7 +340,7 @@
             // 
             // textBox4
             // 
-            this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(230)))), ((int)(((byte)(193)))));
+            this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(189)))), ((int)(((byte)(227)))));
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox4.ForeColor = System.Drawing.Color.White;
@@ -351,7 +353,7 @@
             // 
             // textBox5
             // 
-            this.textBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(230)))), ((int)(((byte)(193)))));
+            this.textBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(189)))), ((int)(((byte)(227)))));
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox5.ForeColor = System.Drawing.Color.White;
@@ -364,7 +366,7 @@
             // 
             // textBox6
             // 
-            this.textBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(230)))), ((int)(((byte)(193)))));
+            this.textBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(189)))), ((int)(((byte)(227)))));
             this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox6.ForeColor = System.Drawing.Color.White;
@@ -399,7 +401,7 @@
             this.panel2.Controls.Add(this.textBox2);
             this.panel2.Controls.Add(this.textBox3);
             this.panel2.Controls.Add(this.pictureEdit2);
-            this.panel2.Location = new System.Drawing.Point(330, 14);
+            this.panel2.Location = new System.Drawing.Point(331, 5);
             this.panel2.Margin = new System.Windows.Forms.Padding(5);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(320, 354);
@@ -468,7 +470,7 @@
             this.panel3.Controls.Add(this.txtpermail);
             this.panel3.Controls.Add(this.Txtperadsoyad);
             this.panel3.Controls.Add(this.pictureEdit1);
-            this.panel3.Location = new System.Drawing.Point(6, 14);
+            this.panel3.Location = new System.Drawing.Point(7, 5);
             this.panel3.Margin = new System.Windows.Forms.Padding(5);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(320, 354);
@@ -537,7 +539,7 @@
             this.panel4.Controls.Add(this.textBox8);
             this.panel4.Controls.Add(this.textBox9);
             this.panel4.Controls.Add(this.pictureEdit4);
-            this.panel4.Location = new System.Drawing.Point(978, 14);
+            this.panel4.Location = new System.Drawing.Point(979, 5);
             this.panel4.Margin = new System.Windows.Forms.Padding(5);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(320, 354);
@@ -598,6 +600,18 @@
             this.pictureEdit4.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
             this.pictureEdit4.Size = new System.Drawing.Size(210, 244);
             this.pictureEdit4.TabIndex = 4;
+            // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Appearance.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.simpleButton1.Appearance.Options.UseFont = true;
+            this.simpleButton1.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("simpleButton1.ImageOptions.SvgImage")));
+            this.simpleButton1.Location = new System.Drawing.Point(123, 463);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(328, 41);
+            this.simpleButton1.TabIndex = 12;
+            this.simpleButton1.Text = "TEMİZLE";
+            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // FrmPersonel
             // 
@@ -683,5 +697,6 @@
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.TextBox textBox9;
         private DevExpress.XtraEditors.PictureEdit pictureEdit4;
+        private DevExpress.XtraEditors.SimpleButton simpleButton1;
     }
 }

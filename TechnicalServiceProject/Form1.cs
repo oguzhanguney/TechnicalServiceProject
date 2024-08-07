@@ -347,5 +347,24 @@ namespace TechnicalServiceProject
                 fr30.Show();
             }
         }
+        Formlar.FrmGelenMesajlar fr31;
+        private void btnGelenmesajlar_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if (fr31 == null || fr31.IsDisposed)
+            {
+                fr31 = new Formlar.FrmGelenMesajlar();
+                fr31.MdiParent = this;
+                fr31.Show();
+            }
+        }
+        Formlar.FrmMail fr32;
+        private void btnMailGönder_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if (fr32 == null || fr31.IsDisposed)
+            {
+                fr32 = new Formlar.FrmMail();
+                fr32.Show();
+            }
+        }
     }
 }
