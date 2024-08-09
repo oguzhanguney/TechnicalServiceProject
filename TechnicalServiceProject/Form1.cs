@@ -366,5 +366,11 @@ namespace TechnicalServiceProject
                 fr32.Show();
             }
         }
+
+        private void barButtonItem2_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmQrTaratma fr33=new Formlar.FrmQrTaratma();
+            fr33.Show();
+        }
     }
 }

@@ -96,6 +96,7 @@
             this.ribbonPage9 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup15 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.xtraTabbedMdiManager1 = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
+            this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).BeginInit();
             this.SuspendLayout();
@@ -146,9 +147,10 @@
             this.btnGauge,
             this.btnHaritalar,
             this.btnRaporlar,
-            this.btnAnaSayfa});
+            this.btnAnaSayfa,
+            this.barButtonItem2});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl1.MaxItemId = 51;
+            this.ribbonControl1.MaxItemId = 52;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1,
@@ -160,7 +162,7 @@
             this.ribbonPage7,
             this.ribbonPage9});
             this.ribbonControl1.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.Office365;
-            this.ribbonControl1.Size = new System.Drawing.Size(1924, 150);
+            this.ribbonControl1.Size = new System.Drawing.Size(1924, 146);
             // 
             // BtnKategori
             // 
@@ -617,6 +619,7 @@
             this.ribbonPageGroup6.ItemLinks.Add(this.btnExcel);
             this.ribbonPageGroup6.ItemLinks.Add(this.btnGauge);
             this.ribbonPageGroup6.ItemLinks.Add(this.btnHaritalar);
+            this.ribbonPageGroup6.ItemLinks.Add(this.barButtonItem2);
             this.ribbonPageGroup6.Name = "ribbonPageGroup6";
             // 
             // ribbonPage7
@@ -648,6 +651,13 @@
             // xtraTabbedMdiManager1
             // 
             this.xtraTabbedMdiManager1.MdiParent = this;
+            // 
+            // barButtonItem2
+            // 
+            this.barButtonItem2.Caption = "barButtonItem2";
+            this.barButtonItem2.Id = 51;
+            this.barButtonItem2.Name = "barButtonItem2";
+            this.barButtonItem2.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem2_ItemClick);
             // 
             // Form1
             // 
@@ -736,6 +746,7 @@
         private DevExpress.XtraBars.BarButtonItem btnHaritalar;
         private DevExpress.XtraBars.BarButtonItem btnRaporlar;
         private DevExpress.XtraBars.BarButtonItem btnAnaSayfa;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem2;
     }
 }
 
