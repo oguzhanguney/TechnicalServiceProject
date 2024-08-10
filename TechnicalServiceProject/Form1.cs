@@ -351,7 +351,7 @@ namespace TechnicalServiceProject
         Formlar.FrmMail fr32;
         private void btnMailGönder_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            if (fr32 == null || fr31.IsDisposed)
+            if (fr32 == null || fr32.IsDisposed)
             {
                 fr32 = new Formlar.FrmMail();
                 fr32.Show();

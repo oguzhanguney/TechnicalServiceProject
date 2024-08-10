@@ -318,7 +318,7 @@
             this.groupControl3.Name = "groupControl3";
             this.groupControl3.Size = new System.Drawing.Size(684, 431);
             this.groupControl3.TabIndex = 18;
-            this.groupControl3.Text = "Fihrist";
+            this.groupControl3.Text = "Cariler";
             // 
             // gridControl2
             // 

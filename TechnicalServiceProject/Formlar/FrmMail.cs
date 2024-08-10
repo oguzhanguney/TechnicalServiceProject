@@ -43,5 +43,10 @@ namespace TechnicalServiceProject.Formlar
         {
             this.Close();
         }
+
+        private void pictureEdit4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

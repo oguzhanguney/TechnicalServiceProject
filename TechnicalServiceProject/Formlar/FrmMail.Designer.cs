@@ -41,12 +41,14 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.txticerik = new DevExpress.XtraEditors.TextEdit();
             this.btnVazgec = new DevExpress.XtraEditors.SimpleButton();
+            this.pictureEdit4 = new DevExpress.XtraEditors.PictureEdit();
             ((System.ComponentModel.ISupportInitialize)(this.txtalici.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtkonu.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit3.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txticerik.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit4.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // txtalici
@@ -74,7 +76,7 @@
             // 
             // btnGönder
             // 
-            this.btnGönder.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("simpleButton1.ImageOptions.SvgImage")));
+            this.btnGönder.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnGönder.ImageOptions.SvgImage")));
             this.btnGönder.Location = new System.Drawing.Point(86, 266);
             this.btnGönder.Name = "btnGönder";
             this.btnGönder.Size = new System.Drawing.Size(137, 29);
@@ -183,7 +185,7 @@
             // 
             // btnVazgec
             // 
-            this.btnVazgec.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("simpleButton2.ImageOptions.SvgImage")));
+            this.btnVazgec.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnVazgec.ImageOptions.SvgImage")));
             this.btnVazgec.Location = new System.Drawing.Point(229, 266);
             this.btnVazgec.Name = "btnVazgec";
             this.btnVazgec.Size = new System.Drawing.Size(137, 29);
@@ -191,12 +193,28 @@
             this.btnVazgec.Text = "VAZGEÇ";
             this.btnVazgec.Click += new System.EventHandler(this.btnVazgec_Click);
             // 
+            // pictureEdit4
+            // 
+            this.pictureEdit4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureEdit4.EditValue = ((object)(resources.GetObject("pictureEdit4.EditValue")));
+            this.pictureEdit4.Location = new System.Drawing.Point(441, 0);
+            this.pictureEdit4.Name = "pictureEdit4";
+            this.pictureEdit4.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.pictureEdit4.Properties.Appearance.Options.UseBackColor = true;
+            this.pictureEdit4.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.pictureEdit4.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit4.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
+            this.pictureEdit4.Size = new System.Drawing.Size(30, 30);
+            this.pictureEdit4.TabIndex = 45;
+            this.pictureEdit4.Click += new System.EventHandler(this.pictureEdit4_Click);
+            // 
             // FrmMail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
             this.ClientSize = new System.Drawing.Size(471, 328);
+            this.Controls.Add(this.pictureEdit4);
             this.Controls.Add(this.btnVazgec);
             this.Controls.Add(this.pictureEdit3);
             this.Controls.Add(this.panel3);
@@ -219,6 +237,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtkonu.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit3.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txticerik.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit4.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -238,5 +257,6 @@
         private System.Windows.Forms.Panel panel3;
         private DevExpress.XtraEditors.TextEdit txticerik;
         private DevExpress.XtraEditors.SimpleButton btnVazgec;
+        private DevExpress.XtraEditors.PictureEdit pictureEdit4;
     }
 }
