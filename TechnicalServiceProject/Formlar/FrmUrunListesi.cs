@@ -34,7 +34,6 @@ namespace TechnicalServiceProject.Formlar
                            };
             gridControl1.DataSource = degerler.ToList();
 
-            
         }
         private void FrmUrunListesi_Load(object sender, EventArgs e)
         {
@@ -44,7 +43,6 @@ namespace TechnicalServiceProject.Formlar
             lookupcateg.Properties.DataSource = db.TBLCategory
                                                 .Select(p => new {p.ID,p.AD})
                                                 .ToList();
-
         }
 
         
@@ -61,6 +59,7 @@ namespace TechnicalServiceProject.Formlar
             db.TBLProduct.Add(p);
             db.SaveChanges();
             MessageBox.Show("Ürün başarılı bir şekilde eklendi.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            metot1();
 
         }
         private void BtnListele_Click(object sender, EventArgs e)
@@ -88,6 +87,7 @@ namespace TechnicalServiceProject.Formlar
             db.TBLProduct.Remove(deger);
             db.SaveChanges();
             MessageBox.Show("Ürün başarılı bir şekilde silindi.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+            metot1();
         }
 
         private void BtnGuncelle_Click(object sender, EventArgs e)
@@ -102,7 +102,7 @@ namespace TechnicalServiceProject.Formlar
             deger.KATEGORI=byte.Parse(lookupcateg.EditValue.ToString());
             db.SaveChanges();
             MessageBox.Show("Ürün başarılı bir Şekilde güncellendi.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-
+            metot1();
         }
 
         private void simpleButton1_Click(object sender, EventArgs e)

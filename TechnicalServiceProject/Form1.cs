@@ -285,16 +285,7 @@ namespace TechnicalServiceProject
             }
         }
 
-        Formlar.FrmGauge fr27;
-        private void btnGauge_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
-        {
-            if (fr27 == null || fr27.IsDisposed)
-            {
-                fr27 = new Formlar.FrmGauge();
-                fr27.MdiParent = this;
-                fr27.Show();
-            }
-        }
+       
         Formlar.FrmHarita fr28;
         private void btnHaritalar_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
@@ -367,9 +358,11 @@ namespace TechnicalServiceProject
             }
         }
 
-        private void barButtonItem2_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        
+
+        private void barButtonItem4_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Formlar.FrmQrTaratma fr33=new Formlar.FrmQrTaratma();
+            Formlar.FrmQrTaratma fr33 = new Formlar.FrmQrTaratma();
             fr33.Show();
         }
     }

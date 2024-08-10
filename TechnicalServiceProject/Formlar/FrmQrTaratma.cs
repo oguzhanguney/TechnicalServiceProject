@@ -59,8 +59,11 @@ namespace TechnicalServiceProject.Formlar
 
         private void FrmQrTaratma_FormClosing(object sender, FormClosingEventArgs e)
         {
-            vcd.SignalToStop();
-            vcd.WaitForStop();
+            if (vcd != null)
+            {
+                vcd.SignalToStop();
+                vcd.WaitForStop();
+            }
         }
         private string previousSerialNumber = string.Empty;
         private void timer1_Tick(object sender, EventArgs e)
