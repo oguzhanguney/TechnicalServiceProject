@@ -68,7 +68,7 @@
             this.ClientSize = new System.Drawing.Size(1924, 861);
             this.Controls.Add(this.gridControl1);
             this.Name = "FrmSatisListesi";
-            this.Text = "FrmSatisListesi";
+            this.Text = "Satış Listesi";
             this.Load += new System.EventHandler(this.FrmSatisListesi_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();

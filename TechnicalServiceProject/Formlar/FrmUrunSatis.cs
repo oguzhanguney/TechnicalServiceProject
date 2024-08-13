@@ -92,9 +92,7 @@ namespace TechnicalServiceProject.Formlar
                                                      AD = x.AD + " " + x.SOYAD
                                                  }).ToList();
         }
-        // Benzersiz seri numarası oluşturmak için gerekli metodlar
         private static Random random = new Random();
-
         private string GenerateUniqueSerialNumber()
         {
             string serialNumber;
@@ -105,14 +103,12 @@ namespace TechnicalServiceProject.Formlar
 
             return serialNumber;
         }
-
         private string GenerateRandomString(int length)
         {
             const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
             return new string(Enumerable.Repeat(chars, length)
               .Select(s => s[random.Next(s.Length)]).ToArray());
         }
-
         private bool IsSerialNumberUsed(string serialNumber)
         {
             // Veritabanında bu seri numarasının daha önce kullanılıp kullanılmadığını kontrol eder
@@ -122,7 +118,6 @@ namespace TechnicalServiceProject.Formlar
         {
             if (lookUpEdit1.EditValue != null)
             {
-                //uniq serino:
                 string uniqueSerialNumber = GenerateUniqueSerialNumber();
                 TxtSeri.Text = uniqueSerialNumber;
 

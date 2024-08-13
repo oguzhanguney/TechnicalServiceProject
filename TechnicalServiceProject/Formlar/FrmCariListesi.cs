@@ -151,7 +151,7 @@ namespace TechnicalServiceProject.Formlar
             }
             else
             {
-                lookUpEdit2.Properties.DataSource = null; // Veya alternatif olarak LookUpEdit2'nin içeriğini temizlemek için gerekli işlem
+                lookUpEdit2.Properties.DataSource = null; 
             }
         }
 

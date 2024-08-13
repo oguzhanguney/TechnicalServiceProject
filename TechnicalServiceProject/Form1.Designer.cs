@@ -72,6 +72,7 @@
             this.btnHaritalar = new DevExpress.XtraBars.BarButtonItem();
             this.btnRaporlar = new DevExpress.XtraBars.BarButtonItem();
             this.btnAnaSayfa = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
@@ -95,7 +96,6 @@
             this.ribbonPage9 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup15 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.xtraTabbedMdiManager1 = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
-            this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).BeginInit();
             this.SuspendLayout();
@@ -149,7 +149,7 @@
             this.btnAnaSayfa,
             this.barButtonItem4});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl1.MaxItemId = 53;
+            this.ribbonControl1.MaxItemId = 54;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1,
@@ -452,6 +452,11 @@
             this.barButtonItem1.Id = 46;
             this.barButtonItem1.Name = "barButtonItem1";
             // 
+            // btnGauge
+            // 
+            this.btnGauge.Id = 53;
+            this.btnGauge.Name = "btnGauge";
+            // 
             // btnHaritalar
             // 
             this.btnHaritalar.Caption = "Haritalar";
@@ -475,6 +480,14 @@
             this.btnAnaSayfa.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnAnaSayfa.ImageOptions.SvgImage")));
             this.btnAnaSayfa.Name = "btnAnaSayfa";
             this.btnAnaSayfa.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnAnaSayfa_ItemClick);
+            // 
+            // barButtonItem4
+            // 
+            this.barButtonItem4.Caption = "QR Code Tarama";
+            this.barButtonItem4.Id = 52;
+            this.barButtonItem4.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem4.ImageOptions.SvgImage")));
+            this.barButtonItem4.Name = "barButtonItem4";
+            this.barButtonItem4.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem4_ItemClick);
             // 
             // ribbonPage1
             // 
@@ -634,14 +647,6 @@
             // 
             this.xtraTabbedMdiManager1.MdiParent = this;
             // 
-            // barButtonItem4
-            // 
-            this.barButtonItem4.Caption = "QR Code Tarama";
-            this.barButtonItem4.Id = 52;
-            this.barButtonItem4.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem4.ImageOptions.SvgImage")));
-            this.barButtonItem4.Name = "barButtonItem4";
-            this.barButtonItem4.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem4_ItemClick);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -651,7 +656,7 @@
             this.Controls.Add(this.ribbonControl1);
             this.IsMdiContainer = true;
             this.Name = "Form1";
-            this.Text = "X Teknik Servis ve Ürün Otomasyonu";
+            this.Text = "X Teknik Servis ve Ürün Takip Sistemi";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
